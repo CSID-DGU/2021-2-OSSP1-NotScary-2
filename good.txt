@@ -1,0 +1,1817 @@
+
+============================== good (1) ==============================[pointed] Nose (0) => prob: 0.73077 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.56406 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.40536 / x: 292 / y: 399
+[not pointed] RElbow (3) => prob: 0.02762 / x: 250 / y: 504
+[not pointed] RWrist (4) => prob: 0.00628 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.35969 / x: 667 / y: 399
+[not pointed] LElbow (6) => prob: 0.00568 / x: 667 / y: 493
+[not pointed] LWrist (7) => prob: 0.00253 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00208 / x: 480 / y: 258
+[not pointed] RKnee (9) => prob: 0.00146 / x: 480 / y: 387
+[not pointed] RAnkle (10) => prob: 0.00387 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00424 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00194 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00105 / x: 563 / y: 199
+[pointed] REye (14) => prob: 0.80290 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.82814 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.68033 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.61229 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (1) done ============================
+
+
+============================== good (2) ==============================[pointed] Nose (0) => prob: 0.72699 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.55060 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.38023 / x: 292 / y: 387
+[not pointed] RElbow (3) => prob: 0.00929 / x: 250 / y: 493
+[not pointed] RWrist (4) => prob: 0.00275 / x: 250 / y: 516
+[pointed] LShoulder (5) => prob: 0.34277 / x: 667 / y: 387
+[not pointed] LElbow (6) => prob: 0.00279 / x: 271 / y: 504
+[not pointed] LWrist (7) => prob: 0.00273 / x: 396 / y: 199
+[not pointed] RHip (8) => prob: 0.00186 / x: 563 / y: 199
+[not pointed] RKnee (9) => prob: 0.00293 / x: 459 / y: 246
+[not pointed] RAnkle (10) => prob: 0.00375 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00333 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00210 / x: 480 / y: 387
+[not pointed] LAnkle (13) => prob: 0.00123 / x: 563 / y: 199
+[pointed] REye (14) => prob: 0.71980 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.78844 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.69822 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.56227 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (2) done ============================
+
+
+============================== good (3) ==============================[pointed] Nose (0) => prob: 0.74173 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.49489 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.40516 / x: 292 / y: 399
+[not pointed] RElbow (3) => prob: 0.02035 / x: 271 / y: 516
+[not pointed] RWrist (4) => prob: 0.00510 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.34144 / x: 667 / y: 387
+[not pointed] LElbow (6) => prob: 0.00639 / x: 688 / y: 493
+[not pointed] LWrist (7) => prob: 0.00257 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00187 / x: 563 / y: 199
+[not pointed] RKnee (9) => prob: 0.00152 / x: 459 / y: 246
+[not pointed] RAnkle (10) => prob: 0.00303 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00425 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00186 / x: 480 / y: 387
+[not pointed] LAnkle (13) => prob: 0.00120 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.78728 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.81872 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.70994 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.65026 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (3) done ============================
+
+
+============================== good (4) ==============================[pointed] Nose (0) => prob: 0.75111 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.48848 / x: 480 / y: 399
+[pointed] RShoulder (2) => prob: 0.41992 / x: 292 / y: 399
+[not pointed] RElbow (3) => prob: 0.01374 / x: 250 / y: 493
+[not pointed] RWrist (4) => prob: 0.00474 / x: 250 / y: 528
+[pointed] LShoulder (5) => prob: 0.32165 / x: 667 / y: 399
+[not pointed] LElbow (6) => prob: 0.00253 / x: 292 / y: 504
+[not pointed] LWrist (7) => prob: 0.00273 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00212 / x: 563 / y: 199
+[not pointed] RKnee (9) => prob: 0.00194 / x: 459 / y: 246
+[not pointed] RAnkle (10) => prob: 0.00408 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00430 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00226 / x: 459 / y: 387
+[not pointed] LAnkle (13) => prob: 0.00132 / x: 563 / y: 199
+[pointed] REye (14) => prob: 0.80319 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.80316 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.68513 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.62844 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (4) done ============================
+
+
+============================== good (5) ==============================[pointed] Nose (0) => prob: 0.73509 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.58001 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.39140 / x: 292 / y: 387
+[not pointed] RElbow (3) => prob: 0.04255 / x: 250 / y: 516
+[not pointed] RWrist (4) => prob: 0.00847 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.36363 / x: 667 / y: 399
+[not pointed] LElbow (6) => prob: 0.00196 / x: 208 / y: 504
+[not pointed] LWrist (7) => prob: 0.00272 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00217 / x: 480 / y: 258
+[not pointed] RKnee (9) => prob: 0.00202 / x: 480 / y: 387
+[not pointed] RAnkle (10) => prob: 0.00264 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00399 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00190 / x: 480 / y: 387
+[not pointed] LAnkle (13) => prob: 0.00112 / x: 480 / y: 199
+[pointed] REye (14) => prob: 0.78180 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.80567 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.67730 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.53905 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (5) done ============================
+
+
+============================== good (6) ==============================[pointed] Nose (0) => prob: 0.74581 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.62347 / x: 480 / y: 375
+[pointed] RShoulder (2) => prob: 0.49745 / x: 313 / y: 363
+[not pointed] RElbow (3) => prob: 0.15621 / x: 250 / y: 504
+[not pointed] RWrist (4) => prob: 0.01314 / x: 250 / y: 528
+[pointed] LShoulder (5) => prob: 0.44347 / x: 646 / y: 375
+[not pointed] LElbow (6) => prob: 0.01096 / x: 688 / y: 481
+[not pointed] LWrist (7) => prob: 0.00291 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00258 / x: 354 / y: 528
+[not pointed] RKnee (9) => prob: 0.00178 / x: 480 / y: 375
+[not pointed] RAnkle (10) => prob: 0.00287 / x: 459 / y: 246
+[not pointed] LHip (11) => prob: 0.00449 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00226 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00120 / x: 542 / y: 199
+[pointed] REye (14) => prob: 0.85713 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.77247 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.62526 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.70314 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00030 / x: 584 / y: 176
+
+============================ good (6) done ============================
+
+
+============================== good (7) ==============================[pointed] Nose (0) => prob: 0.70820 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.62677 / x: 480 / y: 375
+[pointed] RShoulder (2) => prob: 0.49274 / x: 313 / y: 375
+[not pointed] RElbow (3) => prob: 0.09498 / x: 250 / y: 504
+[not pointed] RWrist (4) => prob: 0.01023 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.41280 / x: 646 / y: 375
+[not pointed] LElbow (6) => prob: 0.01326 / x: 688 / y: 481
+[not pointed] LWrist (7) => prob: 0.00297 / x: 480 / y: 187
+[not pointed] RHip (8) => prob: 0.00238 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00213 / x: 480 / y: 375
+[not pointed] RAnkle (10) => prob: 0.00241 / x: 480 / y: 281
+[not pointed] LHip (11) => prob: 0.00490 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00249 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00118 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.89041 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.81909 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.63786 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.69327 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (7) done ============================
+
+
+============================== good (8) ==============================[pointed] Nose (0) => prob: 0.72175 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.53875 / x: 480 / y: 375
+[pointed] RShoulder (2) => prob: 0.42290 / x: 292 / y: 387
+[not pointed] RElbow (3) => prob: 0.07390 / x: 250 / y: 504
+[not pointed] RWrist (4) => prob: 0.01009 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.40611 / x: 646 / y: 375
+[not pointed] LElbow (6) => prob: 0.03287 / x: 688 / y: 493
+[not pointed] LWrist (7) => prob: 0.00297 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00227 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00156 / x: 480 / y: 375
+[not pointed] RAnkle (10) => prob: 0.00183 / x: 480 / y: 270
+[not pointed] LHip (11) => prob: 0.00477 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00235 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00145 / x: 688 / y: 481
+[pointed] REye (14) => prob: 0.89058 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.88041 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.65351 / x: 375 / y: 199
+[pointed] LEar (17) => prob: 0.67789 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (8) done ============================
+
+
+============================== good (9) ==============================[pointed] Nose (0) => prob: 0.69845 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.55743 / x: 480 / y: 375
+[pointed] RShoulder (2) => prob: 0.44458 / x: 292 / y: 375
+[not pointed] RElbow (3) => prob: 0.06428 / x: 250 / y: 504
+[not pointed] RWrist (4) => prob: 0.00974 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.40770 / x: 646 / y: 387
+[not pointed] LElbow (6) => prob: 0.00715 / x: 667 / y: 493
+[not pointed] LWrist (7) => prob: 0.00405 / x: 667 / y: 422
+[not pointed] RHip (8) => prob: 0.00223 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00151 / x: 563 / y: 199
+[not pointed] RAnkle (10) => prob: 0.00298 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00482 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00241 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00123 / x: 542 / y: 199
+[pointed] REye (14) => prob: 0.88973 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.85700 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.58193 / x: 375 / y: 199
+[pointed] LEar (17) => prob: 0.72383 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (9) done ============================
+
+
+============================== good (10) ==============================[pointed] Nose (0) => prob: 0.71551 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.61982 / x: 480 / y: 375
+[pointed] RShoulder (2) => prob: 0.47942 / x: 313 / y: 375
+[not pointed] RElbow (3) => prob: 0.09356 / x: 250 / y: 516
+[not pointed] RWrist (4) => prob: 0.01249 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.42979 / x: 646 / y: 375
+[not pointed] LElbow (6) => prob: 0.03002 / x: 688 / y: 493
+[not pointed] LWrist (7) => prob: 0.00294 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00197 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00181 / x: 563 / y: 199
+[not pointed] RAnkle (10) => prob: 0.00521 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00492 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00259 / x: 688 / y: 516
+[not pointed] LAnkle (13) => prob: 0.00189 / x: 688 / y: 516
+[pointed] REye (14) => prob: 0.87645 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.82229 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.60916 / x: 375 / y: 199
+[pointed] LEar (17) => prob: 0.70506 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (10) done ============================
+
+
+============================== good (11) ==============================[pointed] Nose (0) => prob: 0.71642 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.59668 / x: 480 / y: 375
+[pointed] RShoulder (2) => prob: 0.43027 / x: 292 / y: 375
+[not pointed] RElbow (3) => prob: 0.01474 / x: 250 / y: 481
+[not pointed] RWrist (4) => prob: 0.00268 / x: 417 / y: 211
+[pointed] LShoulder (5) => prob: 0.37513 / x: 646 / y: 375
+[not pointed] LElbow (6) => prob: 0.00276 / x: 688 / y: 469
+[not pointed] LWrist (7) => prob: 0.00294 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00169 / x: 563 / y: 199
+[not pointed] RKnee (9) => prob: 0.00183 / x: 563 / y: 199
+[not pointed] RAnkle (10) => prob: 0.00741 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00484 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00232 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00152 / x: 563 / y: 199
+[pointed] REye (14) => prob: 0.87295 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.80457 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.59119 / x: 375 / y: 199
+[pointed] LEar (17) => prob: 0.66241 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (11) done ============================
+
+
+============================== good (12) ==============================[pointed] Nose (0) => prob: 0.74403 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.49299 / x: 480 / y: 375
+[pointed] RShoulder (2) => prob: 0.41622 / x: 292 / y: 387
+[not pointed] RElbow (3) => prob: 0.00368 / x: 250 / y: 493
+[not pointed] RWrist (4) => prob: 0.00278 / x: 396 / y: 199
+[pointed] LShoulder (5) => prob: 0.35891 / x: 646 / y: 375
+[not pointed] LElbow (6) => prob: 0.00614 / x: 667 / y: 493
+[not pointed] LWrist (7) => prob: 0.00258 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00222 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00135 / x: 480 / y: 375
+[not pointed] RAnkle (10) => prob: 0.00288 / x: 480 / y: 281
+[not pointed] LHip (11) => prob: 0.00450 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00281 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00145 / x: 542 / y: 187
+[pointed] REye (14) => prob: 0.83551 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.76991 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.73704 / x: 375 / y: 211
+[pointed] LEar (17) => prob: 0.64130 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (12) done ============================
+
+
+============================== good (13) ==============================[pointed] Nose (0) => prob: 0.64215 / x: 480 / y: 211
+[pointed] Neck (1) => prob: 0.56877 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.43259 / x: 313 / y: 387
+[not pointed] RElbow (3) => prob: 0.03268 / x: 271 / y: 504
+[not pointed] RWrist (4) => prob: 0.00876 / x: 250 / y: 528
+[pointed] LShoulder (5) => prob: 0.45639 / x: 646 / y: 387
+[not pointed] LElbow (6) => prob: 0.04792 / x: 688 / y: 504
+[not pointed] LWrist (7) => prob: 0.00356 / x: 480 / y: 187
+[not pointed] RHip (8) => prob: 0.00219 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00139 / x: 480 / y: 375
+[not pointed] RAnkle (10) => prob: 0.00710 / x: 459 / y: 234
+[not pointed] LHip (11) => prob: 0.00344 / x: 438 / y: 176
+[not pointed] LKnee (12) => prob: 0.00272 / x: 521 / y: 164
+[not pointed] LAnkle (13) => prob: 0.00313 / x: 521 / y: 164
+[pointed] REye (14) => prob: 0.74952 / x: 438 / y: 176
+[pointed] LEye (15) => prob: 0.80796 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.61391 / x: 375 / y: 199
+[pointed] LEar (17) => prob: 0.76162 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (13) done ============================
+
+
+============================== good (14) ==============================[pointed] Nose (0) => prob: 0.66752 / x: 480 / y: 211
+[pointed] Neck (1) => prob: 0.56067 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.40712 / x: 292 / y: 387
+[not pointed] RElbow (3) => prob: 0.00452 / x: 271 / y: 493
+[not pointed] RWrist (4) => prob: 0.00260 / x: 417 / y: 199
+[pointed] LShoulder (5) => prob: 0.44883 / x: 646 / y: 387
+[not pointed] LElbow (6) => prob: 0.03438 / x: 688 / y: 504
+[not pointed] LWrist (7) => prob: 0.00336 / x: 584 / y: 223
+[not pointed] RHip (8) => prob: 0.00196 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00111 / x: 542 / y: 199
+[not pointed] RAnkle (10) => prob: 0.00486 / x: 459 / y: 234
+[not pointed] LHip (11) => prob: 0.00485 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00255 / x: 688 / y: 516
+[not pointed] LAnkle (13) => prob: 0.00182 / x: 688 / y: 516
+[pointed] REye (14) => prob: 0.86596 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.86394 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.74428 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.79609 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (14) done ============================
+
+
+============================== good (15) ==============================[pointed] Nose (0) => prob: 0.63154 / x: 480 / y: 211
+[pointed] Neck (1) => prob: 0.55238 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.39547 / x: 292 / y: 399
+[not pointed] RElbow (3) => prob: 0.01228 / x: 271 / y: 493
+[not pointed] RWrist (4) => prob: 0.00303 / x: 250 / y: 516
+[pointed] LShoulder (5) => prob: 0.46150 / x: 646 / y: 387
+[not pointed] LElbow (6) => prob: 0.00851 / x: 688 / y: 493
+[not pointed] LWrist (7) => prob: 0.00328 / x: 584 / y: 223
+[not pointed] RHip (8) => prob: 0.00167 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00142 / x: 563 / y: 199
+[not pointed] RAnkle (10) => prob: 0.00228 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00441 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00219 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00124 / x: 542 / y: 199
+[pointed] REye (14) => prob: 0.84391 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.85942 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.72703 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.72821 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00041 / x: 459 / y: 152
+
+============================ good (15) done ============================
+
+
+============================== good (16) ==============================[pointed] Nose (0) => prob: 0.67941 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.58830 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.40480 / x: 313 / y: 387
+[not pointed] RElbow (3) => prob: 0.00292 / x: 250 / y: 481
+[not pointed] RWrist (4) => prob: 0.00264 / x: 417 / y: 199
+[pointed] LShoulder (5) => prob: 0.48347 / x: 646 / y: 387
+[not pointed] LElbow (6) => prob: 0.00988 / x: 688 / y: 493
+[not pointed] LWrist (7) => prob: 0.00269 / x: 438 / y: 211
+[not pointed] RHip (8) => prob: 0.00188 / x: 500 / y: 410
+[not pointed] RKnee (9) => prob: 0.00128 / x: 563 / y: 199
+[not pointed] RAnkle (10) => prob: 0.00532 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00461 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00234 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00110 / x: 459 / y: 199
+[pointed] REye (14) => prob: 0.85549 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.82547 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.69551 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.71440 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (16) done ============================
+
+
+============================== good (17) ==============================[pointed] Nose (0) => prob: 0.59543 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.58471 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.41093 / x: 292 / y: 387
+[not pointed] RElbow (3) => prob: 0.05334 / x: 271 / y: 504
+[not pointed] RWrist (4) => prob: 0.00938 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.37358 / x: 667 / y: 387
+[not pointed] LElbow (6) => prob: 0.00286 / x: 688 / y: 493
+[not pointed] LWrist (7) => prob: 0.00288 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00166 / x: 563 / y: 199
+[not pointed] RKnee (9) => prob: 0.00157 / x: 480 / y: 387
+[not pointed] RAnkle (10) => prob: 0.00259 / x: 542 / y: 176
+[not pointed] LHip (11) => prob: 0.00331 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00148 / x: 480 / y: 375
+[not pointed] LAnkle (13) => prob: 0.00372 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.74052 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.78502 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.68662 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.38070 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 104 / y: 0
+
+============================ good (17) done ============================
+
+
+============================== good (18) ==============================[pointed] Nose (0) => prob: 0.62004 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.60002 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.42652 / x: 292 / y: 387
+[not pointed] RElbow (3) => prob: 0.02196 / x: 250 / y: 504
+[not pointed] RWrist (4) => prob: 0.00593 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.51818 / x: 646 / y: 387
+[not pointed] LElbow (6) => prob: 0.06080 / x: 688 / y: 516
+[not pointed] LWrist (7) => prob: 0.00360 / x: 667 / y: 528
+[not pointed] RHip (8) => prob: 0.00169 / x: 563 / y: 199
+[not pointed] RKnee (9) => prob: 0.00118 / x: 480 / y: 387
+[not pointed] RAnkle (10) => prob: 0.00255 / x: 480 / y: 281
+[not pointed] LHip (11) => prob: 0.00369 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00244 / x: 688 / y: 516
+[not pointed] LAnkle (13) => prob: 0.00194 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.81341 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.72451 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.75095 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.37682 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (18) done ============================
+
+
+============================== good (19) ==============================[pointed] Nose (0) => prob: 0.67751 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.58966 / x: 480 / y: 387
+[pointed] RShoulder (2) => prob: 0.42902 / x: 313 / y: 387
+[not pointed] RElbow (3) => prob: 0.01347 / x: 271 / y: 493
+[not pointed] RWrist (4) => prob: 0.00384 / x: 271 / y: 528
+[pointed] LShoulder (5) => prob: 0.40171 / x: 667 / y: 387
+[not pointed] LElbow (6) => prob: 0.00780 / x: 688 / y: 493
+[not pointed] LWrist (7) => prob: 0.00260 / x: 417 / y: 211
+[not pointed] RHip (8) => prob: 0.00191 / x: 563 / y: 199
+[not pointed] RKnee (9) => prob: 0.00124 / x: 459 / y: 246
+[not pointed] RAnkle (10) => prob: 0.00256 / x: 500 / y: 281
+[not pointed] LHip (11) => prob: 0.00463 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00233 / x: 542 / y: 176
+[not pointed] LAnkle (13) => prob: 0.00310 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.84890 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.72552 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.73257 / x: 396 / y: 211
+[pointed] LEar (17) => prob: 0.44780 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (19) done ============================
+
+
+============================== good (20) ==============================[pointed] Nose (0) => prob: 0.72109 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.55646 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.35202 / x: 292 / y: 387
+[not pointed] RElbow (3) => prob: 0.00379 / x: 250 / y: 493
+[not pointed] RWrist (4) => prob: 0.00250 / x: 417 / y: 211
+[pointed] LShoulder (5) => prob: 0.47184 / x: 646 / y: 387
+[not pointed] LElbow (6) => prob: 0.04374 / x: 667 / y: 516
+[not pointed] LWrist (7) => prob: 0.00342 / x: 438 / y: 187
+[not pointed] RHip (8) => prob: 0.00221 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00097 / x: 333 / y: 422
+[not pointed] RAnkle (10) => prob: 0.00758 / x: 459 / y: 246
+[not pointed] LHip (11) => prob: 0.00447 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00261 / x: 438 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00147 / x: 688 / y: 516
+[pointed] REye (14) => prob: 0.86006 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.76088 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.67709 / x: 375 / y: 211
+[pointed] LEar (17) => prob: 0.72867 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ good (20) done ============================
+
+
+============================== good (21) ==============================[pointed] Nose (0) => prob: 0.79126 / x: 556 / y: 266
+[pointed] Neck (1) => prob: 0.60077 / x: 584 / y: 469
+[pointed] RShoulder (2) => prob: 0.50950 / x: 361 / y: 485
+[pointed] RElbow (3) => prob: 0.31866 / x: 278 / y: 688
+[not pointed] RWrist (4) => prob: 0.01717 / x: 278 / y: 704
+[pointed] LShoulder (5) => prob: 0.43890 / x: 806 / y: 469
+[pointed] LElbow (6) => prob: 0.24315 / x: 862 / y: 673
+[not pointed] LWrist (7) => prob: 0.02005 / x: 862 / y: 704
+[not pointed] RHip (8) => prob: 0.00834 / x: 556 / y: 297
+[not pointed] RKnee (9) => prob: 0.00295 / x: 556 / y: 406
+[not pointed] RAnkle (10) => prob: 0.00490 / x: 0 / y: 15
+[not pointed] LHip (11) => prob: 0.00481 / x: 500 / y: 219
+[not pointed] LKnee (12) => prob: 0.00827 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00587 / x: 0 / y: 0
+[pointed] REye (14) => prob: 0.97635 / x: 500 / y: 219
+[pointed] LEye (15) => prob: 0.90698 / x: 612 / y: 219
+[pointed] REar (16) => prob: 0.37943 / x: 445 / y: 250
+[pointed] LEar (17) => prob: 0.66413 / x: 695 / y: 250
+[pointed] Background (18) => prob: 1.00029 / x: 695 / y: 187
+
+============================ good (21) done ============================
+
+
+============================== good (22) ==============================[pointed] Nose (0) => prob: 0.82670 / x: 640 / y: 266
+[pointed] Neck (1) => prob: 0.61627 / x: 640 / y: 469
+[pointed] RShoulder (2) => prob: 0.49959 / x: 417 / y: 469
+[pointed] RElbow (3) => prob: 0.25030 / x: 333 / y: 688
+[not pointed] RWrist (4) => prob: 0.01573 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.49652 / x: 834 / y: 485
+[pointed] LElbow (6) => prob: 0.26552 / x: 890 / y: 673
+[not pointed] LWrist (7) => prob: 0.02265 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00666 / x: 640 / y: 313
+[not pointed] RKnee (9) => prob: 0.00397 / x: 55 / y: 203
+[not pointed] RAnkle (10) => prob: 0.01165 / x: 667 / y: 297
+[not pointed] LHip (11) => prob: 0.00583 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.01275 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00527 / x: 0 / y: 15
+[pointed] REye (14) => prob: 0.94595 / x: 584 / y: 219
+[pointed] LEye (15) => prob: 0.80526 / x: 695 / y: 234
+[pointed] REar (16) => prob: 0.54685 / x: 500 / y: 250
+[pointed] LEar (17) => prob: 0.63566 / x: 751 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (22) done ============================
+
+
+============================== good (23) ==============================[pointed] Nose (0) => prob: 0.76576 / x: 640 / y: 266
+[pointed] Neck (1) => prob: 0.56765 / x: 640 / y: 485
+[pointed] RShoulder (2) => prob: 0.49626 / x: 417 / y: 485
+[pointed] RElbow (3) => prob: 0.22553 / x: 333 / y: 688
+[not pointed] RWrist (4) => prob: 0.01128 / x: 306 / y: 704
+[pointed] LShoulder (5) => prob: 0.50874 / x: 834 / y: 485
+[pointed] LElbow (6) => prob: 0.29857 / x: 890 / y: 688
+[not pointed] LWrist (7) => prob: 0.02375 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00360 / x: 640 / y: 297
+[not pointed] RKnee (9) => prob: 0.00161 / x: 640 / y: 469
+[not pointed] RAnkle (10) => prob: 0.00606 / x: 27 / y: 234
+[not pointed] LHip (11) => prob: 0.00377 / x: 584 / y: 219
+[not pointed] LKnee (12) => prob: 0.00278 / x: 890 / y: 704
+[not pointed] LAnkle (13) => prob: 0.00530 / x: 27 / y: 234
+[pointed] REye (14) => prob: 0.84502 / x: 584 / y: 219
+[pointed] LEye (15) => prob: 0.86190 / x: 695 / y: 219
+[pointed] REar (16) => prob: 0.59949 / x: 500 / y: 250
+[pointed] LEar (17) => prob: 0.65680 / x: 751 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 779 / y: 187
+
+============================ good (23) done ============================
+
+
+============================== good (24) ==============================[pointed] Nose (0) => prob: 0.75978 / x: 612 / y: 266
+[pointed] Neck (1) => prob: 0.55442 / x: 640 / y: 485
+[pointed] RShoulder (2) => prob: 0.50966 / x: 417 / y: 485
+[pointed] RElbow (3) => prob: 0.22695 / x: 333 / y: 688
+[not pointed] RWrist (4) => prob: 0.01026 / x: 333 / y: 704
+[pointed] LShoulder (5) => prob: 0.49237 / x: 834 / y: 485
+[pointed] LElbow (6) => prob: 0.32813 / x: 890 / y: 688
+[not pointed] LWrist (7) => prob: 0.02297 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00493 / x: 640 / y: 297
+[not pointed] RKnee (9) => prob: 0.00308 / x: 584 / y: 281
+[not pointed] RAnkle (10) => prob: 0.00809 / x: 612 / y: 297
+[not pointed] LHip (11) => prob: 0.00326 / x: 584 / y: 219
+[not pointed] LKnee (12) => prob: 0.00295 / x: 890 / y: 704
+[not pointed] LAnkle (13) => prob: 0.00349 / x: 0 / y: 15
+[pointed] REye (14) => prob: 0.83769 / x: 584 / y: 219
+[pointed] LEye (15) => prob: 0.84505 / x: 695 / y: 219
+[pointed] REar (16) => prob: 0.55408 / x: 500 / y: 250
+[pointed] LEar (17) => prob: 0.66742 / x: 751 / y: 250
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (24) done ============================
+
+
+============================== good (25) ==============================[pointed] Nose (0) => prob: 0.77406 / x: 612 / y: 266
+[pointed] Neck (1) => prob: 0.56667 / x: 640 / y: 485
+[pointed] RShoulder (2) => prob: 0.50337 / x: 417 / y: 485
+[pointed] RElbow (3) => prob: 0.25146 / x: 333 / y: 688
+[not pointed] RWrist (4) => prob: 0.01167 / x: 333 / y: 704
+[pointed] LShoulder (5) => prob: 0.46845 / x: 834 / y: 485
+[pointed] LElbow (6) => prob: 0.35537 / x: 890 / y: 688
+[not pointed] LWrist (7) => prob: 0.02799 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00623 / x: 640 / y: 297
+[not pointed] RKnee (9) => prob: 0.00356 / x: 556 / y: 281
+[not pointed] RAnkle (10) => prob: 0.01368 / x: 612 / y: 297
+[not pointed] LHip (11) => prob: 0.00359 / x: 584 / y: 219
+[not pointed] LKnee (12) => prob: 0.00330 / x: 612 / y: 297
+[not pointed] LAnkle (13) => prob: 0.01173 / x: 0 / y: 0
+[pointed] REye (14) => prob: 0.84724 / x: 584 / y: 219
+[pointed] LEye (15) => prob: 0.84511 / x: 695 / y: 219
+[pointed] REar (16) => prob: 0.63042 / x: 500 / y: 234
+[pointed] LEar (17) => prob: 0.63781 / x: 751 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ good (25) done ============================
+
+
+============================== good (26) ==============================[pointed] Nose (0) => prob: 0.72992 / x: 612 / y: 266
+[pointed] Neck (1) => prob: 0.54450 / x: 640 / y: 485
+[pointed] RShoulder (2) => prob: 0.49797 / x: 417 / y: 485
+[pointed] RElbow (3) => prob: 0.23234 / x: 333 / y: 688
+[not pointed] RWrist (4) => prob: 0.01084 / x: 306 / y: 704
+[pointed] LShoulder (5) => prob: 0.45186 / x: 834 / y: 485
+[pointed] LElbow (6) => prob: 0.27580 / x: 890 / y: 688
+[not pointed] LWrist (7) => prob: 0.02125 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00763 / x: 640 / y: 297
+[not pointed] RKnee (9) => prob: 0.00239 / x: 556 / y: 281
+[not pointed] RAnkle (10) => prob: 0.01068 / x: 640 / y: 297
+[not pointed] LHip (11) => prob: 0.00381 / x: 584 / y: 219
+[not pointed] LKnee (12) => prob: 0.00740 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00439 / x: 0 / y: 15
+[pointed] REye (14) => prob: 0.84838 / x: 584 / y: 219
+[pointed] LEye (15) => prob: 0.85393 / x: 695 / y: 219
+[pointed] REar (16) => prob: 0.62836 / x: 500 / y: 234
+[pointed] LEar (17) => prob: 0.65140 / x: 751 / y: 250
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (26) done ============================
+
+
+============================== good (27) ==============================[pointed] Nose (0) => prob: 0.82936 / x: 612 / y: 266
+[pointed] Neck (1) => prob: 0.55710 / x: 612 / y: 485
+[pointed] RShoulder (2) => prob: 0.47022 / x: 417 / y: 485
+[not pointed] RElbow (3) => prob: 0.16693 / x: 306 / y: 688
+[not pointed] RWrist (4) => prob: 0.00795 / x: 306 / y: 704
+[pointed] LShoulder (5) => prob: 0.45324 / x: 834 / y: 485
+[pointed] LElbow (6) => prob: 0.23573 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.01338 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00842 / x: 640 / y: 313
+[not pointed] RKnee (9) => prob: 0.00458 / x: 584 / y: 297
+[not pointed] RAnkle (10) => prob: 0.01636 / x: 640 / y: 297
+[not pointed] LHip (11) => prob: 0.00403 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00795 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00405 / x: 55 / y: 219
+[pointed] REye (14) => prob: 0.82808 / x: 556 / y: 219
+[pointed] LEye (15) => prob: 0.84433 / x: 667 / y: 234
+[pointed] REar (16) => prob: 0.60912 / x: 500 / y: 234
+[pointed] LEar (17) => prob: 0.70031 / x: 751 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (27) done ============================
+
+
+============================== good (28) ==============================[pointed] Nose (0) => prob: 0.80434 / x: 640 / y: 266
+[pointed] Neck (1) => prob: 0.63058 / x: 640 / y: 469
+[pointed] RShoulder (2) => prob: 0.50124 / x: 417 / y: 485
+[pointed] RElbow (3) => prob: 0.24111 / x: 333 / y: 688
+[not pointed] RWrist (4) => prob: 0.01611 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.46290 / x: 834 / y: 485
+[pointed] LElbow (6) => prob: 0.32645 / x: 890 / y: 688
+[not pointed] LWrist (7) => prob: 0.03096 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00658 / x: 640 / y: 313
+[not pointed] RKnee (9) => prob: 0.00283 / x: 55 / y: 203
+[not pointed] RAnkle (10) => prob: 0.01527 / x: 612 / y: 297
+[not pointed] LHip (11) => prob: 0.00340 / x: 584 / y: 219
+[not pointed] LKnee (12) => prob: 0.00920 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00774 / x: 55 / y: 219
+[pointed] REye (14) => prob: 0.85727 / x: 584 / y: 219
+[pointed] LEye (15) => prob: 0.85517 / x: 695 / y: 219
+[pointed] REar (16) => prob: 0.63417 / x: 500 / y: 250
+[pointed] LEar (17) => prob: 0.70297 / x: 751 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (28) done ============================
+
+
+============================== good (29) ==============================[pointed] Nose (0) => prob: 0.79595 / x: 612 / y: 281
+[pointed] Neck (1) => prob: 0.57274 / x: 612 / y: 485
+[pointed] RShoulder (2) => prob: 0.46140 / x: 417 / y: 485
+[not pointed] RElbow (3) => prob: 0.15874 / x: 333 / y: 688
+[not pointed] RWrist (4) => prob: 0.01012 / x: 306 / y: 704
+[pointed] LShoulder (5) => prob: 0.43582 / x: 834 / y: 485
+[pointed] LElbow (6) => prob: 0.21235 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.01294 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00362 / x: 612 / y: 328
+[not pointed] RKnee (9) => prob: 0.00247 / x: 584 / y: 297
+[not pointed] RAnkle (10) => prob: 0.00446 / x: 640 / y: 297
+[not pointed] LHip (11) => prob: 0.00469 / x: 556 / y: 234
+[not pointed] LKnee (12) => prob: 0.00317 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00302 / x: 83 / y: 219
+[pointed] REye (14) => prob: 0.90292 / x: 556 / y: 234
+[pointed] LEye (15) => prob: 0.88966 / x: 667 / y: 234
+[pointed] REar (16) => prob: 0.54648 / x: 500 / y: 250
+[pointed] LEar (17) => prob: 0.62883 / x: 723 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (29) done ============================
+
+
+============================== good (30) ==============================[pointed] Nose (0) => prob: 0.82356 / x: 612 / y: 266
+[pointed] Neck (1) => prob: 0.59501 / x: 640 / y: 469
+[pointed] RShoulder (2) => prob: 0.49646 / x: 417 / y: 485
+[pointed] RElbow (3) => prob: 0.25468 / x: 333 / y: 688
+[not pointed] RWrist (4) => prob: 0.01014 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.47896 / x: 834 / y: 469
+[pointed] LElbow (6) => prob: 0.33290 / x: 890 / y: 688
+[not pointed] LWrist (7) => prob: 0.03235 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00536 / x: 640 / y: 313
+[not pointed] RKnee (9) => prob: 0.00432 / x: 556 / y: 281
+[not pointed] RAnkle (10) => prob: 0.01574 / x: 612 / y: 297
+[not pointed] LHip (11) => prob: 0.00324 / x: 55 / y: 234
+[not pointed] LKnee (12) => prob: 0.00402 / x: 55 / y: 203
+[not pointed] LAnkle (13) => prob: 0.00408 / x: 0 / y: 234
+[pointed] REye (14) => prob: 0.79367 / x: 584 / y: 219
+[pointed] LEye (15) => prob: 0.81132 / x: 695 / y: 219
+[pointed] REar (16) => prob: 0.58189 / x: 500 / y: 234
+[pointed] LEar (17) => prob: 0.68223 / x: 751 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (30) done ============================
+
+
+============================== good (31) ==============================[pointed] Nose (0) => prob: 0.88243 / x: 612 / y: 266
+[pointed] Neck (1) => prob: 0.63983 / x: 640 / y: 469
+[pointed] RShoulder (2) => prob: 0.48446 / x: 417 / y: 469
+[pointed] RElbow (3) => prob: 0.20085 / x: 333 / y: 688
+[not pointed] RWrist (4) => prob: 0.00648 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.51575 / x: 834 / y: 469
+[pointed] LElbow (6) => prob: 0.30925 / x: 890 / y: 673
+[not pointed] LWrist (7) => prob: 0.03207 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00438 / x: 640 / y: 313
+[not pointed] RKnee (9) => prob: 0.00425 / x: 556 / y: 281
+[not pointed] RAnkle (10) => prob: 0.00923 / x: 612 / y: 297
+[not pointed] LHip (11) => prob: 0.00853 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00536 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00486 / x: 0 / y: 31
+[pointed] REye (14) => prob: 0.82187 / x: 556 / y: 219
+[pointed] LEye (15) => prob: 0.81223 / x: 667 / y: 219
+[pointed] REar (16) => prob: 0.56835 / x: 500 / y: 250
+[pointed] LEar (17) => prob: 0.63993 / x: 751 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (31) done ============================
+
+
+============================== good (32) ==============================[pointed] Nose (0) => prob: 0.87437 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.63004 / x: 640 / y: 438
+[pointed] RShoulder (2) => prob: 0.49782 / x: 417 / y: 453
+[pointed] RElbow (3) => prob: 0.25455 / x: 361 / y: 657
+[not pointed] RWrist (4) => prob: 0.00974 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.45248 / x: 834 / y: 438
+[pointed] LElbow (6) => prob: 0.21631 / x: 862 / y: 657
+[not pointed] LWrist (7) => prob: 0.02534 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00434 / x: 640 / y: 281
+[not pointed] RKnee (9) => prob: 0.00685 / x: 556 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00669 / x: 55 / y: 219
+[not pointed] LHip (11) => prob: 0.00617 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00562 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00654 / x: 55 / y: 219
+[pointed] REye (14) => prob: 0.85502 / x: 556 / y: 187
+[pointed] LEye (15) => prob: 0.86899 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.64751 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.65006 / x: 723 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (32) done ============================
+
+
+============================== good (33) ==============================[pointed] Nose (0) => prob: 0.90093 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.55488 / x: 640 / y: 453
+[pointed] RShoulder (2) => prob: 0.49367 / x: 417 / y: 453
+[not pointed] RElbow (3) => prob: 0.18396 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.01022 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.43267 / x: 834 / y: 438
+[not pointed] LElbow (6) => prob: 0.19300 / x: 862 / y: 641
+[not pointed] LWrist (7) => prob: 0.01586 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00338 / x: 751 / y: 688
+[not pointed] RKnee (9) => prob: 0.00615 / x: 556 / y: 250
+[not pointed] RAnkle (10) => prob: 0.01045 / x: 0 / y: 0
+[not pointed] LHip (11) => prob: 0.00804 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00753 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.01101 / x: 0 / y: 0
+[pointed] REye (14) => prob: 0.91254 / x: 556 / y: 203
+[pointed] LEye (15) => prob: 0.86040 / x: 667 / y: 203
+[pointed] REar (16) => prob: 0.72187 / x: 500 / y: 219
+[pointed] LEar (17) => prob: 0.68069 / x: 723 / y: 234
+[pointed] Background (18) => prob: 1.00042 / x: 584 / y: 156
+
+============================ good (33) done ============================
+
+
+============================== good (34) ==============================[pointed] Nose (0) => prob: 0.87083 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.57598 / x: 640 / y: 438
+[pointed] RShoulder (2) => prob: 0.51367 / x: 417 / y: 453
+[pointed] RElbow (3) => prob: 0.20507 / x: 361 / y: 673
+[not pointed] RWrist (4) => prob: 0.00587 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.41075 / x: 834 / y: 438
+[not pointed] LElbow (6) => prob: 0.19021 / x: 862 / y: 657
+[not pointed] LWrist (7) => prob: 0.01220 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00357 / x: 640 / y: 281
+[not pointed] RKnee (9) => prob: 0.00596 / x: 556 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00922 / x: 584 / y: 266
+[not pointed] LHip (11) => prob: 0.00468 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00456 / x: 556 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00431 / x: 27 / y: 234
+[pointed] REye (14) => prob: 0.87045 / x: 556 / y: 203
+[pointed] LEye (15) => prob: 0.85516 / x: 667 / y: 203
+[pointed] REar (16) => prob: 0.65892 / x: 500 / y: 219
+[pointed] LEar (17) => prob: 0.68930 / x: 723 / y: 234
+[pointed] Background (18) => prob: 1.00043 / x: 584 / y: 156
+
+============================ good (34) done ============================
+
+
+============================== good (35) ==============================[pointed] Nose (0) => prob: 0.83260 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.56778 / x: 640 / y: 453
+[pointed] RShoulder (2) => prob: 0.51152 / x: 417 / y: 453
+[pointed] RElbow (3) => prob: 0.23352 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00476 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.44720 / x: 834 / y: 438
+[pointed] LElbow (6) => prob: 0.21427 / x: 862 / y: 641
+[not pointed] LWrist (7) => prob: 0.01473 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00505 / x: 612 / y: 281
+[not pointed] RKnee (9) => prob: 0.00373 / x: 556 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00804 / x: 640 / y: 266
+[not pointed] LHip (11) => prob: 0.01091 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00298 / x: 556 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00167 / x: 83 / y: 219
+[pointed] REye (14) => prob: 0.95337 / x: 556 / y: 203
+[pointed] LEye (15) => prob: 0.92320 / x: 667 / y: 203
+[pointed] REar (16) => prob: 0.58204 / x: 500 / y: 219
+[pointed] LEar (17) => prob: 0.66481 / x: 723 / y: 234
+[pointed] Background (18) => prob: 1.00030 / x: 751 / y: 172
+
+============================ good (35) done ============================
+
+
+============================== good (36) ==============================[pointed] Nose (0) => prob: 0.83107 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.59318 / x: 640 / y: 453
+[pointed] RShoulder (2) => prob: 0.47790 / x: 417 / y: 453
+[pointed] RElbow (3) => prob: 0.20542 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00535 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.40809 / x: 834 / y: 438
+[not pointed] LElbow (6) => prob: 0.19624 / x: 862 / y: 641
+[not pointed] LWrist (7) => prob: 0.01353 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00337 / x: 640 / y: 281
+[not pointed] RKnee (9) => prob: 0.00364 / x: 556 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00452 / x: 640 / y: 266
+[not pointed] LHip (11) => prob: 0.01031 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00348 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00300 / x: 27 / y: 234
+[pointed] REye (14) => prob: 0.93608 / x: 556 / y: 203
+[pointed] LEye (15) => prob: 0.90234 / x: 667 / y: 203
+[pointed] REar (16) => prob: 0.57729 / x: 500 / y: 219
+[pointed] LEar (17) => prob: 0.61454 / x: 723 / y: 234
+[pointed] Background (18) => prob: 1.00032 / x: 751 / y: 172
+
+============================ good (36) done ============================
+
+
+============================== good (37) ==============================[pointed] Nose (0) => prob: 0.79623 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.56462 / x: 640 / y: 453
+[pointed] RShoulder (2) => prob: 0.49076 / x: 417 / y: 453
+[pointed] RElbow (3) => prob: 0.20615 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.01147 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.42405 / x: 834 / y: 438
+[pointed] LElbow (6) => prob: 0.21571 / x: 862 / y: 641
+[not pointed] LWrist (7) => prob: 0.01484 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00581 / x: 612 / y: 281
+[not pointed] RKnee (9) => prob: 0.00409 / x: 556 / y: 266
+[not pointed] RAnkle (10) => prob: 0.00589 / x: 640 / y: 266
+[not pointed] LHip (11) => prob: 0.00955 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00554 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00462 / x: 27 / y: 250
+[pointed] REye (14) => prob: 0.95161 / x: 556 / y: 203
+[pointed] LEye (15) => prob: 0.90985 / x: 667 / y: 203
+[pointed] REar (16) => prob: 0.61203 / x: 500 / y: 219
+[pointed] LEar (17) => prob: 0.60498 / x: 723 / y: 234
+[pointed] Background (18) => prob: 1.00029 / x: 751 / y: 172
+
+============================ good (37) done ============================
+
+
+============================== good (38) ==============================[pointed] Nose (0) => prob: 0.85197 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.58730 / x: 640 / y: 453
+[pointed] RShoulder (2) => prob: 0.50365 / x: 417 / y: 453
+[pointed] RElbow (3) => prob: 0.25992 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.01428 / x: 55 / y: 234
+[pointed] LShoulder (5) => prob: 0.41373 / x: 834 / y: 438
+[pointed] LElbow (6) => prob: 0.21531 / x: 862 / y: 641
+[not pointed] LWrist (7) => prob: 0.02300 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00415 / x: 640 / y: 281
+[not pointed] RKnee (9) => prob: 0.00475 / x: 556 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00748 / x: 640 / y: 266
+[not pointed] LHip (11) => prob: 0.00721 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00827 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00515 / x: 0 / y: 250
+[pointed] REye (14) => prob: 0.93742 / x: 556 / y: 203
+[pointed] LEye (15) => prob: 0.89810 / x: 667 / y: 203
+[pointed] REar (16) => prob: 0.57769 / x: 500 / y: 219
+[pointed] LEar (17) => prob: 0.57493 / x: 723 / y: 234
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (38) done ============================
+
+
+============================== good (39) ==============================[pointed] Nose (0) => prob: 0.75416 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.58986 / x: 640 / y: 453
+[pointed] RShoulder (2) => prob: 0.48189 / x: 417 / y: 453
+[pointed] RElbow (3) => prob: 0.21936 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00916 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.44713 / x: 834 / y: 453
+[pointed] LElbow (6) => prob: 0.21811 / x: 862 / y: 657
+[not pointed] LWrist (7) => prob: 0.01834 / x: 890 / y: 704
+[not pointed] RHip (8) => prob: 0.00496 / x: 612 / y: 281
+[not pointed] RKnee (9) => prob: 0.00264 / x: 584 / y: 266
+[not pointed] RAnkle (10) => prob: 0.00912 / x: 640 / y: 266
+[not pointed] LHip (11) => prob: 0.01069 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.01156 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00342 / x: 83 / y: 203
+[pointed] REye (14) => prob: 0.89230 / x: 556 / y: 203
+[pointed] LEye (15) => prob: 0.88890 / x: 667 / y: 203
+[pointed] REar (16) => prob: 0.30321 / x: 500 / y: 219
+[pointed] LEar (17) => prob: 0.60626 / x: 723 / y: 234
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ good (39) done ============================
+
+
+============================== good (40) ==============================[pointed] Nose (0) => prob: 0.69443 / x: 640 / y: 234
+[pointed] Neck (1) => prob: 0.54798 / x: 612 / y: 485
+[pointed] RShoulder (2) => prob: 0.39430 / x: 361 / y: 500
+[not pointed] RElbow (3) => prob: 0.06444 / x: 194 / y: 704
+[not pointed] RWrist (4) => prob: 0.00441 / x: 111 / y: 704
+[pointed] LShoulder (5) => prob: 0.49919 / x: 862 / y: 485
+[not pointed] LElbow (6) => prob: 0.08299 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.00668 / x: 1001 / y: 438
+[not pointed] RHip (8) => prob: 0.00991 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00239 / x: 1057 / y: 453
+[not pointed] RAnkle (10) => prob: 0.00220 / x: 695 / y: 156
+[not pointed] LHip (11) => prob: 0.00609 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00224 / x: 695 / y: 156
+[not pointed] LAnkle (13) => prob: 0.00415 / x: 695 / y: 156
+[pointed] REye (14) => prob: 0.66294 / x: 584 / y: 187
+[pointed] LEye (15) => prob: 0.74275 / x: 695 / y: 187
+[pointed] REar (16) => prob: 0.53380 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.52635 / x: 751 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ good (40) done ============================
+
+
+============================== good (41) ==============================[pointed] Nose (0) => prob: 0.72015 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.63567 / x: 612 / y: 485
+[pointed] RShoulder (2) => prob: 0.41549 / x: 361 / y: 485
+[pointed] RElbow (3) => prob: 0.21679 / x: 194 / y: 673
+[not pointed] RWrist (4) => prob: 0.01243 / x: 166 / y: 704
+[pointed] LShoulder (5) => prob: 0.53703 / x: 862 / y: 485
+[pointed] LElbow (6) => prob: 0.22553 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00756 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.01935 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00184 / x: 1001 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00177 / x: 55 / y: 704
+[not pointed] LHip (11) => prob: 0.01470 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00354 / x: 695 / y: 172
+[not pointed] LAnkle (13) => prob: 0.00245 / x: 695 / y: 172
+[pointed] REye (14) => prob: 0.76180 / x: 584 / y: 187
+[pointed] LEye (15) => prob: 0.67761 / x: 695 / y: 187
+[pointed] REar (16) => prob: 0.54193 / x: 500 / y: 219
+[pointed] LEar (17) => prob: 0.63816 / x: 751 / y: 234
+[pointed] Background (18) => prob: 1.00029 / x: 779 / y: 172
+
+============================ good (41) done ============================
+
+
+============================== good (42) ==============================[pointed] Nose (0) => prob: 0.72111 / x: 640 / y: 219
+[pointed] Neck (1) => prob: 0.59886 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.43805 / x: 361 / y: 469
+[not pointed] RElbow (3) => prob: 0.10065 / x: 194 / y: 673
+[not pointed] RWrist (4) => prob: 0.02103 / x: 1001 / y: 438
+[pointed] LShoulder (5) => prob: 0.49225 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.12143 / x: 1029 / y: 704
+[not pointed] LWrist (7) => prob: 0.03506 / x: 973 / y: 438
+[not pointed] RHip (8) => prob: 0.08389 / x: 973 / y: 453
+[not pointed] RKnee (9) => prob: 0.02468 / x: 973 / y: 485
+[not pointed] RAnkle (10) => prob: 0.00401 / x: 946 / y: 532
+[not pointed] LHip (11) => prob: 0.08257 / x: 973 / y: 453
+[not pointed] LKnee (12) => prob: 0.02091 / x: 973 / y: 485
+[not pointed] LAnkle (13) => prob: 0.00524 / x: 946 / y: 516
+[pointed] REye (14) => prob: 0.73604 / x: 584 / y: 172
+[pointed] LEye (15) => prob: 0.74580 / x: 695 / y: 172
+[pointed] REar (16) => prob: 0.51411 / x: 500 / y: 187
+[pointed] LEar (17) => prob: 0.51810 / x: 751 / y: 203
+[pointed] Background (18) => prob: 1.00029 / x: 779 / y: 140
+
+============================ good (42) done ============================
+
+
+============================== good (43) ==============================[pointed] Nose (0) => prob: 0.65162 / x: 556 / y: 219
+[pointed] Neck (1) => prob: 0.62101 / x: 556 / y: 469
+[pointed] RShoulder (2) => prob: 0.41645 / x: 306 / y: 469
+[not pointed] RElbow (3) => prob: 0.05643 / x: 139 / y: 704
+[not pointed] RWrist (4) => prob: 0.00500 / x: 1001 / y: 438
+[pointed] LShoulder (5) => prob: 0.49335 / x: 779 / y: 469
+[not pointed] LElbow (6) => prob: 0.16865 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.01040 / x: 918 / y: 704
+[not pointed] RHip (8) => prob: 0.01859 / x: 445 / y: 704
+[not pointed] RKnee (9) => prob: 0.00403 / x: 528 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00292 / x: 500 / y: 453
+[not pointed] LHip (11) => prob: 0.01332 / x: 695 / y: 704
+[not pointed] LKnee (12) => prob: 0.00278 / x: 528 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00258 / x: 500 / y: 453
+[pointed] REye (14) => prob: 0.67494 / x: 500 / y: 172
+[pointed] LEye (15) => prob: 0.69989 / x: 612 / y: 187
+[pointed] REar (16) => prob: 0.49693 / x: 417 / y: 203
+[pointed] LEar (17) => prob: 0.54931 / x: 695 / y: 203
+[pointed] Background (18) => prob: 1.00029 / x: 556 / y: 0
+
+============================ good (43) done ============================
+
+
+============================== good (44) ==============================[pointed] Nose (0) => prob: 0.75522 / x: 556 / y: 219
+[pointed] Neck (1) => prob: 0.58350 / x: 556 / y: 469
+[pointed] RShoulder (2) => prob: 0.39093 / x: 306 / y: 469
+[pointed] RElbow (3) => prob: 0.23357 / x: 166 / y: 673
+[not pointed] RWrist (4) => prob: 0.01299 / x: 222 / y: 704
+[pointed] LShoulder (5) => prob: 0.49801 / x: 806 / y: 469
+[not pointed] LElbow (6) => prob: 0.18219 / x: 946 / y: 704
+[not pointed] LWrist (7) => prob: 0.00957 / x: 918 / y: 704
+[not pointed] RHip (8) => prob: 0.03226 / x: 473 / y: 704
+[not pointed] RKnee (9) => prob: 0.00159 / x: 139 / y: 688
+[not pointed] RAnkle (10) => prob: 0.00159 / x: 1085 / y: 500
+[not pointed] LHip (11) => prob: 0.02698 / x: 695 / y: 704
+[not pointed] LKnee (12) => prob: 0.00369 / x: 640 / y: 156
+[not pointed] LAnkle (13) => prob: 0.00270 / x: 640 / y: 156
+[pointed] REye (14) => prob: 0.71328 / x: 500 / y: 172
+[pointed] LEye (15) => prob: 0.70241 / x: 612 / y: 172
+[pointed] REar (16) => prob: 0.49093 / x: 445 / y: 203
+[pointed] LEar (17) => prob: 0.58929 / x: 695 / y: 203
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ good (44) done ============================
+
+
+============================== good (45) ==============================[pointed] Nose (0) => prob: 0.73804 / x: 584 / y: 234
+[pointed] Neck (1) => prob: 0.58710 / x: 556 / y: 469
+[pointed] RShoulder (2) => prob: 0.39411 / x: 333 / y: 469
+[not pointed] RElbow (3) => prob: 0.16609 / x: 139 / y: 688
+[not pointed] RWrist (4) => prob: 0.00960 / x: 111 / y: 704
+[pointed] LShoulder (5) => prob: 0.52626 / x: 806 / y: 469
+[not pointed] LElbow (6) => prob: 0.17577 / x: 946 / y: 704
+[not pointed] LWrist (7) => prob: 0.00698 / x: 918 / y: 704
+[not pointed] RHip (8) => prob: 0.02581 / x: 473 / y: 704
+[not pointed] RKnee (9) => prob: 0.00370 / x: 556 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00492 / x: 1113 / y: 500
+[not pointed] LHip (11) => prob: 0.01882 / x: 695 / y: 704
+[not pointed] LKnee (12) => prob: 0.00256 / x: 556 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00485 / x: 1113 / y: 500
+[pointed] REye (14) => prob: 0.71705 / x: 528 / y: 172
+[pointed] LEye (15) => prob: 0.77310 / x: 640 / y: 187
+[pointed] REar (16) => prob: 0.48625 / x: 473 / y: 203
+[pointed] LEar (17) => prob: 0.50479 / x: 695 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ good (45) done ============================
+
+
+============================== good (46) ==============================[pointed] Nose (0) => prob: 0.71911 / x: 584 / y: 219
+[pointed] Neck (1) => prob: 0.48383 / x: 556 / y: 485
+[pointed] RShoulder (2) => prob: 0.39012 / x: 306 / y: 485
+[not pointed] RElbow (3) => prob: 0.05573 / x: 166 / y: 673
+[not pointed] RWrist (4) => prob: 0.00686 / x: 83 / y: 704
+[pointed] LShoulder (5) => prob: 0.46854 / x: 806 / y: 469
+[not pointed] LElbow (6) => prob: 0.17254 / x: 946 / y: 704
+[not pointed] LWrist (7) => prob: 0.00596 / x: 918 / y: 704
+[not pointed] RHip (8) => prob: 0.01470 / x: 473 / y: 704
+[not pointed] RKnee (9) => prob: 0.00222 / x: 1001 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00169 / x: 55 / y: 704
+[not pointed] LHip (11) => prob: 0.01087 / x: 695 / y: 704
+[not pointed] LKnee (12) => prob: 0.00323 / x: 667 / y: 156
+[not pointed] LAnkle (13) => prob: 0.00252 / x: 667 / y: 156
+[pointed] REye (14) => prob: 0.79140 / x: 528 / y: 172
+[pointed] LEye (15) => prob: 0.78178 / x: 640 / y: 172
+[pointed] REar (16) => prob: 0.44593 / x: 445 / y: 187
+[pointed] LEar (17) => prob: 0.48060 / x: 723 / y: 203
+[pointed] Background (18) => prob: 1.00029 / x: 473 / y: 0
+
+============================ good (46) done ============================
+
+
+============================== good (47) ==============================[pointed] Nose (0) => prob: 0.71399 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.60685 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.44188 / x: 361 / y: 469
+[pointed] RElbow (3) => prob: 0.27581 / x: 194 / y: 657
+[not pointed] RWrist (4) => prob: 0.02337 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.52031 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.13546 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00494 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.02396 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00271 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00164 / x: 695 / y: 156
+[not pointed] LHip (11) => prob: 0.01543 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00214 / x: 695 / y: 156
+[not pointed] LAnkle (13) => prob: 0.00353 / x: 695 / y: 156
+[pointed] REye (14) => prob: 0.63476 / x: 584 / y: 172
+[pointed] LEye (15) => prob: 0.67111 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.48389 / x: 500 / y: 187
+[pointed] LEar (17) => prob: 0.51229 / x: 751 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ good (47) done ============================
+
+
+============================== good (48) ==============================[pointed] Nose (0) => prob: 0.69486 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.63751 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.45339 / x: 361 / y: 469
+[pointed] RElbow (3) => prob: 0.32417 / x: 194 / y: 673
+[not pointed] RWrist (4) => prob: 0.03127 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.53013 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.09316 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00297 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.02231 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00275 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00137 / x: 556 / y: 453
+[not pointed] LHip (11) => prob: 0.01764 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00219 / x: 723 / y: 172
+[not pointed] LAnkle (13) => prob: 0.00176 / x: 723 / y: 172
+[pointed] REye (14) => prob: 0.69502 / x: 584 / y: 172
+[pointed] LEye (15) => prob: 0.70684 / x: 695 / y: 187
+[pointed] REar (16) => prob: 0.52380 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.40445 / x: 751 / y: 203
+[pointed] Background (18) => prob: 1.00029 / x: 584 / y: 0
+
+============================ good (48) done ============================
+
+
+============================== good (49) ==============================[pointed] Nose (0) => prob: 0.71095 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.58473 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.42282 / x: 361 / y: 485
+[pointed] RElbow (3) => prob: 0.20782 / x: 194 / y: 673
+[not pointed] RWrist (4) => prob: 0.01291 / x: 111 / y: 704
+[pointed] LShoulder (5) => prob: 0.51708 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.11201 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00634 / x: 1001 / y: 438
+[not pointed] RHip (8) => prob: 0.01858 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00348 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00156 / x: 55 / y: 704
+[not pointed] LHip (11) => prob: 0.01424 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00248 / x: 584 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00198 / x: 695 / y: 156
+[pointed] REye (14) => prob: 0.63899 / x: 584 / y: 172
+[pointed] LEye (15) => prob: 0.64763 / x: 695 / y: 187
+[pointed] REar (16) => prob: 0.51592 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.50445 / x: 751 / y: 203
+[pointed] Background (18) => prob: 1.00029 / x: 528 / y: 0
+
+============================ good (49) done ============================
+
+
+============================== good (50) ==============================[pointed] Nose (0) => prob: 0.68976 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.58623 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.40572 / x: 361 / y: 485
+[not pointed] RElbow (3) => prob: 0.13837 / x: 194 / y: 673
+[not pointed] RWrist (4) => prob: 0.01077 / x: 166 / y: 704
+[pointed] LShoulder (5) => prob: 0.51181 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.08840 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00651 / x: 1001 / y: 438
+[not pointed] RHip (8) => prob: 0.01547 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00291 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00123 / x: 695 / y: 156
+[not pointed] LHip (11) => prob: 0.01048 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00198 / x: 584 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00210 / x: 695 / y: 156
+[pointed] REye (14) => prob: 0.63454 / x: 556 / y: 172
+[pointed] LEye (15) => prob: 0.67161 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.41457 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.55062 / x: 751 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ good (50) done ============================
+
+
+============================== good (51) ==============================[pointed] Nose (0) => prob: 0.69379 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.60368 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.41288 / x: 361 / y: 485
+[pointed] RElbow (3) => prob: 0.24295 / x: 194 / y: 673
+[not pointed] RWrist (4) => prob: 0.01735 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.52570 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.11238 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.00469 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.01890 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00337 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00151 / x: 695 / y: 156
+[not pointed] LHip (11) => prob: 0.01556 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00309 / x: 695 / y: 156
+[not pointed] LAnkle (13) => prob: 0.00455 / x: 695 / y: 156
+[pointed] REye (14) => prob: 0.69211 / x: 584 / y: 172
+[pointed] LEye (15) => prob: 0.67444 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.48495 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.55345 / x: 751 / y: 203
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ good (51) done ============================
+
+
+============================== good (52) ==============================[pointed] Nose (0) => prob: 0.71614 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.59145 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.40696 / x: 361 / y: 469
+[pointed] RElbow (3) => prob: 0.21083 / x: 194 / y: 673
+[not pointed] RWrist (4) => prob: 0.01599 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.54246 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.15278 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.00565 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.01141 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00299 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00270 / x: 695 / y: 156
+[not pointed] LHip (11) => prob: 0.01072 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00251 / x: 695 / y: 156
+[not pointed] LAnkle (13) => prob: 0.00524 / x: 695 / y: 156
+[pointed] REye (14) => prob: 0.61501 / x: 556 / y: 172
+[pointed] LEye (15) => prob: 0.66272 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.50424 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.49542 / x: 751 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 584 / y: 0
+
+============================ good (52) done ============================
+
+
+============================== good (53) ==============================[pointed] Nose (0) => prob: 0.73002 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.59595 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.41258 / x: 361 / y: 469
+[pointed] RElbow (3) => prob: 0.22981 / x: 194 / y: 657
+[not pointed] RWrist (4) => prob: 0.01529 / x: 278 / y: 704
+[pointed] LShoulder (5) => prob: 0.52497 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.13389 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00469 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.01927 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00396 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00213 / x: 612 / y: 266
+[not pointed] LHip (11) => prob: 0.01365 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00289 / x: 584 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00299 / x: 695 / y: 156
+[pointed] REye (14) => prob: 0.65870 / x: 556 / y: 172
+[pointed] LEye (15) => prob: 0.65699 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.40852 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.57543 / x: 751 / y: 203
+[pointed] Background (18) => prob: 1.00029 / x: 667 / y: 0
+
+============================ good (53) done ============================
+
+
+============================== good (54) ==============================[pointed] Nose (0) => prob: 0.71722 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.55140 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.41293 / x: 361 / y: 485
+[pointed] RElbow (3) => prob: 0.20128 / x: 194 / y: 673
+[not pointed] RWrist (4) => prob: 0.01400 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.52257 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.14880 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00658 / x: 1001 / y: 438
+[not pointed] RHip (8) => prob: 0.01723 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00258 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00115 / x: 166 / y: 704
+[not pointed] LHip (11) => prob: 0.01366 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00323 / x: 1057 / y: 516
+[not pointed] LAnkle (13) => prob: 0.00401 / x: 695 / y: 156
+[pointed] REye (14) => prob: 0.64970 / x: 584 / y: 172
+[pointed] LEye (15) => prob: 0.64328 / x: 695 / y: 187
+[pointed] REar (16) => prob: 0.47153 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.53896 / x: 751 / y: 203
+[pointed] Background (18) => prob: 1.00029 / x: 333 / y: 0
+
+============================ good (54) done ============================
+
+
+============================== good (55) ==============================[pointed] Nose (0) => prob: 0.68195 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.63183 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.46092 / x: 361 / y: 469
+[not pointed] RElbow (3) => prob: 0.19141 / x: 194 / y: 657
+[not pointed] RWrist (4) => prob: 0.00805 / x: 111 / y: 704
+[pointed] LShoulder (5) => prob: 0.50861 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.15545 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00657 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.02667 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00417 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00211 / x: 55 / y: 704
+[not pointed] LHip (11) => prob: 0.02142 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00301 / x: 695 / y: 172
+[not pointed] LAnkle (13) => prob: 0.00218 / x: 695 / y: 172
+[pointed] REye (14) => prob: 0.68273 / x: 556 / y: 172
+[pointed] LEye (15) => prob: 0.74879 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.44458 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.44274 / x: 751 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 528 / y: 0
+
+============================ good (55) done ============================
+
+
+============================== good (56) ==============================[pointed] Nose (0) => prob: 0.72595 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.61558 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.44539 / x: 361 / y: 469
+[pointed] RElbow (3) => prob: 0.21846 / x: 194 / y: 626
+[not pointed] RWrist (4) => prob: 0.02341 / x: 222 / y: 704
+[pointed] LShoulder (5) => prob: 0.51934 / x: 834 / y: 469
+[not pointed] LElbow (6) => prob: 0.12650 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00668 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.02937 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00456 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00137 / x: 194 / y: 688
+[not pointed] LHip (11) => prob: 0.02440 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00325 / x: 584 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00193 / x: 695 / y: 172
+[pointed] REye (14) => prob: 0.69701 / x: 556 / y: 172
+[pointed] LEye (15) => prob: 0.77178 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.54048 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.55103 / x: 751 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ good (56) done ============================
+
+
+============================== good (57) ==============================[pointed] Nose (0) => prob: 0.70215 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.63311 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.45086 / x: 361 / y: 469
+[pointed] RElbow (3) => prob: 0.21115 / x: 194 / y: 641
+[not pointed] RWrist (4) => prob: 0.02370 / x: 222 / y: 704
+[pointed] LShoulder (5) => prob: 0.51448 / x: 834 / y: 469
+[not pointed] LElbow (6) => prob: 0.11138 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00894 / x: 1001 / y: 438
+[not pointed] RHip (8) => prob: 0.03177 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00376 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00245 / x: 695 / y: 156
+[not pointed] LHip (11) => prob: 0.02383 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00344 / x: 1029 / y: 485
+[not pointed] LAnkle (13) => prob: 0.00336 / x: 695 / y: 156
+[pointed] REye (14) => prob: 0.68019 / x: 556 / y: 187
+[pointed] LEye (15) => prob: 0.77572 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.48970 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.38190 / x: 751 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ good (57) done ============================
+
+
+============================== good (58) ==============================[pointed] Nose (0) => prob: 0.70896 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.59341 / x: 612 / y: 453
+[pointed] RShoulder (2) => prob: 0.46670 / x: 361 / y: 453
+[pointed] RElbow (3) => prob: 0.29286 / x: 194 / y: 626
+[not pointed] RWrist (4) => prob: 0.03399 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.50746 / x: 834 / y: 469
+[not pointed] LElbow (6) => prob: 0.16651 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00655 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.03294 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00285 / x: 139 / y: 626
+[not pointed] RAnkle (10) => prob: 0.00202 / x: 640 / y: 344
+[not pointed] LHip (11) => prob: 0.02429 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00255 / x: 695 / y: 172
+[not pointed] LAnkle (13) => prob: 0.00195 / x: 695 / y: 172
+[pointed] REye (14) => prob: 0.69694 / x: 556 / y: 187
+[pointed] LEye (15) => prob: 0.78241 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.42136 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.50221 / x: 751 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 528 / y: 0
+
+============================ good (58) done ============================
+
+
+============================== good (59) ==============================[pointed] Nose (0) => prob: 0.71770 / x: 612 / y: 234
+[pointed] Neck (1) => prob: 0.59943 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.43976 / x: 361 / y: 469
+[not pointed] RElbow (3) => prob: 0.14822 / x: 194 / y: 673
+[not pointed] RWrist (4) => prob: 0.00937 / x: 194 / y: 704
+[pointed] LShoulder (5) => prob: 0.51720 / x: 834 / y: 469
+[not pointed] LElbow (6) => prob: 0.13058 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00701 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.02331 / x: 500 / y: 704
+[not pointed] RKnee (9) => prob: 0.00360 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00133 / x: 640 / y: 344
+[not pointed] LHip (11) => prob: 0.02098 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00253 / x: 584 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00145 / x: 695 / y: 172
+[pointed] REye (14) => prob: 0.66602 / x: 556 / y: 187
+[pointed] LEye (15) => prob: 0.76945 / x: 667 / y: 187
+[pointed] REar (16) => prob: 0.46159 / x: 500 / y: 203
+[pointed] LEar (17) => prob: 0.55916 / x: 751 / y: 219
+[pointed] Background (18) => prob: 1.00029 / x: 528 / y: 0
+
+============================ good (59) done ============================
+
+
+============================== good (60) ==============================[pointed] Nose (0) => prob: 0.62344 / x: 556 / y: 297
+[pointed] Neck (1) => prob: 0.56622 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.43622 / x: 389 / y: 563
+[not pointed] RElbow (3) => prob: 0.03754 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00920 / x: 166 / y: 579
+[pointed] LShoulder (5) => prob: 0.42142 / x: 834 / y: 547
+[not pointed] LElbow (6) => prob: 0.06604 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00605 / x: 166 / y: 579
+[not pointed] RHip (8) => prob: 0.00677 / x: 166 / y: 594
+[not pointed] RKnee (9) => prob: 0.00403 / x: 528 / y: 234
+[not pointed] RAnkle (10) => prob: 0.00695 / x: 640 / y: 219
+[not pointed] LHip (11) => prob: 0.00663 / x: 166 / y: 610
+[not pointed] LKnee (12) => prob: 0.00443 / x: 667 / y: 234
+[not pointed] LAnkle (13) => prob: 0.00848 / x: 640 / y: 219
+[pointed] REye (14) => prob: 0.69886 / x: 528 / y: 250
+[pointed] LEye (15) => prob: 0.73554 / x: 640 / y: 250
+[not pointed] REar (16) => prob: 0.18186 / x: 445 / y: 313
+[not pointed] LEar (17) => prob: 0.18711 / x: 723 / y: 297
+[pointed] Background (18) => prob: 1.00030 / x: 723 / y: 219
+
+============================ good (60) done ============================
+
+
+============================== good (61) ==============================[pointed] Nose (0) => prob: 0.70439 / x: 612 / y: 344
+[pointed] Neck (1) => prob: 0.23275 / x: 640 / y: 594
+[not pointed] RShoulder (2) => prob: 0.15282 / x: 445 / y: 594
+[not pointed] RElbow (3) => prob: 0.00345 / x: 166 / y: 579
+[not pointed] RWrist (4) => prob: 0.00381 / x: 194 / y: 579
+[not pointed] LShoulder (5) => prob: 0.16646 / x: 862 / y: 594
+[not pointed] LElbow (6) => prob: 0.00368 / x: 194 / y: 563
+[not pointed] LWrist (7) => prob: 0.00431 / x: 612 / y: 297
+[not pointed] RHip (8) => prob: 0.00293 / x: 166 / y: 594
+[not pointed] RKnee (9) => prob: 0.00235 / x: 584 / y: 297
+[not pointed] RAnkle (10) => prob: 0.00153 / x: 584 / y: 297
+[not pointed] LHip (11) => prob: 0.00307 / x: 166 / y: 563
+[not pointed] LKnee (12) => prob: 0.00268 / x: 695 / y: 297
+[not pointed] LAnkle (13) => prob: 0.00217 / x: 695 / y: 297
+[pointed] REye (14) => prob: 0.73756 / x: 584 / y: 313
+[pointed] LEye (15) => prob: 0.81170 / x: 667 / y: 313
+[pointed] REar (16) => prob: 0.23381 / x: 500 / y: 328
+[pointed] LEar (17) => prob: 0.31447 / x: 723 / y: 344
+[pointed] Background (18) => prob: 1.00030 / x: 751 / y: 281
+
+============================ good (61) done ============================
+
+
+============================== good (62) ==============================[pointed] Nose (0) => prob: 0.61141 / x: 584 / y: 297
+[pointed] Neck (1) => prob: 0.50362 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.37592 / x: 417 / y: 563
+[not pointed] RElbow (3) => prob: 0.01293 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00537 / x: 612 / y: 422
+[pointed] LShoulder (5) => prob: 0.31610 / x: 834 / y: 563
+[not pointed] LElbow (6) => prob: 0.02763 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00411 / x: 556 / y: 250
+[not pointed] RHip (8) => prob: 0.00258 / x: 166 / y: 594
+[not pointed] RKnee (9) => prob: 0.00199 / x: 556 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00275 / x: 667 / y: 234
+[not pointed] LHip (11) => prob: 0.00342 / x: 556 / y: 266
+[not pointed] LKnee (12) => prob: 0.00281 / x: 695 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00330 / x: 667 / y: 234
+[pointed] REye (14) => prob: 0.75236 / x: 556 / y: 266
+[pointed] LEye (15) => prob: 0.73972 / x: 667 / y: 266
+[pointed] REar (16) => prob: 0.26338 / x: 500 / y: 297
+[pointed] LEar (17) => prob: 0.38018 / x: 723 / y: 313
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ good (62) done ============================
+
+
+============================== good (63) ==============================[pointed] Nose (0) => prob: 0.63545 / x: 528 / y: 313
+[pointed] Neck (1) => prob: 0.53868 / x: 556 / y: 563
+[pointed] RShoulder (2) => prob: 0.34535 / x: 361 / y: 579
+[not pointed] RElbow (3) => prob: 0.01494 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.01337 / x: 556 / y: 422
+[pointed] LShoulder (5) => prob: 0.46939 / x: 751 / y: 547
+[not pointed] LElbow (6) => prob: 0.07684 / x: 834 / y: 704
+[not pointed] LWrist (7) => prob: 0.00673 / x: 166 / y: 594
+[not pointed] RHip (8) => prob: 0.00782 / x: 166 / y: 610
+[not pointed] RKnee (9) => prob: 0.00216 / x: 139 / y: 594
+[not pointed] RAnkle (10) => prob: 0.00342 / x: 612 / y: 250
+[not pointed] LHip (11) => prob: 0.01212 / x: 166 / y: 610
+[not pointed] LKnee (12) => prob: 0.00393 / x: 612 / y: 266
+[not pointed] LAnkle (13) => prob: 0.00512 / x: 612 / y: 250
+[pointed] REye (14) => prob: 0.65497 / x: 473 / y: 281
+[pointed] LEye (15) => prob: 0.70401 / x: 584 / y: 281
+[pointed] REar (16) => prob: 0.35564 / x: 417 / y: 328
+[pointed] LEar (17) => prob: 0.35580 / x: 640 / y: 313
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ good (63) done ============================
+
+
+============================== good (64) ==============================[pointed] Nose (0) => prob: 0.66371 / x: 612 / y: 297
+[pointed] Neck (1) => prob: 0.49638 / x: 640 / y: 563
+[pointed] RShoulder (2) => prob: 0.33106 / x: 445 / y: 563
+[not pointed] RElbow (3) => prob: 0.01224 / x: 389 / y: 704
+[not pointed] RWrist (4) => prob: 0.00759 / x: 1140 / y: 704
+[pointed] LShoulder (5) => prob: 0.38657 / x: 834 / y: 563
+[not pointed] LElbow (6) => prob: 0.04625 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00707 / x: 1252 / y: 704
+[not pointed] RHip (8) => prob: 0.00556 / x: 1140 / y: 704
+[not pointed] RKnee (9) => prob: 0.00205 / x: 1224 / y: 704
+[not pointed] RAnkle (10) => prob: 0.00226 / x: 640 / y: 453
+[not pointed] LHip (11) => prob: 0.00382 / x: 1196 / y: 704
+[not pointed] LKnee (12) => prob: 0.00297 / x: 723 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00231 / x: 723 / y: 250
+[pointed] REye (14) => prob: 0.74837 / x: 584 / y: 250
+[pointed] LEye (15) => prob: 0.66374 / x: 695 / y: 266
+[not pointed] REar (16) => prob: 0.17289 / x: 500 / y: 297
+[pointed] LEar (17) => prob: 0.42230 / x: 751 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 779 / y: 234
+
+============================ good (64) done ============================
+
+
+============================== good (65) ==============================[pointed] Nose (0) => prob: 0.66751 / x: 640 / y: 360
+[pointed] Neck (1) => prob: 0.42974 / x: 612 / y: 594
+[pointed] RShoulder (2) => prob: 0.24494 / x: 445 / y: 610
+[not pointed] RElbow (3) => prob: 0.00442 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.01356 / x: 640 / y: 485
+[pointed] LShoulder (5) => prob: 0.44403 / x: 834 / y: 579
+[not pointed] LElbow (6) => prob: 0.04043 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00354 / x: 640 / y: 313
+[not pointed] RHip (8) => prob: 0.00376 / x: 166 / y: 594
+[not pointed] RKnee (9) => prob: 0.00141 / x: 584 / y: 313
+[not pointed] RAnkle (10) => prob: 0.00173 / x: 667 / y: 375
+[not pointed] LHip (11) => prob: 0.00378 / x: 166 / y: 594
+[not pointed] LKnee (12) => prob: 0.00181 / x: 584 / y: 313
+[not pointed] LAnkle (13) => prob: 0.00127 / x: 640 / y: 328
+[pointed] REye (14) => prob: 0.80740 / x: 584 / y: 313
+[pointed] LEye (15) => prob: 0.68610 / x: 667 / y: 313
+[pointed] REar (16) => prob: 0.21360 / x: 528 / y: 344
+[pointed] LEar (17) => prob: 0.38698 / x: 751 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ good (65) done ============================
+
+
+============================== good (66) ==============================[pointed] Nose (0) => prob: 0.67715 / x: 584 / y: 360
+[pointed] Neck (1) => prob: 0.32230 / x: 612 / y: 594
+[pointed] RShoulder (2) => prob: 0.21382 / x: 445 / y: 626
+[not pointed] RElbow (3) => prob: 0.00355 / x: 1252 / y: 704
+[not pointed] RWrist (4) => prob: 0.00597 / x: 1252 / y: 704
+[pointed] LShoulder (5) => prob: 0.33265 / x: 806 / y: 579
+[not pointed] LElbow (6) => prob: 0.01436 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00565 / x: 1252 / y: 704
+[not pointed] RHip (8) => prob: 0.00424 / x: 166 / y: 594
+[not pointed] RKnee (9) => prob: 0.00156 / x: 1224 / y: 704
+[not pointed] RAnkle (10) => prob: 0.00174 / x: 584 / y: 438
+[not pointed] LHip (11) => prob: 0.00429 / x: 166 / y: 594
+[not pointed] LKnee (12) => prob: 0.00255 / x: 194 / y: 594
+[not pointed] LAnkle (13) => prob: 0.00170 / x: 194 / y: 594
+[pointed] REye (14) => prob: 0.80608 / x: 528 / y: 328
+[pointed] LEye (15) => prob: 0.75178 / x: 612 / y: 328
+[not pointed] REar (16) => prob: 0.17021 / x: 473 / y: 360
+[pointed] LEar (17) => prob: 0.59651 / x: 695 / y: 360
+[pointed] Background (18) => prob: 1.00030 / x: 723 / y: 297
+
+============================ good (66) done ============================
+
+
+============================== good (67) ==============================[pointed] Nose (0) => prob: 0.71209 / x: 667 / y: 344
+[pointed] Neck (1) => prob: 0.60406 / x: 667 / y: 579
+[pointed] RShoulder (2) => prob: 0.41315 / x: 473 / y: 594
+[not pointed] RElbow (3) => prob: 0.01716 / x: 417 / y: 704
+[not pointed] RWrist (4) => prob: 0.00447 / x: 166 / y: 594
+[pointed] LShoulder (5) => prob: 0.47896 / x: 862 / y: 579
+[not pointed] LElbow (6) => prob: 0.05692 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00386 / x: 194 / y: 579
+[not pointed] RHip (8) => prob: 0.00595 / x: 166 / y: 594
+[not pointed] RKnee (9) => prob: 0.00208 / x: 139 / y: 594
+[not pointed] RAnkle (10) => prob: 0.00431 / x: 194 / y: 594
+[not pointed] LHip (11) => prob: 0.00595 / x: 166 / y: 594
+[not pointed] LKnee (12) => prob: 0.00310 / x: 194 / y: 594
+[not pointed] LAnkle (13) => prob: 0.00537 / x: 194 / y: 594
+[pointed] REye (14) => prob: 0.76186 / x: 640 / y: 313
+[pointed] LEye (15) => prob: 0.82651 / x: 723 / y: 313
+[pointed] REar (16) => prob: 0.33953 / x: 584 / y: 328
+[pointed] LEar (17) => prob: 0.30735 / x: 779 / y: 344
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ good (67) done ============================
+
+
+============================== good (68) ==============================[pointed] Nose (0) => prob: 0.64302 / x: 584 / y: 344
+[pointed] Neck (1) => prob: 0.63155 / x: 612 / y: 579
+[pointed] RShoulder (2) => prob: 0.42970 / x: 445 / y: 594
+[not pointed] RElbow (3) => prob: 0.01626 / x: 389 / y: 704
+[not pointed] RWrist (4) => prob: 0.00801 / x: 640 / y: 469
+[pointed] LShoulder (5) => prob: 0.53596 / x: 806 / y: 579
+[not pointed] LElbow (6) => prob: 0.08486 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00635 / x: 194 / y: 594
+[not pointed] RHip (8) => prob: 0.00853 / x: 166 / y: 610
+[not pointed] RKnee (9) => prob: 0.00212 / x: 166 / y: 594
+[not pointed] RAnkle (10) => prob: 0.00205 / x: 640 / y: 453
+[not pointed] LHip (11) => prob: 0.01373 / x: 166 / y: 626
+[not pointed] LKnee (12) => prob: 0.00318 / x: 194 / y: 594
+[not pointed] LAnkle (13) => prob: 0.00217 / x: 667 / y: 297
+[pointed] REye (14) => prob: 0.74453 / x: 556 / y: 313
+[pointed] LEye (15) => prob: 0.74675 / x: 640 / y: 313
+[pointed] REar (16) => prob: 0.30470 / x: 500 / y: 344
+[pointed] LEar (17) => prob: 0.39851 / x: 723 / y: 344
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ good (68) done ============================
+
+
+============================== good (69) ==============================[pointed] Nose (0) => prob: 0.66723 / x: 584 / y: 297
+[pointed] Neck (1) => prob: 0.53246 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.41881 / x: 417 / y: 563
+[not pointed] RElbow (3) => prob: 0.02571 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00565 / x: 166 / y: 579
+[pointed] LShoulder (5) => prob: 0.31909 / x: 834 / y: 563
+[not pointed] LElbow (6) => prob: 0.02831 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00516 / x: 1252 / y: 704
+[not pointed] RHip (8) => prob: 0.00500 / x: 166 / y: 594
+[not pointed] RKnee (9) => prob: 0.00332 / x: 556 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00220 / x: 556 / y: 250
+[not pointed] LHip (11) => prob: 0.00508 / x: 166 / y: 594
+[not pointed] LKnee (12) => prob: 0.00242 / x: 695 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00186 / x: 667 / y: 234
+[pointed] REye (14) => prob: 0.72482 / x: 556 / y: 266
+[pointed] LEye (15) => prob: 0.71857 / x: 667 / y: 266
+[not pointed] REar (16) => prob: 0.12874 / x: 473 / y: 281
+[pointed] LEar (17) => prob: 0.35854 / x: 723 / y: 313
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ good (69) done ============================
+
+
+============================== good (70) ==============================[pointed] Nose (0) => prob: 0.70220 / x: 612 / y: 375
+[pointed] Neck (1) => prob: 0.49212 / x: 612 / y: 610
+[pointed] RShoulder (2) => prob: 0.39721 / x: 445 / y: 626
+[not pointed] RElbow (3) => prob: 0.00782 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00651 / x: 640 / y: 500
+[pointed] LShoulder (5) => prob: 0.46557 / x: 806 / y: 610
+[not pointed] LElbow (6) => prob: 0.02605 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00375 / x: 612 / y: 344
+[not pointed] RHip (8) => prob: 0.00238 / x: 166 / y: 610
+[not pointed] RKnee (9) => prob: 0.00126 / x: 500 / y: 657
+[not pointed] RAnkle (10) => prob: 0.00185 / x: 640 / y: 485
+[not pointed] LHip (11) => prob: 0.00286 / x: 584 / y: 344
+[not pointed] LKnee (12) => prob: 0.00192 / x: 695 / y: 328
+[not pointed] LAnkle (13) => prob: 0.00163 / x: 695 / y: 328
+[pointed] REye (14) => prob: 0.72001 / x: 556 / y: 344
+[pointed] LEye (15) => prob: 0.77468 / x: 667 / y: 344
+[pointed] REar (16) => prob: 0.20535 / x: 500 / y: 360
+[pointed] LEar (17) => prob: 0.49091 / x: 723 / y: 375
+[pointed] Background (18) => prob: 1.00029 / x: 667 / y: 0
+
+============================ good (70) done ============================
+
+
+============================== good (71) ==============================[pointed] Nose (0) => prob: 0.70488 / x: 640 / y: 360
+[pointed] Neck (1) => prob: 0.52051 / x: 640 / y: 594
+[pointed] RShoulder (2) => prob: 0.37893 / x: 473 / y: 610
+[not pointed] RElbow (3) => prob: 0.01253 / x: 389 / y: 704
+[not pointed] RWrist (4) => prob: 0.00641 / x: 166 / y: 594
+[pointed] LShoulder (5) => prob: 0.41929 / x: 834 / y: 594
+[not pointed] LElbow (6) => prob: 0.03008 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00496 / x: 194 / y: 594
+[not pointed] RHip (8) => prob: 0.00564 / x: 166 / y: 626
+[not pointed] RKnee (9) => prob: 0.00201 / x: 166 / y: 610
+[not pointed] RAnkle (10) => prob: 0.00221 / x: 612 / y: 438
+[not pointed] LHip (11) => prob: 0.00525 / x: 166 / y: 626
+[not pointed] LKnee (12) => prob: 0.00270 / x: 723 / y: 313
+[not pointed] LAnkle (13) => prob: 0.00223 / x: 723 / y: 313
+[pointed] REye (14) => prob: 0.79267 / x: 584 / y: 328
+[pointed] LEye (15) => prob: 0.75876 / x: 695 / y: 313
+[pointed] REar (16) => prob: 0.33122 / x: 528 / y: 360
+[pointed] LEar (17) => prob: 0.40186 / x: 751 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 667 / y: 0
+
+============================ good (71) done ============================
+
+
+============================== good (72) ==============================[pointed] Nose (0) => prob: 0.67365 / x: 584 / y: 297
+[pointed] Neck (1) => prob: 0.53909 / x: 584 / y: 563
+[pointed] RShoulder (2) => prob: 0.39240 / x: 389 / y: 563
+[not pointed] RElbow (3) => prob: 0.01444 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00619 / x: 166 / y: 579
+[pointed] LShoulder (5) => prob: 0.42758 / x: 806 / y: 563
+[not pointed] LElbow (6) => prob: 0.06830 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00464 / x: 166 / y: 579
+[not pointed] RHip (8) => prob: 0.00643 / x: 166 / y: 594
+[not pointed] RKnee (9) => prob: 0.00561 / x: 166 / y: 594
+[not pointed] RAnkle (10) => prob: 0.00497 / x: 640 / y: 234
+[not pointed] LHip (11) => prob: 0.00587 / x: 166 / y: 594
+[not pointed] LKnee (12) => prob: 0.00457 / x: 166 / y: 594
+[not pointed] LAnkle (13) => prob: 0.00763 / x: 640 / y: 234
+[pointed] REye (14) => prob: 0.77535 / x: 528 / y: 266
+[pointed] LEye (15) => prob: 0.66868 / x: 612 / y: 266
+[pointed] REar (16) => prob: 0.24073 / x: 473 / y: 313
+[pointed] LEar (17) => prob: 0.32664 / x: 695 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ good (72) done ============================
+
+
+============================== good (73) ==============================[pointed] Nose (0) => prob: 0.67301 / x: 584 / y: 375
+[pointed] Neck (1) => prob: 0.53266 / x: 612 / y: 626
+[pointed] RShoulder (2) => prob: 0.45093 / x: 417 / y: 641
+[not pointed] RElbow (3) => prob: 0.00768 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00798 / x: 640 / y: 532
+[pointed] LShoulder (5) => prob: 0.51293 / x: 834 / y: 626
+[not pointed] LElbow (6) => prob: 0.00504 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00286 / x: 584 / y: 344
+[not pointed] RHip (8) => prob: 0.00158 / x: 556 / y: 328
+[not pointed] RKnee (9) => prob: 0.00189 / x: 556 / y: 406
+[not pointed] RAnkle (10) => prob: 0.00243 / x: 612 / y: 532
+[not pointed] LHip (11) => prob: 0.00309 / x: 556 / y: 328
+[not pointed] LKnee (12) => prob: 0.00248 / x: 640 / y: 626
+[not pointed] LAnkle (13) => prob: 0.00159 / x: 667 / y: 328
+[pointed] REye (14) => prob: 0.75589 / x: 556 / y: 328
+[pointed] LEye (15) => prob: 0.72190 / x: 640 / y: 328
+[not pointed] REar (16) => prob: 0.16577 / x: 500 / y: 344
+[pointed] LEar (17) => prob: 0.35115 / x: 723 / y: 375
+[pointed] Background (18) => prob: 1.00029 / x: 417 / y: 0
+
+============================ good (73) done ============================
+
+
+============================== good (74) ==============================[pointed] Nose (0) => prob: 0.56507 / x: 723 / y: 360
+[pointed] Neck (1) => prob: 0.48760 / x: 751 / y: 626
+[pointed] RShoulder (2) => prob: 0.36962 / x: 528 / y: 626
+[not pointed] RElbow (3) => prob: 0.00463 / x: 445 / y: 704
+[not pointed] RWrist (4) => prob: 0.00250 / x: 779 / y: 344
+[pointed] LShoulder (5) => prob: 0.46318 / x: 973 / y: 641
+[not pointed] LElbow (6) => prob: 0.00255 / x: 890 / y: 594
+[not pointed] LWrist (7) => prob: 0.00276 / x: 723 / y: 328
+[not pointed] RHip (8) => prob: 0.00129 / x: 166 / y: 641
+[not pointed] RKnee (9) => prob: 0.00384 / x: 667 / y: 391
+[not pointed] RAnkle (10) => prob: 0.00386 / x: 806 / y: 297
+[not pointed] LHip (11) => prob: 0.00344 / x: 667 / y: 328
+[not pointed] LKnee (12) => prob: 0.00513 / x: 806 / y: 313
+[not pointed] LAnkle (13) => prob: 0.00608 / x: 806 / y: 297
+[pointed] REye (14) => prob: 0.80619 / x: 667 / y: 328
+[pointed] LEye (15) => prob: 0.78213 / x: 779 / y: 328
+[pointed] REar (16) => prob: 0.50870 / x: 612 / y: 375
+[not pointed] LEar (17) => prob: 0.17640 / x: 862 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 445 / y: 0
+
+============================ good (74) done ============================
+
+
+============================== good (75) ==============================[pointed] Nose (0) => prob: 0.56673 / x: 473 / y: 375
+[pointed] Neck (1) => prob: 0.58271 / x: 473 / y: 641
+[pointed] RShoulder (2) => prob: 0.40176 / x: 278 / y: 657
+[not pointed] RElbow (3) => prob: 0.00991 / x: 222 / y: 704
+[not pointed] RWrist (4) => prob: 0.00632 / x: 473 / y: 532
+[pointed] LShoulder (5) => prob: 0.47421 / x: 667 / y: 626
+[not pointed] LElbow (6) => prob: 0.00456 / x: 751 / y: 704
+[not pointed] LWrist (7) => prob: 0.00257 / x: 640 / y: 500
+[not pointed] RHip (8) => prob: 0.00162 / x: 445 / y: 344
+[not pointed] RKnee (9) => prob: 0.00146 / x: 417 / y: 328
+[not pointed] RAnkle (10) => prob: 0.00187 / x: 445 / y: 532
+[not pointed] LHip (11) => prob: 0.00191 / x: 417 / y: 328
+[not pointed] LKnee (12) => prob: 0.00272 / x: 556 / y: 328
+[not pointed] LAnkle (13) => prob: 0.00219 / x: 556 / y: 344
+[pointed] REye (14) => prob: 0.68175 / x: 417 / y: 344
+[pointed] LEye (15) => prob: 0.76230 / x: 528 / y: 344
+[pointed] REar (16) => prob: 0.27150 / x: 333 / y: 360
+[pointed] LEar (17) => prob: 0.25795 / x: 584 / y: 375
+[pointed] Background (18) => prob: 1.00029 / x: 445 / y: 0
+
+============================ good (75) done ============================
+
+
+============================== good (76) ==============================[pointed] Nose (0) => prob: 0.69352 / x: 612 / y: 360
+[pointed] Neck (1) => prob: 0.59941 / x: 640 / y: 626
+[pointed] RShoulder (2) => prob: 0.47789 / x: 417 / y: 626
+[not pointed] RElbow (3) => prob: 0.00771 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00252 / x: 361 / y: 704
+[pointed] LShoulder (5) => prob: 0.44912 / x: 834 / y: 626
+[not pointed] LElbow (6) => prob: 0.01061 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00349 / x: 612 / y: 313
+[not pointed] RHip (8) => prob: 0.00149 / x: 584 / y: 313
+[not pointed] RKnee (9) => prob: 0.00236 / x: 584 / y: 391
+[not pointed] RAnkle (10) => prob: 0.00172 / x: 667 / y: 516
+[not pointed] LHip (11) => prob: 0.00255 / x: 584 / y: 313
+[not pointed] LKnee (12) => prob: 0.00320 / x: 695 / y: 297
+[not pointed] LAnkle (13) => prob: 0.00248 / x: 695 / y: 297
+[pointed] REye (14) => prob: 0.78129 / x: 556 / y: 313
+[pointed] LEye (15) => prob: 0.82660 / x: 667 / y: 313
+[pointed] REar (16) => prob: 0.28411 / x: 500 / y: 344
+[pointed] LEar (17) => prob: 0.22938 / x: 751 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 723 / y: 0
+
+============================ good (76) done ============================
+
+
+============================== good (77) ==============================[pointed] Nose (0) => prob: 0.60941 / x: 612 / y: 406
+[pointed] Neck (1) => prob: 0.59607 / x: 640 / y: 641
+[pointed] RShoulder (2) => prob: 0.43169 / x: 445 / y: 641
+[not pointed] RElbow (3) => prob: 0.00384 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00649 / x: 612 / y: 516
+[pointed] LShoulder (5) => prob: 0.49500 / x: 834 / y: 641
+[not pointed] LElbow (6) => prob: 0.01254 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00318 / x: 556 / y: 391
+[not pointed] RHip (8) => prob: 0.00167 / x: 166 / y: 641
+[not pointed] RKnee (9) => prob: 0.00188 / x: 556 / y: 422
+[not pointed] RAnkle (10) => prob: 0.00233 / x: 584 / y: 485
+[not pointed] LHip (11) => prob: 0.00321 / x: 584 / y: 360
+[not pointed] LKnee (12) => prob: 0.00135 / x: 194 / y: 657
+[not pointed] LAnkle (13) => prob: 0.00099 / x: 584 / y: 375
+[pointed] REye (14) => prob: 0.75570 / x: 584 / y: 360
+[pointed] LEye (15) => prob: 0.68184 / x: 667 / y: 360
+[pointed] REar (16) => prob: 0.36052 / x: 500 / y: 391
+[pointed] LEar (17) => prob: 0.32950 / x: 751 / y: 406
+[pointed] Background (18) => prob: 1.00029 / x: 445 / y: 0
+
+============================ good (77) done ============================
+
+
+============================== good (78) ==============================[pointed] Nose (0) => prob: 0.64475 / x: 612 / y: 422
+[pointed] Neck (1) => prob: 0.46077 / x: 640 / y: 673
+[pointed] RShoulder (2) => prob: 0.29906 / x: 445 / y: 688
+[not pointed] RElbow (3) => prob: 0.00324 / x: 556 / y: 391
+[not pointed] RWrist (4) => prob: 0.00572 / x: 834 / y: 704
+[pointed] LShoulder (5) => prob: 0.34163 / x: 834 / y: 673
+[not pointed] LElbow (6) => prob: 0.00882 / x: 862 / y: 704
+[not pointed] LWrist (7) => prob: 0.00562 / x: 834 / y: 704
+[not pointed] RHip (8) => prob: 0.00259 / x: 640 / y: 704
+[not pointed] RKnee (9) => prob: 0.00204 / x: 528 / y: 688
+[not pointed] RAnkle (10) => prob: 0.00286 / x: 584 / y: 641
+[not pointed] LHip (11) => prob: 0.00396 / x: 556 / y: 391
+[not pointed] LKnee (12) => prob: 0.00194 / x: 556 / y: 391
+[not pointed] LAnkle (13) => prob: 0.00268 / x: 584 / y: 641
+[pointed] REye (14) => prob: 0.83433 / x: 556 / y: 391
+[pointed] LEye (15) => prob: 0.82578 / x: 667 / y: 391
+[not pointed] REar (16) => prob: 0.14689 / x: 500 / y: 422
+[pointed] LEar (17) => prob: 0.39528 / x: 723 / y: 438
+[pointed] Background (18) => prob: 1.00029 / x: 445 / y: 0
+
+============================ good (78) done ============================
+
+
+============================== good (79) ==============================[pointed] Nose (0) => prob: 0.59692 / x: 723 / y: 422
+[pointed] Neck (1) => prob: 0.56042 / x: 723 / y: 673
+[pointed] RShoulder (2) => prob: 0.42917 / x: 528 / y: 657
+[not pointed] RElbow (3) => prob: 0.00416 / x: 445 / y: 704
+[not pointed] RWrist (4) => prob: 0.00437 / x: 946 / y: 704
+[pointed] LShoulder (5) => prob: 0.55196 / x: 946 / y: 673
+[not pointed] LElbow (6) => prob: 0.00679 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00520 / x: 946 / y: 704
+[not pointed] RHip (8) => prob: 0.00350 / x: 751 / y: 704
+[not pointed] RKnee (9) => prob: 0.01400 / x: 612 / y: 688
+[not pointed] RAnkle (10) => prob: 0.00197 / x: 723 / y: 500
+[not pointed] LHip (11) => prob: 0.00316 / x: 695 / y: 375
+[not pointed] LKnee (12) => prob: 0.00220 / x: 834 / y: 375
+[not pointed] LAnkle (13) => prob: 0.00167 / x: 834 / y: 375
+[pointed] REye (14) => prob: 0.75008 / x: 695 / y: 375
+[pointed] LEye (15) => prob: 0.79432 / x: 779 / y: 375
+[pointed] REar (16) => prob: 0.22170 / x: 612 / y: 422
+[pointed] LEar (17) => prob: 0.35196 / x: 862 / y: 406
+[pointed] Background (18) => prob: 1.00029 / x: 445 / y: 0
+
+============================ good (79) done ============================
+

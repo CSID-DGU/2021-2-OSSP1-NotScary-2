@@ -1,0 +1,1863 @@
+
+============================== turtle (1) ==============================[pointed] Nose (0) => prob: 0.71769 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.50414 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.36443 / x: 271 / y: 399
+[not pointed] RElbow (3) => prob: 0.00442 / x: 229 / y: 493
+[not pointed] RWrist (4) => prob: 0.00344 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.45403 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.01485 / x: 709 / y: 481
+[not pointed] LWrist (7) => prob: 0.00353 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00262 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00304 / x: 459 / y: 246
+[not pointed] RAnkle (10) => prob: 0.00289 / x: 480 / y: 281
+[not pointed] LHip (11) => prob: 0.00285 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00254 / x: 542 / y: 176
+[not pointed] LAnkle (13) => prob: 0.00275 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.72094 / x: 417 / y: 187
+[pointed] LEye (15) => prob: 0.70783 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.71110 / x: 375 / y: 211
+[pointed] LEar (17) => prob: 0.60966 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (1) done ============================
+
+
+============================== turtle (2) ==============================[pointed] Nose (0) => prob: 0.72408 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.52224 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.36501 / x: 271 / y: 399
+[not pointed] RElbow (3) => prob: 0.00778 / x: 229 / y: 493
+[not pointed] RWrist (4) => prob: 0.00367 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.42285 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.02013 / x: 688 / y: 493
+[not pointed] LWrist (7) => prob: 0.00388 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00236 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00404 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.00344 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00285 / x: 417 / y: 187
+[not pointed] LKnee (12) => prob: 0.00340 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00433 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.75344 / x: 417 / y: 187
+[pointed] LEye (15) => prob: 0.76292 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.63002 / x: 375 / y: 211
+[pointed] LEar (17) => prob: 0.65516 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (2) done ============================
+
+
+============================== turtle (3) ==============================[pointed] Nose (0) => prob: 0.73999 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.51940 / x: 480 / y: 375
+[pointed] RShoulder (2) => prob: 0.43678 / x: 271 / y: 387
+[not pointed] RElbow (3) => prob: 0.00713 / x: 438 / y: 352
+[not pointed] RWrist (4) => prob: 0.00332 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.45895 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.03476 / x: 709 / y: 504
+[not pointed] LWrist (7) => prob: 0.00311 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00273 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00628 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.01321 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00246 / x: 438 / y: 199
+[not pointed] LKnee (12) => prob: 0.00673 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00479 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.67035 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.78882 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.65402 / x: 375 / y: 223
+[pointed] LEar (17) => prob: 0.63423 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (3) done ============================
+
+
+============================== turtle (4) ==============================[pointed] Nose (0) => prob: 0.66822 / x: 459 / y: 234
+[pointed] Neck (1) => prob: 0.51934 / x: 480 / y: 375
+[pointed] RShoulder (2) => prob: 0.44806 / x: 271 / y: 375
+[not pointed] RElbow (3) => prob: 0.00657 / x: 229 / y: 481
+[not pointed] RWrist (4) => prob: 0.00339 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.47772 / x: 667 / y: 363
+[not pointed] LElbow (6) => prob: 0.00664 / x: 709 / y: 457
+[not pointed] LWrist (7) => prob: 0.00376 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00260 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00578 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.01088 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00239 / x: 417 / y: 187
+[not pointed] LKnee (12) => prob: 0.00610 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00327 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.73199 / x: 417 / y: 187
+[pointed] LEye (15) => prob: 0.76030 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.70502 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.41685 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (4) done ============================
+
+
+============================== turtle (5) ==============================[pointed] Nose (0) => prob: 0.62899 / x: 500 / y: 234
+[pointed] Neck (1) => prob: 0.52695 / x: 459 / y: 375
+[pointed] RShoulder (2) => prob: 0.42467 / x: 271 / y: 387
+[not pointed] RElbow (3) => prob: 0.00776 / x: 229 / y: 493
+[not pointed] RWrist (4) => prob: 0.00284 / x: 396 / y: 199
+[pointed] LShoulder (5) => prob: 0.48051 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.01060 / x: 688 / y: 481
+[not pointed] LWrist (7) => prob: 0.00299 / x: 500 / y: 199
+[not pointed] RHip (8) => prob: 0.00121 / x: 500 / y: 270
+[not pointed] RKnee (9) => prob: 0.00182 / x: 480 / y: 246
+[not pointed] RAnkle (10) => prob: 0.00791 / x: 542 / y: 176
+[not pointed] LHip (11) => prob: 0.00395 / x: 438 / y: 187
+[not pointed] LKnee (12) => prob: 0.00274 / x: 563 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00860 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.78989 / x: 438 / y: 187
+[pointed] LEye (15) => prob: 0.75290 / x: 542 / y: 187
+[pointed] REar (16) => prob: 0.68029 / x: 375 / y: 223
+[not pointed] LEar (17) => prob: 0.13392 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (5) done ============================
+
+
+============================== turtle (6) ==============================[pointed] Nose (0) => prob: 0.68286 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.49522 / x: 459 / y: 375
+[pointed] RShoulder (2) => prob: 0.38916 / x: 271 / y: 387
+[not pointed] RElbow (3) => prob: 0.00368 / x: 229 / y: 493
+[not pointed] RWrist (4) => prob: 0.00314 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.47704 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.03204 / x: 709 / y: 493
+[not pointed] LWrist (7) => prob: 0.00337 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00338 / x: 480 / y: 246
+[not pointed] RKnee (9) => prob: 0.00828 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.00858 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00242 / x: 480 / y: 270
+[not pointed] LKnee (12) => prob: 0.00817 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00256 / x: 563 / y: 199
+[pointed] REye (14) => prob: 0.69847 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.74612 / x: 542 / y: 199
+[pointed] REar (16) => prob: 0.66486 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.32852 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (6) done ============================
+
+
+============================== turtle (7) ==============================[pointed] Nose (0) => prob: 0.67527 / x: 459 / y: 246
+[pointed] Neck (1) => prob: 0.48815 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.28020 / x: 250 / y: 399
+[not pointed] RElbow (3) => prob: 0.00165 / x: 709 / y: 516
+[not pointed] RWrist (4) => prob: 0.00303 / x: 375 / y: 211
+[pointed] LShoulder (5) => prob: 0.44368 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.02502 / x: 709 / y: 493
+[not pointed] LWrist (7) => prob: 0.00311 / x: 375 / y: 211
+[not pointed] RHip (8) => prob: 0.00193 / x: 480 / y: 281
+[not pointed] RKnee (9) => prob: 0.00799 / x: 459 / y: 270
+[not pointed] RAnkle (10) => prob: 0.01023 / x: 459 / y: 270
+[not pointed] LHip (11) => prob: 0.00379 / x: 417 / y: 199
+[not pointed] LKnee (12) => prob: 0.00827 / x: 459 / y: 270
+[not pointed] LAnkle (13) => prob: 0.00217 / x: 563 / y: 199
+[pointed] REye (14) => prob: 0.83598 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.82373 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.67957 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.53973 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 250 / y: 0
+
+============================ turtle (7) done ============================
+
+
+============================== turtle (8) ==============================[pointed] Nose (0) => prob: 0.74385 / x: 480 / y: 223
+[pointed] Neck (1) => prob: 0.48833 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.37862 / x: 271 / y: 399
+[not pointed] RElbow (3) => prob: 0.00305 / x: 229 / y: 493
+[not pointed] RWrist (4) => prob: 0.00327 / x: 396 / y: 199
+[pointed] LShoulder (5) => prob: 0.46553 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.00700 / x: 688 / y: 469
+[not pointed] LWrist (7) => prob: 0.00338 / x: 396 / y: 199
+[not pointed] RHip (8) => prob: 0.00199 / x: 480 / y: 258
+[not pointed] RKnee (9) => prob: 0.00263 / x: 459 / y: 387
+[not pointed] RAnkle (10) => prob: 0.00416 / x: 480 / y: 246
+[not pointed] LHip (11) => prob: 0.00333 / x: 438 / y: 176
+[not pointed] LKnee (12) => prob: 0.00324 / x: 542 / y: 176
+[not pointed] LAnkle (13) => prob: 0.00488 / x: 542 / y: 164
+[pointed] REye (14) => prob: 0.71085 / x: 438 / y: 176
+[pointed] LEye (15) => prob: 0.75497 / x: 542 / y: 187
+[pointed] REar (16) => prob: 0.66473 / x: 375 / y: 211
+[pointed] LEar (17) => prob: 0.70527 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (8) done ============================
+
+
+============================== turtle (9) ==============================[pointed] Nose (0) => prob: 0.66941 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.48730 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.34955 / x: 271 / y: 399
+[not pointed] RElbow (3) => prob: 0.00312 / x: 208 / y: 493
+[not pointed] RWrist (4) => prob: 0.00329 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.42948 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.01045 / x: 688 / y: 469
+[not pointed] LWrist (7) => prob: 0.00335 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00236 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00733 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.00905 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00324 / x: 417 / y: 199
+[not pointed] LKnee (12) => prob: 0.00720 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00115 / x: 480 / y: 199
+[pointed] REye (14) => prob: 0.77057 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.81627 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.68922 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.42089 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (9) done ============================
+
+
+============================== turtle (10) ==============================[pointed] Nose (0) => prob: 0.74427 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.49180 / x: 459 / y: 375
+[pointed] RShoulder (2) => prob: 0.33575 / x: 250 / y: 387
+[not pointed] RElbow (3) => prob: 0.00189 / x: 542 / y: 199
+[not pointed] RWrist (4) => prob: 0.00347 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.42499 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.00668 / x: 709 / y: 457
+[not pointed] LWrist (7) => prob: 0.00368 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00190 / x: 563 / y: 199
+[not pointed] RKnee (9) => prob: 0.00415 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.00464 / x: 542 / y: 176
+[not pointed] LHip (11) => prob: 0.00293 / x: 417 / y: 187
+[not pointed] LKnee (12) => prob: 0.00314 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00745 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.74369 / x: 417 / y: 187
+[pointed] LEye (15) => prob: 0.75231 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.63903 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.54680 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (10) done ============================
+
+
+============================== turtle (11) ==============================[pointed] Nose (0) => prob: 0.61448 / x: 459 / y: 234
+[pointed] Neck (1) => prob: 0.51501 / x: 459 / y: 375
+[pointed] RShoulder (2) => prob: 0.39504 / x: 271 / y: 387
+[not pointed] RElbow (3) => prob: 0.00829 / x: 229 / y: 493
+[not pointed] RWrist (4) => prob: 0.00344 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.41996 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.00706 / x: 688 / y: 469
+[not pointed] LWrist (7) => prob: 0.00374 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00177 / x: 542 / y: 199
+[not pointed] RKnee (9) => prob: 0.00185 / x: 459 / y: 375
+[not pointed] RAnkle (10) => prob: 0.00467 / x: 521 / y: 176
+[not pointed] LHip (11) => prob: 0.00418 / x: 417 / y: 187
+[not pointed] LKnee (12) => prob: 0.00303 / x: 521 / y: 176
+[not pointed] LAnkle (13) => prob: 0.00808 / x: 521 / y: 176
+[pointed] REye (14) => prob: 0.78510 / x: 417 / y: 187
+[pointed] LEye (15) => prob: 0.75085 / x: 521 / y: 187
+[pointed] REar (16) => prob: 0.67294 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.68151 / x: 563 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (11) done ============================
+
+
+============================== turtle (12) ==============================[pointed] Nose (0) => prob: 0.72626 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.52178 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.34870 / x: 250 / y: 399
+[not pointed] RElbow (3) => prob: 0.00145 / x: 480 / y: 246
+[not pointed] RWrist (4) => prob: 0.00322 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.45063 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.00617 / x: 709 / y: 469
+[not pointed] LWrist (7) => prob: 0.00306 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00192 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00529 / x: 480 / y: 258
+[not pointed] RAnkle (10) => prob: 0.00486 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00280 / x: 438 / y: 199
+[not pointed] LKnee (12) => prob: 0.00482 / x: 480 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00132 / x: 521 / y: 176
+[pointed] REye (14) => prob: 0.72045 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.78754 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.63319 / x: 375 / y: 223
+[pointed] LEar (17) => prob: 0.42294 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (12) done ============================
+
+
+============================== turtle (13) ==============================[pointed] Nose (0) => prob: 0.64142 / x: 459 / y: 234
+[pointed] Neck (1) => prob: 0.51789 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.35923 / x: 271 / y: 399
+[not pointed] RElbow (3) => prob: 0.00308 / x: 229 / y: 493
+[not pointed] RWrist (4) => prob: 0.00281 / x: 396 / y: 223
+[pointed] LShoulder (5) => prob: 0.44199 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.04497 / x: 709 / y: 493
+[not pointed] LWrist (7) => prob: 0.00304 / x: 396 / y: 223
+[not pointed] RHip (8) => prob: 0.00208 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00644 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.00727 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00356 / x: 417 / y: 199
+[not pointed] LKnee (12) => prob: 0.00617 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00206 / x: 709 / y: 516
+[pointed] REye (14) => prob: 0.81142 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.84374 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.63602 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.55449 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (13) done ============================
+
+
+============================== turtle (14) ==============================[pointed] Nose (0) => prob: 0.73496 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.49653 / x: 459 / y: 375
+[pointed] RShoulder (2) => prob: 0.39635 / x: 271 / y: 387
+[not pointed] RElbow (3) => prob: 0.00242 / x: 438 / y: 352
+[not pointed] RWrist (4) => prob: 0.00360 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.45388 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.01301 / x: 709 / y: 481
+[not pointed] LWrist (7) => prob: 0.00351 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00276 / x: 480 / y: 246
+[not pointed] RKnee (9) => prob: 0.00595 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.00989 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00302 / x: 438 / y: 199
+[not pointed] LKnee (12) => prob: 0.00603 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00228 / x: 563 / y: 199
+[pointed] REye (14) => prob: 0.69037 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.77220 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.65852 / x: 375 / y: 211
+[pointed] LEar (17) => prob: 0.47357 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (14) done ============================
+
+
+============================== turtle (15) ==============================[pointed] Nose (0) => prob: 0.70307 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.48039 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.35983 / x: 271 / y: 399
+[not pointed] RElbow (3) => prob: 0.00234 / x: 542 / y: 199
+[not pointed] RWrist (4) => prob: 0.00354 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.42029 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.00820 / x: 709 / y: 469
+[not pointed] LWrist (7) => prob: 0.00361 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00398 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00567 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.01253 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00222 / x: 563 / y: 211
+[not pointed] LKnee (12) => prob: 0.00600 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00501 / x: 521 / y: 176
+[pointed] REye (14) => prob: 0.70332 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.83886 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.70987 / x: 375 / y: 211
+[pointed] LEar (17) => prob: 0.65377 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (15) done ============================
+
+
+============================== turtle (16) ==============================[pointed] Nose (0) => prob: 0.66875 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.51964 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.37564 / x: 271 / y: 399
+[not pointed] RElbow (3) => prob: 0.00328 / x: 229 / y: 493
+[not pointed] RWrist (4) => prob: 0.00316 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.46206 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.05002 / x: 709 / y: 493
+[not pointed] LWrist (7) => prob: 0.00329 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00222 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00490 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.01001 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00218 / x: 417 / y: 199
+[not pointed] LKnee (12) => prob: 0.00506 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00249 / x: 688 / y: 481
+[pointed] REye (14) => prob: 0.74745 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.85643 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.65974 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.64118 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (16) done ============================
+
+
+============================== turtle (17) ==============================[pointed] Nose (0) => prob: 0.70160 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.47970 / x: 459 / y: 375
+[pointed] RShoulder (2) => prob: 0.41421 / x: 271 / y: 387
+[not pointed] RElbow (3) => prob: 0.00286 / x: 438 / y: 352
+[not pointed] RWrist (4) => prob: 0.00354 / x: 480 / y: 293
+[pointed] LShoulder (5) => prob: 0.42838 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.00961 / x: 709 / y: 469
+[not pointed] LWrist (7) => prob: 0.00360 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00283 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00461 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.01199 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00211 / x: 480 / y: 270
+[not pointed] LKnee (12) => prob: 0.00483 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00378 / x: 521 / y: 176
+[pointed] REye (14) => prob: 0.74297 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.83747 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.69097 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.53352 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (17) done ============================
+
+
+============================== turtle (18) ==============================[pointed] Nose (0) => prob: 0.73249 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.50749 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.35132 / x: 271 / y: 387
+[not pointed] RElbow (3) => prob: 0.00214 / x: 480 / y: 246
+[not pointed] RWrist (4) => prob: 0.00355 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.42736 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.00677 / x: 688 / y: 469
+[not pointed] LWrist (7) => prob: 0.00350 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00455 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00605 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.01209 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00247 / x: 438 / y: 199
+[not pointed] LKnee (12) => prob: 0.00630 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00251 / x: 563 / y: 199
+[pointed] REye (14) => prob: 0.66920 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.79433 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.68445 / x: 375 / y: 211
+[pointed] LEar (17) => prob: 0.58962 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (18) done ============================
+
+
+============================== turtle (19) ==============================[pointed] Nose (0) => prob: 0.71965 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.51290 / x: 459 / y: 387
+[pointed] RShoulder (2) => prob: 0.39413 / x: 271 / y: 387
+[not pointed] RElbow (3) => prob: 0.01782 / x: 229 / y: 493
+[not pointed] RWrist (4) => prob: 0.00381 / x: 229 / y: 528
+[pointed] LShoulder (5) => prob: 0.46939 / x: 667 / y: 375
+[not pointed] LElbow (6) => prob: 0.00614 / x: 709 / y: 457
+[not pointed] LWrist (7) => prob: 0.00349 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00359 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00571 / x: 459 / y: 258
+[not pointed] RAnkle (10) => prob: 0.01090 / x: 459 / y: 258
+[not pointed] LHip (11) => prob: 0.00211 / x: 480 / y: 270
+[not pointed] LKnee (12) => prob: 0.00598 / x: 459 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00235 / x: 521 / y: 176
+[pointed] REye (14) => prob: 0.70087 / x: 417 / y: 199
+[pointed] LEye (15) => prob: 0.79947 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.68397 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.57396 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (19) done ============================
+
+
+============================== turtle (20) ==============================[pointed] Nose (0) => prob: 0.72649 / x: 480 / y: 234
+[pointed] Neck (1) => prob: 0.52461 / x: 459 / y: 375
+[pointed] RShoulder (2) => prob: 0.35003 / x: 271 / y: 387
+[not pointed] RElbow (3) => prob: 0.00231 / x: 542 / y: 199
+[not pointed] RWrist (4) => prob: 0.00370 / x: 396 / y: 211
+[pointed] LShoulder (5) => prob: 0.43852 / x: 667 / y: 363
+[not pointed] LElbow (6) => prob: 0.02692 / x: 709 / y: 481
+[not pointed] LWrist (7) => prob: 0.00393 / x: 396 / y: 211
+[not pointed] RHip (8) => prob: 0.00288 / x: 480 / y: 270
+[not pointed] RKnee (9) => prob: 0.00423 / x: 480 / y: 258
+[not pointed] RAnkle (10) => prob: 0.00475 / x: 480 / y: 258
+[not pointed] LHip (11) => prob: 0.00262 / x: 417 / y: 187
+[not pointed] LKnee (12) => prob: 0.00448 / x: 480 / y: 258
+[not pointed] LAnkle (13) => prob: 0.00414 / x: 542 / y: 176
+[pointed] REye (14) => prob: 0.73790 / x: 417 / y: 187
+[pointed] LEye (15) => prob: 0.73640 / x: 521 / y: 199
+[pointed] REar (16) => prob: 0.63915 / x: 354 / y: 211
+[pointed] LEar (17) => prob: 0.70347 / x: 584 / y: 211
+[pointed] Background (18) => prob: 1.00029 / x: 62 / y: 0
+
+============================ turtle (20) done ============================
+
+
+============================== turtle (21) ==============================[pointed] Nose (0) => prob: 0.72963 / x: 640 / y: 485
+[pointed] Neck (1) => prob: 0.41522 / x: 640 / y: 563
+[pointed] RShoulder (2) => prob: 0.25617 / x: 361 / y: 579
+[not pointed] RElbow (3) => prob: 0.00599 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.02169 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.27036 / x: 890 / y: 547
+[not pointed] LElbow (6) => prob: 0.02468 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.02958 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00293 / x: 0 / y: 250
+[not pointed] RKnee (9) => prob: 0.00331 / x: 500 / y: 453
+[not pointed] RAnkle (10) => prob: 0.01595 / x: 55 / y: 219
+[not pointed] LHip (11) => prob: 0.00396 / x: 0 / y: 219
+[not pointed] LKnee (12) => prob: 0.00674 / x: 55 / y: 203
+[not pointed] LAnkle (13) => prob: 0.01274 / x: 55 / y: 219
+[pointed] REye (14) => prob: 0.81797 / x: 556 / y: 391
+[pointed] LEye (15) => prob: 0.72917 / x: 723 / y: 391
+[not pointed] REar (16) => prob: 0.18089 / x: 473 / y: 406
+[pointed] LEar (17) => prob: 0.50553 / x: 806 / y: 406
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ turtle (21) done ============================
+
+
+============================== turtle (22) ==============================[pointed] Nose (0) => prob: 0.74656 / x: 667 / y: 406
+[pointed] Neck (1) => prob: 0.45473 / x: 640 / y: 516
+[pointed] RShoulder (2) => prob: 0.30708 / x: 361 / y: 547
+[not pointed] RElbow (3) => prob: 0.01155 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.01273 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.35933 / x: 890 / y: 500
+[not pointed] LElbow (6) => prob: 0.11221 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.01674 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00196 / x: 918 / y: 579
+[not pointed] RKnee (9) => prob: 0.00942 / x: 584 / y: 422
+[not pointed] RAnkle (10) => prob: 0.00497 / x: 27 / y: 234
+[not pointed] LHip (11) => prob: 0.00240 / x: 751 / y: 313
+[not pointed] LKnee (12) => prob: 0.00733 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00413 / x: 83 / y: 219
+[pointed] REye (14) => prob: 0.77424 / x: 584 / y: 313
+[pointed] LEye (15) => prob: 0.74240 / x: 751 / y: 313
+[pointed] REar (16) => prob: 0.38261 / x: 473 / y: 344
+[pointed] LEar (17) => prob: 0.57686 / x: 806 / y: 344
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (22) done ============================
+
+
+============================== turtle (23) ==============================[pointed] Nose (0) => prob: 0.57248 / x: 695 / y: 563
+[pointed] Neck (1) => prob: 0.45046 / x: 667 / y: 563
+[pointed] RShoulder (2) => prob: 0.26863 / x: 361 / y: 579
+[not pointed] RElbow (3) => prob: 0.00483 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.01570 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.25361 / x: 890 / y: 532
+[not pointed] LElbow (6) => prob: 0.00958 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.02677 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00213 / x: 612 / y: 469
+[not pointed] RKnee (9) => prob: 0.00905 / x: 779 / y: 469
+[not pointed] RAnkle (10) => prob: 0.01054 / x: 27 / y: 234
+[not pointed] LHip (11) => prob: 0.00424 / x: 779 / y: 469
+[not pointed] LKnee (12) => prob: 0.00878 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00874 / x: 55 / y: 219
+[pointed] REye (14) => prob: 0.72793 / x: 584 / y: 469
+[pointed] LEye (15) => prob: 0.69032 / x: 779 / y: 469
+[pointed] REar (16) => prob: 0.38208 / x: 473 / y: 375
+[not pointed] LEar (17) => prob: 0.04097 / x: 779 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (23) done ============================
+
+
+============================== turtle (24) ==============================[pointed] Nose (0) => prob: 0.74031 / x: 695 / y: 500
+[pointed] Neck (1) => prob: 0.41212 / x: 640 / y: 532
+[pointed] RShoulder (2) => prob: 0.29319 / x: 361 / y: 547
+[not pointed] RElbow (3) => prob: 0.01425 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.00864 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.22677 / x: 890 / y: 500
+[not pointed] LElbow (6) => prob: 0.03592 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01486 / x: 723 / y: 516
+[not pointed] RHip (8) => prob: 0.00147 / x: 667 / y: 438
+[not pointed] RKnee (9) => prob: 0.00223 / x: 55 / y: 203
+[not pointed] RAnkle (10) => prob: 0.00502 / x: 0 / y: 0
+[not pointed] LHip (11) => prob: 0.00236 / x: 55 / y: 234
+[not pointed] LKnee (12) => prob: 0.00893 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00598 / x: 0 / y: 0
+[pointed] REye (14) => prob: 0.71282 / x: 612 / y: 391
+[pointed] LEye (15) => prob: 0.73921 / x: 779 / y: 406
+[pointed] REar (16) => prob: 0.33697 / x: 500 / y: 391
+[not pointed] LEar (17) => prob: 0.03232 / x: 862 / y: 406
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (24) done ============================
+
+
+============================== turtle (25) ==============================[pointed] Nose (0) => prob: 0.72446 / x: 640 / y: 406
+[pointed] Neck (1) => prob: 0.44788 / x: 640 / y: 516
+[pointed] RShoulder (2) => prob: 0.31732 / x: 361 / y: 547
+[not pointed] RElbow (3) => prob: 0.01033 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.00863 / x: 55 / y: 234
+[pointed] LShoulder (5) => prob: 0.40225 / x: 890 / y: 500
+[not pointed] LElbow (6) => prob: 0.11049 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.01392 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00157 / x: 361 / y: 626
+[not pointed] RKnee (9) => prob: 0.00529 / x: 528 / y: 422
+[not pointed] RAnkle (10) => prob: 0.00842 / x: 0 / y: 0
+[not pointed] LHip (11) => prob: 0.00202 / x: 55 / y: 234
+[not pointed] LKnee (12) => prob: 0.00624 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00934 / x: 0 / y: 0
+[pointed] REye (14) => prob: 0.77855 / x: 556 / y: 328
+[pointed] LEye (15) => prob: 0.83703 / x: 723 / y: 328
+[pointed] REar (16) => prob: 0.42710 / x: 445 / y: 344
+[pointed] LEar (17) => prob: 0.62341 / x: 806 / y: 344
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ turtle (25) done ============================
+
+
+============================== turtle (26) ==============================[pointed] Nose (0) => prob: 0.68137 / x: 667 / y: 422
+[pointed] Neck (1) => prob: 0.50363 / x: 640 / y: 547
+[pointed] RShoulder (2) => prob: 0.28698 / x: 361 / y: 563
+[not pointed] RElbow (3) => prob: 0.00411 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.00716 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.33205 / x: 890 / y: 532
+[not pointed] LElbow (6) => prob: 0.04656 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.00883 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00134 / x: 640 / y: 438
+[not pointed] RKnee (9) => prob: 0.00202 / x: 612 / y: 453
+[not pointed] RAnkle (10) => prob: 0.01346 / x: 0 / y: 0
+[not pointed] LHip (11) => prob: 0.00272 / x: 556 / y: 344
+[not pointed] LKnee (12) => prob: 0.00504 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.01425 / x: 0 / y: 0
+[pointed] REye (14) => prob: 0.86017 / x: 556 / y: 344
+[pointed] LEye (15) => prob: 0.84388 / x: 751 / y: 344
+[pointed] REar (16) => prob: 0.22390 / x: 445 / y: 344
+[pointed] LEar (17) => prob: 0.47633 / x: 834 / y: 375
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ turtle (26) done ============================
+
+
+============================== turtle (27) ==============================[pointed] Nose (0) => prob: 0.76534 / x: 695 / y: 422
+[pointed] Neck (1) => prob: 0.48878 / x: 667 / y: 547
+[pointed] RShoulder (2) => prob: 0.30940 / x: 361 / y: 563
+[not pointed] RElbow (3) => prob: 0.01078 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.00892 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.31271 / x: 918 / y: 532
+[not pointed] LElbow (6) => prob: 0.04919 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01191 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00136 / x: 946 / y: 469
+[not pointed] RKnee (9) => prob: 0.00612 / x: 667 / y: 453
+[not pointed] RAnkle (10) => prob: 0.00789 / x: 0 / y: 0
+[not pointed] LHip (11) => prob: 0.00136 / x: 55 / y: 234
+[not pointed] LKnee (12) => prob: 0.00947 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00856 / x: 0 / y: 0
+[pointed] REye (14) => prob: 0.72574 / x: 612 / y: 344
+[pointed] LEye (15) => prob: 0.78764 / x: 779 / y: 344
+[pointed] REar (16) => prob: 0.36068 / x: 500 / y: 344
+[pointed] LEar (17) => prob: 0.49159 / x: 862 / y: 375
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (27) done ============================
+
+
+============================== turtle (28) ==============================[pointed] Nose (0) => prob: 0.74905 / x: 723 / y: 422
+[pointed] Neck (1) => prob: 0.38032 / x: 695 / y: 547
+[pointed] RShoulder (2) => prob: 0.31261 / x: 389 / y: 547
+[not pointed] RElbow (3) => prob: 0.01078 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00843 / x: 55 / y: 219
+[not pointed] LShoulder (5) => prob: 0.16955 / x: 946 / y: 547
+[not pointed] LElbow (6) => prob: 0.00209 / x: 1001 / y: 626
+[not pointed] LWrist (7) => prob: 0.01021 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00123 / x: 389 / y: 626
+[not pointed] RKnee (9) => prob: 0.00287 / x: 695 / y: 453
+[not pointed] RAnkle (10) => prob: 0.01131 / x: 27 / y: 234
+[not pointed] LHip (11) => prob: 0.00214 / x: 806 / y: 344
+[not pointed] LKnee (12) => prob: 0.00921 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.01070 / x: 55 / y: 219
+[pointed] REye (14) => prob: 0.81536 / x: 640 / y: 344
+[pointed] LEye (15) => prob: 0.80712 / x: 806 / y: 344
+[pointed] REar (16) => prob: 0.53057 / x: 528 / y: 344
+[not pointed] LEar (17) => prob: 0.16396 / x: 890 / y: 375
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (28) done ============================
+
+
+============================== turtle (29) ==============================[pointed] Nose (0) => prob: 0.70622 / x: 667 / y: 422
+[pointed] Neck (1) => prob: 0.39828 / x: 640 / y: 547
+[pointed] RShoulder (2) => prob: 0.25899 / x: 361 / y: 579
+[not pointed] RElbow (3) => prob: 0.00295 / x: 1001 / y: 688
+[not pointed] RWrist (4) => prob: 0.00739 / x: 55 / y: 234
+[pointed] LShoulder (5) => prob: 0.29762 / x: 918 / y: 516
+[not pointed] LElbow (6) => prob: 0.05476 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01202 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00134 / x: 640 / y: 375
+[not pointed] RKnee (9) => prob: 0.00483 / x: 640 / y: 453
+[not pointed] RAnkle (10) => prob: 0.00395 / x: 0 / y: 250
+[not pointed] LHip (11) => prob: 0.00192 / x: 584 / y: 344
+[not pointed] LKnee (12) => prob: 0.00397 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00394 / x: 0 / y: 250
+[pointed] REye (14) => prob: 0.81029 / x: 584 / y: 344
+[pointed] LEye (15) => prob: 0.79495 / x: 751 / y: 344
+[pointed] REar (16) => prob: 0.46289 / x: 473 / y: 375
+[pointed] LEar (17) => prob: 0.56908 / x: 834 / y: 375
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (29) done ============================
+
+
+============================== turtle (30) ==============================[pointed] Nose (0) => prob: 0.69133 / x: 667 / y: 406
+[pointed] Neck (1) => prob: 0.41241 / x: 612 / y: 547
+[pointed] RShoulder (2) => prob: 0.27567 / x: 333 / y: 579
+[not pointed] RElbow (3) => prob: 0.00605 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.00940 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.33640 / x: 918 / y: 547
+[not pointed] LElbow (6) => prob: 0.03578 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01566 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00199 / x: 695 / y: 453
+[not pointed] RKnee (9) => prob: 0.00228 / x: 640 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00690 / x: 0 / y: 250
+[not pointed] LHip (11) => prob: 0.00263 / x: 55 / y: 234
+[not pointed] LKnee (12) => prob: 0.01183 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00690 / x: 0 / y: 250
+[pointed] REye (14) => prob: 0.81855 / x: 584 / y: 328
+[pointed] LEye (15) => prob: 0.78548 / x: 751 / y: 328
+[pointed] REar (16) => prob: 0.54805 / x: 473 / y: 344
+[pointed] LEar (17) => prob: 0.20266 / x: 834 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (30) done ============================
+
+
+============================== turtle (31) ==============================[pointed] Nose (0) => prob: 0.75990 / x: 667 / y: 406
+[pointed] Neck (1) => prob: 0.35268 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.26775 / x: 333 / y: 579
+[not pointed] RElbow (3) => prob: 0.00542 / x: 250 / y: 704
+[not pointed] RWrist (4) => prob: 0.00836 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.30347 / x: 918 / y: 547
+[not pointed] LElbow (6) => prob: 0.02441 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01135 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00192 / x: 695 / y: 453
+[not pointed] RKnee (9) => prob: 0.00451 / x: 667 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00317 / x: 0 / y: 250
+[not pointed] LHip (11) => prob: 0.00277 / x: 584 / y: 328
+[not pointed] LKnee (12) => prob: 0.00911 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00313 / x: 0 / y: 250
+[pointed] REye (14) => prob: 0.86842 / x: 584 / y: 328
+[pointed] LEye (15) => prob: 0.74586 / x: 751 / y: 328
+[pointed] REar (16) => prob: 0.47139 / x: 473 / y: 328
+[not pointed] LEar (17) => prob: 0.08201 / x: 834 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (31) done ============================
+
+
+============================== turtle (32) ==============================[pointed] Nose (0) => prob: 0.67768 / x: 612 / y: 406
+[pointed] Neck (1) => prob: 0.43113 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.27610 / x: 333 / y: 594
+[not pointed] RElbow (3) => prob: 0.00310 / x: 500 / y: 328
+[not pointed] RWrist (4) => prob: 0.01193 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.40739 / x: 890 / y: 532
+[not pointed] LElbow (6) => prob: 0.05473 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01858 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00558 / x: 612 / y: 422
+[not pointed] RKnee (9) => prob: 0.00378 / x: 584 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00579 / x: 0 / y: 250
+[not pointed] LHip (11) => prob: 0.00256 / x: 500 / y: 328
+[not pointed] LKnee (12) => prob: 0.01016 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00583 / x: 0 / y: 250
+[pointed] REye (14) => prob: 0.86028 / x: 500 / y: 328
+[pointed] LEye (15) => prob: 0.68462 / x: 667 / y: 313
+[pointed] REar (16) => prob: 0.23841 / x: 389 / y: 375
+[pointed] LEar (17) => prob: 0.62513 / x: 779 / y: 344
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (32) done ============================
+
+
+============================== turtle (33) ==============================[pointed] Nose (0) => prob: 0.69115 / x: 612 / y: 422
+[pointed] Neck (1) => prob: 0.39681 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.22679 / x: 333 / y: 610
+[not pointed] RElbow (3) => prob: 0.00250 / x: 528 / y: 328
+[not pointed] RWrist (4) => prob: 0.00410 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.40833 / x: 890 / y: 547
+[not pointed] LElbow (6) => prob: 0.06211 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.00413 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00479 / x: 612 / y: 422
+[not pointed] RKnee (9) => prob: 0.00618 / x: 528 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00592 / x: 27 / y: 234
+[not pointed] LHip (11) => prob: 0.00244 / x: 500 / y: 328
+[not pointed] LKnee (12) => prob: 0.00926 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00621 / x: 27 / y: 234
+[pointed] REye (14) => prob: 0.78519 / x: 500 / y: 328
+[pointed] LEye (15) => prob: 0.78036 / x: 695 / y: 328
+[not pointed] REar (16) => prob: 0.16818 / x: 417 / y: 391
+[pointed] LEar (17) => prob: 0.60647 / x: 779 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (33) done ============================
+
+
+============================== turtle (34) ==============================[pointed] Nose (0) => prob: 0.71084 / x: 612 / y: 422
+[pointed] Neck (1) => prob: 0.44420 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.24429 / x: 333 / y: 594
+[not pointed] RElbow (3) => prob: 0.00240 / x: 612 / y: 422
+[not pointed] RWrist (4) => prob: 0.00941 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.43264 / x: 890 / y: 532
+[not pointed] LElbow (6) => prob: 0.08648 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01217 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00492 / x: 612 / y: 422
+[not pointed] RKnee (9) => prob: 0.00451 / x: 584 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00576 / x: 0 / y: 250
+[not pointed] LHip (11) => prob: 0.00163 / x: 584 / y: 360
+[not pointed] LKnee (12) => prob: 0.01168 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00573 / x: 0 / y: 250
+[pointed] REye (14) => prob: 0.81295 / x: 528 / y: 328
+[pointed] LEye (15) => prob: 0.79951 / x: 695 / y: 328
+[not pointed] REar (16) => prob: 0.18404 / x: 417 / y: 375
+[pointed] LEar (17) => prob: 0.60408 / x: 779 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (34) done ============================
+
+
+============================== turtle (35) ==============================[pointed] Nose (0) => prob: 0.83183 / x: 612 / y: 422
+[pointed] Neck (1) => prob: 0.42005 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.25015 / x: 333 / y: 594
+[not pointed] RElbow (3) => prob: 0.00196 / x: 1001 / y: 688
+[not pointed] RWrist (4) => prob: 0.01083 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.43398 / x: 890 / y: 532
+[not pointed] LElbow (6) => prob: 0.07026 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.01550 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00117 / x: 695 / y: 438
+[not pointed] RKnee (9) => prob: 0.00532 / x: 584 / y: 453
+[not pointed] RAnkle (10) => prob: 0.00259 / x: 584 / y: 532
+[not pointed] LHip (11) => prob: 0.00154 / x: 83 / y: 219
+[not pointed] LKnee (12) => prob: 0.00721 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00343 / x: 83 / y: 219
+[pointed] REye (14) => prob: 0.82914 / x: 528 / y: 344
+[pointed] LEye (15) => prob: 0.82975 / x: 695 / y: 328
+[pointed] REar (16) => prob: 0.23900 / x: 417 / y: 375
+[pointed] LEar (17) => prob: 0.62147 / x: 779 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (35) done ============================
+
+
+============================== turtle (36) ==============================[pointed] Nose (0) => prob: 0.70251 / x: 612 / y: 406
+[pointed] Neck (1) => prob: 0.42016 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.23032 / x: 333 / y: 594
+[not pointed] RElbow (3) => prob: 0.00232 / x: 528 / y: 328
+[not pointed] RWrist (4) => prob: 0.01041 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.43157 / x: 890 / y: 532
+[not pointed] LElbow (6) => prob: 0.06883 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01358 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00638 / x: 612 / y: 422
+[not pointed] RKnee (9) => prob: 0.00436 / x: 584 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00488 / x: 27 / y: 234
+[not pointed] LHip (11) => prob: 0.00186 / x: 528 / y: 328
+[not pointed] LKnee (12) => prob: 0.00772 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00517 / x: 0 / y: 15
+[pointed] REye (14) => prob: 0.80732 / x: 528 / y: 328
+[pointed] LEye (15) => prob: 0.78483 / x: 695 / y: 328
+[pointed] REar (16) => prob: 0.23441 / x: 417 / y: 375
+[pointed] LEar (17) => prob: 0.65472 / x: 779 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (36) done ============================
+
+
+============================== turtle (37) ==============================[pointed] Nose (0) => prob: 0.78459 / x: 612 / y: 422
+[pointed] Neck (1) => prob: 0.42793 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.24334 / x: 333 / y: 594
+[not pointed] RElbow (3) => prob: 0.00207 / x: 612 / y: 422
+[not pointed] RWrist (4) => prob: 0.01475 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.41576 / x: 890 / y: 547
+[not pointed] LElbow (6) => prob: 0.07333 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.02012 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00154 / x: 695 / y: 438
+[not pointed] RKnee (9) => prob: 0.00706 / x: 528 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00948 / x: 55 / y: 219
+[not pointed] LHip (11) => prob: 0.00200 / x: 55 / y: 234
+[not pointed] LKnee (12) => prob: 0.00733 / x: 83 / y: 203
+[not pointed] LAnkle (13) => prob: 0.00729 / x: 83 / y: 219
+[pointed] REye (14) => prob: 0.77314 / x: 528 / y: 344
+[pointed] LEye (15) => prob: 0.86073 / x: 695 / y: 328
+[pointed] REar (16) => prob: 0.24143 / x: 417 / y: 375
+[pointed] LEar (17) => prob: 0.55618 / x: 779 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (37) done ============================
+
+
+============================== turtle (38) ==============================[pointed] Nose (0) => prob: 0.73171 / x: 612 / y: 422
+[pointed] Neck (1) => prob: 0.42508 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.24132 / x: 333 / y: 594
+[not pointed] RElbow (3) => prob: 0.00219 / x: 528 / y: 328
+[not pointed] RWrist (4) => prob: 0.01237 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.39247 / x: 890 / y: 547
+[not pointed] LElbow (6) => prob: 0.06417 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01773 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00159 / x: 612 / y: 422
+[not pointed] RKnee (9) => prob: 0.00602 / x: 556 / y: 453
+[not pointed] RAnkle (10) => prob: 0.00718 / x: 27 / y: 234
+[not pointed] LHip (11) => prob: 0.00157 / x: 55 / y: 234
+[not pointed] LKnee (12) => prob: 0.00713 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00635 / x: 27 / y: 234
+[pointed] REye (14) => prob: 0.76593 / x: 528 / y: 328
+[pointed] LEye (15) => prob: 0.87142 / x: 695 / y: 328
+[pointed] REar (16) => prob: 0.23125 / x: 417 / y: 391
+[pointed] LEar (17) => prob: 0.59012 / x: 779 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (38) done ============================
+
+
+============================== turtle (39) ==============================[pointed] Nose (0) => prob: 0.67370 / x: 612 / y: 422
+[pointed] Neck (1) => prob: 0.41579 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.24720 / x: 333 / y: 594
+[not pointed] RElbow (3) => prob: 0.00217 / x: 612 / y: 422
+[not pointed] RWrist (4) => prob: 0.00976 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.39656 / x: 890 / y: 532
+[not pointed] LElbow (6) => prob: 0.07295 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01398 / x: 55 / y: 219
+[not pointed] RHip (8) => prob: 0.00327 / x: 612 / y: 422
+[not pointed] RKnee (9) => prob: 0.00292 / x: 528 / y: 438
+[not pointed] RAnkle (10) => prob: 0.01095 / x: 0 / y: 15
+[not pointed] LHip (11) => prob: 0.00180 / x: 55 / y: 234
+[not pointed] LKnee (12) => prob: 0.00914 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.01187 / x: 0 / y: 15
+[pointed] REye (14) => prob: 0.78702 / x: 528 / y: 344
+[pointed] LEye (15) => prob: 0.85808 / x: 695 / y: 328
+[pointed] REar (16) => prob: 0.24882 / x: 417 / y: 375
+[pointed] LEar (17) => prob: 0.56922 / x: 779 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ turtle (39) done ============================
+
+
+============================== turtle (40) ==============================[pointed] Nose (0) => prob: 0.70099 / x: 612 / y: 422
+[pointed] Neck (1) => prob: 0.39956 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.24061 / x: 333 / y: 594
+[not pointed] RElbow (3) => prob: 0.00200 / x: 612 / y: 422
+[not pointed] RWrist (4) => prob: 0.00718 / x: 27 / y: 234
+[pointed] LShoulder (5) => prob: 0.38432 / x: 890 / y: 547
+[not pointed] LElbow (6) => prob: 0.05685 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01100 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00148 / x: 612 / y: 422
+[not pointed] RKnee (9) => prob: 0.00589 / x: 528 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00347 / x: 0 / y: 15
+[not pointed] LHip (11) => prob: 0.00158 / x: 528 / y: 328
+[not pointed] LKnee (12) => prob: 0.00549 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00364 / x: 0 / y: 15
+[pointed] REye (14) => prob: 0.80294 / x: 528 / y: 328
+[pointed] LEye (15) => prob: 0.87140 / x: 695 / y: 328
+[pointed] REar (16) => prob: 0.26700 / x: 417 / y: 375
+[pointed] LEar (17) => prob: 0.55416 / x: 779 / y: 360
+[pointed] Background (18) => prob: 1.00029 / x: 83 / y: 0
+
+============================ turtle (40) done ============================
+
+
+============================== turtle (41) ==============================[pointed] Nose (0) => prob: 0.74182 / x: 612 / y: 391
+[pointed] Neck (1) => prob: 0.43221 / x: 612 / y: 547
+[pointed] RShoulder (2) => prob: 0.32339 / x: 333 / y: 579
+[not pointed] RElbow (3) => prob: 0.00722 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.01482 / x: 55 / y: 219
+[pointed] LShoulder (5) => prob: 0.42134 / x: 890 / y: 532
+[not pointed] LElbow (6) => prob: 0.05524 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.02159 / x: 55 / y: 234
+[not pointed] RHip (8) => prob: 0.00215 / x: 612 / y: 391
+[not pointed] RKnee (9) => prob: 0.00352 / x: 612 / y: 422
+[not pointed] RAnkle (10) => prob: 0.01294 / x: 27 / y: 234
+[not pointed] LHip (11) => prob: 0.00299 / x: 55 / y: 234
+[not pointed] LKnee (12) => prob: 0.01091 / x: 83 / y: 187
+[not pointed] LAnkle (13) => prob: 0.01070 / x: 27 / y: 234
+[pointed] REye (14) => prob: 0.81314 / x: 528 / y: 313
+[pointed] LEye (15) => prob: 0.71021 / x: 695 / y: 297
+[pointed] REar (16) => prob: 0.20059 / x: 445 / y: 360
+[pointed] LEar (17) => prob: 0.58025 / x: 779 / y: 344
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ turtle (41) done ============================
+
+
+============================== turtle (42) ==============================[pointed] Nose (0) => prob: 0.63397 / x: 612 / y: 313
+[pointed] Neck (1) => prob: 0.54284 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.47043 / x: 389 / y: 453
+[not pointed] RElbow (3) => prob: 0.06103 / x: 278 / y: 688
+[not pointed] RWrist (4) => prob: 0.00685 / x: 1001 / y: 704
+[pointed] LShoulder (5) => prob: 0.53074 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.19899 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01315 / x: 1001 / y: 704
+[not pointed] RHip (8) => prob: 0.01086 / x: 612 / y: 313
+[not pointed] RKnee (9) => prob: 0.00260 / x: 584 / y: 328
+[not pointed] RAnkle (10) => prob: 0.00335 / x: 695 / y: 203
+[not pointed] LHip (11) => prob: 0.02093 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00926 / x: 723 / y: 203
+[not pointed] LAnkle (13) => prob: 0.00571 / x: 695 / y: 203
+[pointed] REye (14) => prob: 0.60214 / x: 528 / y: 234
+[pointed] LEye (15) => prob: 0.72541 / x: 695 / y: 219
+[pointed] REar (16) => prob: 0.43098 / x: 445 / y: 234
+[pointed] LEar (17) => prob: 0.27919 / x: 806 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (42) done ============================
+
+
+============================== turtle (43) ==============================[pointed] Nose (0) => prob: 0.69113 / x: 612 / y: 313
+[pointed] Neck (1) => prob: 0.53366 / x: 612 / y: 469
+[pointed] RShoulder (2) => prob: 0.41687 / x: 361 / y: 453
+[not pointed] RElbow (3) => prob: 0.05497 / x: 278 / y: 688
+[not pointed] RWrist (4) => prob: 0.00688 / x: 1001 / y: 704
+[pointed] LShoulder (5) => prob: 0.52072 / x: 862 / y: 469
+[not pointed] LElbow (6) => prob: 0.19117 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.01340 / x: 1001 / y: 704
+[not pointed] RHip (8) => prob: 0.00963 / x: 528 / y: 704
+[not pointed] RKnee (9) => prob: 0.00238 / x: 612 / y: 344
+[not pointed] RAnkle (10) => prob: 0.00353 / x: 640 / y: 344
+[not pointed] LHip (11) => prob: 0.02874 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00224 / x: 973 / y: 673
+[not pointed] LAnkle (13) => prob: 0.00103 / x: 973 / y: 673
+[pointed] REye (14) => prob: 0.62688 / x: 556 / y: 234
+[pointed] LEye (15) => prob: 0.61036 / x: 695 / y: 250
+[pointed] REar (16) => prob: 0.40474 / x: 445 / y: 234
+[pointed] LEar (17) => prob: 0.31582 / x: 779 / y: 250
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (43) done ============================
+
+
+============================== turtle (44) ==============================[pointed] Nose (0) => prob: 0.58953 / x: 612 / y: 344
+[pointed] Neck (1) => prob: 0.59789 / x: 640 / y: 438
+[pointed] RShoulder (2) => prob: 0.40834 / x: 389 / y: 406
+[not pointed] RElbow (3) => prob: 0.05892 / x: 1113 / y: 375
+[not pointed] RWrist (4) => prob: 0.00578 / x: 1113 / y: 375
+[pointed] LShoulder (5) => prob: 0.48059 / x: 890 / y: 453
+[not pointed] LElbow (6) => prob: 0.13505 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.00831 / x: 1140 / y: 375
+[not pointed] RHip (8) => prob: 0.01418 / x: 612 / y: 360
+[not pointed] RKnee (9) => prob: 0.00599 / x: 612 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00157 / x: 1224 / y: 500
+[not pointed] LHip (11) => prob: 0.00891 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00613 / x: 612 / y: 360
+[not pointed] LAnkle (13) => prob: 0.00229 / x: 695 / y: 219
+[pointed] REye (14) => prob: 0.54790 / x: 556 / y: 250
+[pointed] LEye (15) => prob: 0.61593 / x: 695 / y: 250
+[pointed] REar (16) => prob: 0.28352 / x: 445 / y: 250
+[pointed] LEar (17) => prob: 0.35244 / x: 806 / y: 281
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (44) done ============================
+
+
+============================== turtle (45) ==============================[pointed] Nose (0) => prob: 0.58194 / x: 640 / y: 328
+[pointed] Neck (1) => prob: 0.59909 / x: 640 / y: 438
+[pointed] RShoulder (2) => prob: 0.44759 / x: 389 / y: 406
+[not pointed] RElbow (3) => prob: 0.08867 / x: 278 / y: 657
+[not pointed] RWrist (4) => prob: 0.00741 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.46938 / x: 890 / y: 453
+[not pointed] LElbow (6) => prob: 0.13151 / x: 1029 / y: 704
+[not pointed] LWrist (7) => prob: 0.00509 / x: 1001 / y: 704
+[not pointed] RHip (8) => prob: 0.01821 / x: 640 / y: 344
+[not pointed] RKnee (9) => prob: 0.00519 / x: 612 / y: 344
+[not pointed] RAnkle (10) => prob: 0.00283 / x: 584 / y: 422
+[not pointed] LHip (11) => prob: 0.01342 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.01028 / x: 751 / y: 219
+[not pointed] LAnkle (13) => prob: 0.00252 / x: 584 / y: 422
+[pointed] REye (14) => prob: 0.67075 / x: 556 / y: 234
+[pointed] LEye (15) => prob: 0.50024 / x: 723 / y: 250
+[pointed] REar (16) => prob: 0.44291 / x: 445 / y: 234
+[pointed] LEar (17) => prob: 0.30905 / x: 806 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 584 / y: 0
+
+============================ turtle (45) done ============================
+
+
+============================== turtle (46) ==============================[pointed] Nose (0) => prob: 0.59840 / x: 612 / y: 313
+[pointed] Neck (1) => prob: 0.54545 / x: 640 / y: 438
+[pointed] RShoulder (2) => prob: 0.39846 / x: 389 / y: 406
+[not pointed] RElbow (3) => prob: 0.04617 / x: 250 / y: 673
+[not pointed] RWrist (4) => prob: 0.00465 / x: 194 / y: 704
+[pointed] LShoulder (5) => prob: 0.46125 / x: 890 / y: 453
+[not pointed] LElbow (6) => prob: 0.12638 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.00580 / x: 1001 / y: 704
+[not pointed] RHip (8) => prob: 0.01101 / x: 640 / y: 313
+[not pointed] RKnee (9) => prob: 0.00585 / x: 612 / y: 328
+[not pointed] RAnkle (10) => prob: 0.00119 / x: 640 / y: 250
+[not pointed] LHip (11) => prob: 0.01352 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00537 / x: 723 / y: 187
+[not pointed] LAnkle (13) => prob: 0.00160 / x: 751 / y: 203
+[pointed] REye (14) => prob: 0.52896 / x: 556 / y: 219
+[pointed] LEye (15) => prob: 0.43259 / x: 723 / y: 219
+[pointed] REar (16) => prob: 0.46985 / x: 445 / y: 219
+[pointed] LEar (17) => prob: 0.43382 / x: 806 / y: 234
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (46) done ============================
+
+
+============================== turtle (47) ==============================[pointed] Nose (0) => prob: 0.59301 / x: 640 / y: 328
+[pointed] Neck (1) => prob: 0.57751 / x: 640 / y: 438
+[pointed] RShoulder (2) => prob: 0.40382 / x: 389 / y: 406
+[not pointed] RElbow (3) => prob: 0.08345 / x: 250 / y: 673
+[not pointed] RWrist (4) => prob: 0.00580 / x: 166 / y: 704
+[pointed] LShoulder (5) => prob: 0.46750 / x: 890 / y: 453
+[not pointed] LElbow (6) => prob: 0.14096 / x: 1029 / y: 704
+[not pointed] LWrist (7) => prob: 0.00607 / x: 1001 / y: 704
+[not pointed] RHip (8) => prob: 0.01543 / x: 640 / y: 328
+[not pointed] RKnee (9) => prob: 0.00606 / x: 612 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00126 / x: 194 / y: 704
+[not pointed] LHip (11) => prob: 0.01545 / x: 751 / y: 704
+[not pointed] LKnee (12) => prob: 0.00598 / x: 612 / y: 360
+[not pointed] LAnkle (13) => prob: 0.00194 / x: 723 / y: 203
+[pointed] REye (14) => prob: 0.59670 / x: 556 / y: 250
+[pointed] LEye (15) => prob: 0.60306 / x: 695 / y: 234
+[pointed] REar (16) => prob: 0.43472 / x: 445 / y: 234
+[pointed] LEar (17) => prob: 0.48087 / x: 806 / y: 250
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (47) done ============================
+
+
+============================== turtle (48) ==============================[pointed] Nose (0) => prob: 0.53038 / x: 640 / y: 344
+[pointed] Neck (1) => prob: 0.61452 / x: 640 / y: 438
+[pointed] RShoulder (2) => prob: 0.40797 / x: 389 / y: 406
+[not pointed] RElbow (3) => prob: 0.05568 / x: 278 / y: 657
+[not pointed] RWrist (4) => prob: 0.00674 / x: 222 / y: 704
+[pointed] LShoulder (5) => prob: 0.46811 / x: 890 / y: 453
+[not pointed] LElbow (6) => prob: 0.08951 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.00428 / x: 973 / y: 704
+[not pointed] RHip (8) => prob: 0.02048 / x: 640 / y: 344
+[not pointed] RKnee (9) => prob: 0.00696 / x: 612 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00312 / x: 584 / y: 422
+[not pointed] LHip (11) => prob: 0.01673 / x: 723 / y: 704
+[not pointed] LKnee (12) => prob: 0.00792 / x: 751 / y: 219
+[not pointed] LAnkle (13) => prob: 0.00282 / x: 584 / y: 422
+[pointed] REye (14) => prob: 0.62108 / x: 556 / y: 250
+[pointed] LEye (15) => prob: 0.67071 / x: 723 / y: 250
+[pointed] REar (16) => prob: 0.46513 / x: 445 / y: 250
+[pointed] LEar (17) => prob: 0.38595 / x: 806 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (48) done ============================
+
+
+============================== turtle (49) ==============================[pointed] Nose (0) => prob: 0.71281 / x: 640 / y: 391
+[pointed] Neck (1) => prob: 0.57631 / x: 667 / y: 516
+[pointed] RShoulder (2) => prob: 0.42875 / x: 417 / y: 500
+[not pointed] RElbow (3) => prob: 0.06385 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.00348 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.41537 / x: 918 / y: 532
+[not pointed] LElbow (6) => prob: 0.04834 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00373 / x: 528 / y: 344
+[not pointed] RHip (8) => prob: 0.00953 / x: 640 / y: 391
+[not pointed] RKnee (9) => prob: 0.00617 / x: 640 / y: 422
+[not pointed] RAnkle (10) => prob: 0.00476 / x: 612 / y: 500
+[not pointed] LHip (11) => prob: 0.00381 / x: 1252 / y: 594
+[not pointed] LKnee (12) => prob: 0.00575 / x: 640 / y: 422
+[not pointed] LAnkle (13) => prob: 0.00443 / x: 612 / y: 500
+[pointed] REye (14) => prob: 0.70312 / x: 584 / y: 313
+[pointed] LEye (15) => prob: 0.70971 / x: 723 / y: 297
+[pointed] REar (16) => prob: 0.44568 / x: 473 / y: 313
+[pointed] LEar (17) => prob: 0.63090 / x: 806 / y: 313
+[pointed] Background (18) => prob: 1.00029 / x: 779 / y: 391
+
+============================ turtle (49) done ============================
+
+
+============================== turtle (50) ==============================[pointed] Nose (0) => prob: 0.57501 / x: 667 / y: 391
+[pointed] Neck (1) => prob: 0.59869 / x: 667 / y: 516
+[pointed] RShoulder (2) => prob: 0.45751 / x: 417 / y: 485
+[not pointed] RElbow (3) => prob: 0.06134 / x: 278 / y: 704
+[not pointed] RWrist (4) => prob: 0.00748 / x: 1113 / y: 438
+[pointed] LShoulder (5) => prob: 0.41951 / x: 918 / y: 532
+[pointed] LElbow (6) => prob: 0.20145 / x: 1113 / y: 438
+[not pointed] LWrist (7) => prob: 0.01791 / x: 1113 / y: 438
+[not pointed] RHip (8) => prob: 0.01561 / x: 1252 / y: 532
+[not pointed] RKnee (9) => prob: 0.00693 / x: 640 / y: 422
+[not pointed] RAnkle (10) => prob: 0.00276 / x: 612 / y: 500
+[not pointed] LHip (11) => prob: 0.01433 / x: 1224 / y: 532
+[not pointed] LKnee (12) => prob: 0.00608 / x: 640 / y: 422
+[not pointed] LAnkle (13) => prob: 0.00246 / x: 612 / y: 500
+[pointed] REye (14) => prob: 0.72796 / x: 584 / y: 313
+[pointed] LEye (15) => prob: 0.70563 / x: 723 / y: 313
+[pointed] REar (16) => prob: 0.50114 / x: 473 / y: 313
+[pointed] LEar (17) => prob: 0.40303 / x: 834 / y: 328
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (50) done ============================
+
+
+============================== turtle (51) ==============================[pointed] Nose (0) => prob: 0.58313 / x: 667 / y: 391
+[pointed] Neck (1) => prob: 0.60615 / x: 667 / y: 516
+[pointed] RShoulder (2) => prob: 0.44009 / x: 417 / y: 485
+[not pointed] RElbow (3) => prob: 0.07076 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00569 / x: 1113 / y: 438
+[pointed] LShoulder (5) => prob: 0.41326 / x: 918 / y: 532
+[not pointed] LElbow (6) => prob: 0.09016 / x: 1113 / y: 438
+[not pointed] LWrist (7) => prob: 0.00889 / x: 1140 / y: 438
+[not pointed] RHip (8) => prob: 0.01286 / x: 667 / y: 406
+[not pointed] RKnee (9) => prob: 0.00930 / x: 640 / y: 422
+[not pointed] RAnkle (10) => prob: 0.00337 / x: 612 / y: 500
+[not pointed] LHip (11) => prob: 0.00549 / x: 1252 / y: 579
+[not pointed] LKnee (12) => prob: 0.00823 / x: 640 / y: 422
+[not pointed] LAnkle (13) => prob: 0.00310 / x: 612 / y: 500
+[pointed] REye (14) => prob: 0.76653 / x: 584 / y: 313
+[pointed] LEye (15) => prob: 0.75790 / x: 723 / y: 313
+[pointed] REar (16) => prob: 0.48448 / x: 473 / y: 313
+[pointed] LEar (17) => prob: 0.41713 / x: 834 / y: 328
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (51) done ============================
+
+
+============================== turtle (52) ==============================[pointed] Nose (0) => prob: 0.53588 / x: 640 / y: 406
+[pointed] Neck (1) => prob: 0.59426 / x: 667 / y: 516
+[pointed] RShoulder (2) => prob: 0.41867 / x: 417 / y: 485
+[not pointed] RElbow (3) => prob: 0.06056 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00629 / x: 1113 / y: 438
+[pointed] LShoulder (5) => prob: 0.44695 / x: 918 / y: 532
+[pointed] LElbow (6) => prob: 0.22810 / x: 1113 / y: 438
+[not pointed] LWrist (7) => prob: 0.01006 / x: 1140 / y: 438
+[not pointed] RHip (8) => prob: 0.01289 / x: 1252 / y: 547
+[not pointed] RKnee (9) => prob: 0.00727 / x: 640 / y: 422
+[not pointed] RAnkle (10) => prob: 0.00310 / x: 612 / y: 500
+[not pointed] LHip (11) => prob: 0.01859 / x: 1252 / y: 547
+[not pointed] LKnee (12) => prob: 0.00653 / x: 640 / y: 422
+[not pointed] LAnkle (13) => prob: 0.00280 / x: 612 / y: 500
+[pointed] REye (14) => prob: 0.67287 / x: 584 / y: 313
+[pointed] LEye (15) => prob: 0.68307 / x: 723 / y: 313
+[pointed] REar (16) => prob: 0.51115 / x: 473 / y: 313
+[pointed] LEar (17) => prob: 0.39317 / x: 834 / y: 328
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ turtle (52) done ============================
+
+
+============================== turtle (53) ==============================[pointed] Nose (0) => prob: 0.56905 / x: 667 / y: 422
+[pointed] Neck (1) => prob: 0.64424 / x: 667 / y: 516
+[pointed] RShoulder (2) => prob: 0.45182 / x: 417 / y: 485
+[not pointed] RElbow (3) => prob: 0.05963 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00412 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.44668 / x: 918 / y: 532
+[not pointed] LElbow (6) => prob: 0.04417 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00331 / x: 556 / y: 375
+[not pointed] RHip (8) => prob: 0.01290 / x: 667 / y: 422
+[not pointed] RKnee (9) => prob: 0.00488 / x: 640 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00112 / x: 1252 / y: 704
+[not pointed] LHip (11) => prob: 0.00366 / x: 1252 / y: 673
+[not pointed] LKnee (12) => prob: 0.00494 / x: 640 / y: 438
+[not pointed] LAnkle (13) => prob: 0.00090 / x: 640 / y: 360
+[pointed] REye (14) => prob: 0.72812 / x: 584 / y: 344
+[pointed] LEye (15) => prob: 0.63972 / x: 723 / y: 344
+[pointed] REar (16) => prob: 0.37642 / x: 473 / y: 328
+[pointed] LEar (17) => prob: 0.57455 / x: 834 / y: 344
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ turtle (53) done ============================
+
+
+============================== turtle (54) ==============================[pointed] Nose (0) => prob: 0.59983 / x: 667 / y: 406
+[pointed] Neck (1) => prob: 0.63696 / x: 667 / y: 516
+[pointed] RShoulder (2) => prob: 0.38587 / x: 417 / y: 500
+[not pointed] RElbow (3) => prob: 0.05222 / x: 1113 / y: 438
+[not pointed] RWrist (4) => prob: 0.00488 / x: 1113 / y: 469
+[pointed] LShoulder (5) => prob: 0.45549 / x: 918 / y: 532
+[not pointed] LElbow (6) => prob: 0.05882 / x: 1001 / y: 704
+[not pointed] LWrist (7) => prob: 0.00457 / x: 1140 / y: 438
+[not pointed] RHip (8) => prob: 0.01183 / x: 667 / y: 422
+[not pointed] RKnee (9) => prob: 0.00861 / x: 640 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00127 / x: 667 / y: 344
+[not pointed] LHip (11) => prob: 0.00525 / x: 1113 / y: 469
+[not pointed] LKnee (12) => prob: 0.00787 / x: 640 / y: 438
+[not pointed] LAnkle (13) => prob: 0.00095 / x: 667 / y: 344
+[pointed] REye (14) => prob: 0.77321 / x: 584 / y: 328
+[pointed] LEye (15) => prob: 0.69356 / x: 723 / y: 328
+[pointed] REar (16) => prob: 0.59597 / x: 473 / y: 328
+[pointed] LEar (17) => prob: 0.65626 / x: 834 / y: 328
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (54) done ============================
+
+
+============================== turtle (55) ==============================[pointed] Nose (0) => prob: 0.62385 / x: 640 / y: 328
+[pointed] Neck (1) => prob: 0.57623 / x: 667 / y: 532
+[pointed] RShoulder (2) => prob: 0.44705 / x: 417 / y: 500
+[not pointed] RElbow (3) => prob: 0.13346 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00593 / x: 278 / y: 704
+[pointed] LShoulder (5) => prob: 0.48224 / x: 918 / y: 547
+[not pointed] LElbow (6) => prob: 0.05425 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00445 / x: 556 / y: 297
+[not pointed] RHip (8) => prob: 0.00415 / x: 1252 / y: 516
+[not pointed] RKnee (9) => prob: 0.00410 / x: 640 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00372 / x: 612 / y: 516
+[not pointed] LHip (11) => prob: 0.00353 / x: 1252 / y: 516
+[not pointed] LKnee (12) => prob: 0.00301 / x: 640 / y: 360
+[not pointed] LAnkle (13) => prob: 0.00343 / x: 612 / y: 516
+[pointed] REye (14) => prob: 0.72942 / x: 584 / y: 266
+[pointed] LEye (15) => prob: 0.71428 / x: 723 / y: 266
+[pointed] REar (16) => prob: 0.37538 / x: 500 / y: 297
+[pointed] LEar (17) => prob: 0.54884 / x: 806 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (55) done ============================
+
+
+============================== turtle (56) ==============================[pointed] Nose (0) => prob: 0.58758 / x: 640 / y: 328
+[pointed] Neck (1) => prob: 0.58115 / x: 667 / y: 532
+[pointed] RShoulder (2) => prob: 0.40967 / x: 417 / y: 516
+[not pointed] RElbow (3) => prob: 0.12067 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00518 / x: 1113 / y: 438
+[pointed] LShoulder (5) => prob: 0.47932 / x: 918 / y: 547
+[pointed] LElbow (6) => prob: 0.36685 / x: 1140 / y: 438
+[not pointed] LWrist (7) => prob: 0.01627 / x: 1140 / y: 438
+[not pointed] RHip (8) => prob: 0.00757 / x: 1252 / y: 516
+[not pointed] RKnee (9) => prob: 0.00563 / x: 640 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00448 / x: 612 / y: 516
+[not pointed] LHip (11) => prob: 0.01355 / x: 1224 / y: 532
+[not pointed] LKnee (12) => prob: 0.00448 / x: 640 / y: 360
+[not pointed] LAnkle (13) => prob: 0.00419 / x: 612 / y: 516
+[pointed] REye (14) => prob: 0.70481 / x: 584 / y: 266
+[pointed] LEye (15) => prob: 0.65137 / x: 723 / y: 266
+[pointed] REar (16) => prob: 0.45448 / x: 500 / y: 297
+[pointed] LEar (17) => prob: 0.48830 / x: 806 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (56) done ============================
+
+
+============================== turtle (57) ==============================[pointed] Nose (0) => prob: 0.69496 / x: 640 / y: 344
+[pointed] Neck (1) => prob: 0.56338 / x: 667 / y: 532
+[pointed] RShoulder (2) => prob: 0.39182 / x: 417 / y: 516
+[not pointed] RElbow (3) => prob: 0.09756 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00501 / x: 1113 / y: 438
+[pointed] LShoulder (5) => prob: 0.42006 / x: 918 / y: 547
+[not pointed] LElbow (6) => prob: 0.09396 / x: 1113 / y: 438
+[not pointed] LWrist (7) => prob: 0.00711 / x: 1140 / y: 438
+[not pointed] RHip (8) => prob: 0.00491 / x: 1252 / y: 532
+[not pointed] RKnee (9) => prob: 0.00425 / x: 640 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00332 / x: 640 / y: 375
+[not pointed] LHip (11) => prob: 0.00407 / x: 1252 / y: 532
+[not pointed] LKnee (12) => prob: 0.00335 / x: 751 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00298 / x: 612 / y: 516
+[pointed] REye (14) => prob: 0.67814 / x: 584 / y: 266
+[pointed] LEye (15) => prob: 0.77424 / x: 723 / y: 266
+[pointed] REar (16) => prob: 0.34939 / x: 500 / y: 297
+[pointed] LEar (17) => prob: 0.54868 / x: 806 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (57) done ============================
+
+
+============================== turtle (58) ==============================[pointed] Nose (0) => prob: 0.61183 / x: 667 / y: 344
+[pointed] Neck (1) => prob: 0.53883 / x: 667 / y: 516
+[pointed] RShoulder (2) => prob: 0.43908 / x: 417 / y: 500
+[not pointed] RElbow (3) => prob: 0.12364 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00581 / x: 1113 / y: 438
+[pointed] LShoulder (5) => prob: 0.44212 / x: 918 / y: 547
+[pointed] LElbow (6) => prob: 0.31973 / x: 1140 / y: 438
+[not pointed] LWrist (7) => prob: 0.01723 / x: 1140 / y: 438
+[not pointed] RHip (8) => prob: 0.00650 / x: 1252 / y: 516
+[not pointed] RKnee (9) => prob: 0.00523 / x: 640 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00314 / x: 612 / y: 516
+[not pointed] LHip (11) => prob: 0.00933 / x: 1224 / y: 532
+[not pointed] LKnee (12) => prob: 0.00425 / x: 751 / y: 266
+[not pointed] LAnkle (13) => prob: 0.00373 / x: 751 / y: 250
+[pointed] REye (14) => prob: 0.70859 / x: 584 / y: 266
+[pointed] LEye (15) => prob: 0.70136 / x: 723 / y: 266
+[pointed] REar (16) => prob: 0.51670 / x: 500 / y: 297
+[pointed] LEar (17) => prob: 0.47383 / x: 806 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 111 / y: 0
+
+============================ turtle (58) done ============================
+
+
+============================== turtle (59) ==============================[pointed] Nose (0) => prob: 0.69571 / x: 640 / y: 344
+[pointed] Neck (1) => prob: 0.55276 / x: 667 / y: 532
+[pointed] RShoulder (2) => prob: 0.43275 / x: 417 / y: 500
+[not pointed] RElbow (3) => prob: 0.11080 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00697 / x: 1113 / y: 438
+[pointed] LShoulder (5) => prob: 0.44095 / x: 918 / y: 547
+[pointed] LElbow (6) => prob: 0.21754 / x: 1140 / y: 438
+[not pointed] LWrist (7) => prob: 0.01261 / x: 1140 / y: 438
+[not pointed] RHip (8) => prob: 0.01000 / x: 1252 / y: 532
+[not pointed] RKnee (9) => prob: 0.00459 / x: 640 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00448 / x: 667 / y: 375
+[not pointed] LHip (11) => prob: 0.01155 / x: 1252 / y: 532
+[not pointed] LKnee (12) => prob: 0.00349 / x: 640 / y: 360
+[not pointed] LAnkle (13) => prob: 0.00372 / x: 612 / y: 516
+[pointed] REye (14) => prob: 0.69782 / x: 584 / y: 266
+[pointed] LEye (15) => prob: 0.80232 / x: 723 / y: 266
+[pointed] REar (16) => prob: 0.46728 / x: 500 / y: 297
+[pointed] LEar (17) => prob: 0.53515 / x: 806 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (59) done ============================
+
+
+============================== turtle (60) ==============================[pointed] Nose (0) => prob: 0.67793 / x: 640 / y: 344
+[pointed] Neck (1) => prob: 0.56552 / x: 667 / y: 532
+[pointed] RShoulder (2) => prob: 0.39596 / x: 417 / y: 516
+[not pointed] RElbow (3) => prob: 0.11628 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00718 / x: 1113 / y: 438
+[pointed] LShoulder (5) => prob: 0.47335 / x: 918 / y: 547
+[not pointed] LElbow (6) => prob: 0.12983 / x: 1113 / y: 438
+[not pointed] LWrist (7) => prob: 0.00879 / x: 1140 / y: 438
+[not pointed] RHip (8) => prob: 0.00708 / x: 1252 / y: 532
+[not pointed] RKnee (9) => prob: 0.00477 / x: 640 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00659 / x: 640 / y: 375
+[not pointed] LHip (11) => prob: 0.01086 / x: 1224 / y: 532
+[not pointed] LKnee (12) => prob: 0.00434 / x: 640 / y: 375
+[not pointed] LAnkle (13) => prob: 0.00457 / x: 612 / y: 516
+[pointed] REye (14) => prob: 0.61102 / x: 584 / y: 266
+[pointed] LEye (15) => prob: 0.71441 / x: 723 / y: 266
+[pointed] REar (16) => prob: 0.51542 / x: 500 / y: 297
+[pointed] LEar (17) => prob: 0.49965 / x: 806 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (60) done ============================
+
+
+============================== turtle (61) ==============================[pointed] Nose (0) => prob: 0.68666 / x: 640 / y: 344
+[pointed] Neck (1) => prob: 0.54972 / x: 667 / y: 532
+[pointed] RShoulder (2) => prob: 0.38018 / x: 417 / y: 516
+[not pointed] RElbow (3) => prob: 0.07696 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00416 / x: 1113 / y: 438
+[pointed] LShoulder (5) => prob: 0.40938 / x: 918 / y: 547
+[not pointed] LElbow (6) => prob: 0.05257 / x: 1113 / y: 438
+[not pointed] LWrist (7) => prob: 0.00437 / x: 556 / y: 297
+[not pointed] RHip (8) => prob: 0.00469 / x: 1252 / y: 500
+[not pointed] RKnee (9) => prob: 0.00409 / x: 640 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00522 / x: 612 / y: 516
+[not pointed] LHip (11) => prob: 0.00444 / x: 1252 / y: 579
+[not pointed] LKnee (12) => prob: 0.00363 / x: 751 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00499 / x: 612 / y: 516
+[pointed] REye (14) => prob: 0.74221 / x: 584 / y: 266
+[pointed] LEye (15) => prob: 0.76163 / x: 723 / y: 266
+[pointed] REar (16) => prob: 0.40978 / x: 500 / y: 297
+[pointed] LEar (17) => prob: 0.50109 / x: 806 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 139 / y: 0
+
+============================ turtle (61) done ============================
+
+
+============================== turtle (62) ==============================[pointed] Nose (0) => prob: 0.56911 / x: 612 / y: 422
+[pointed] Neck (1) => prob: 0.55845 / x: 612 / y: 641
+[pointed] RShoulder (2) => prob: 0.48366 / x: 417 / y: 641
+[not pointed] RElbow (3) => prob: 0.00506 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00299 / x: 500 / y: 375
+[pointed] LShoulder (5) => prob: 0.39480 / x: 834 / y: 641
+[not pointed] LElbow (6) => prob: 0.00683 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00336 / x: 834 / y: 688
+[not pointed] RHip (8) => prob: 0.00386 / x: 612 / y: 422
+[not pointed] RKnee (9) => prob: 0.00336 / x: 584 / y: 438
+[not pointed] RAnkle (10) => prob: 0.00172 / x: 556 / y: 641
+[not pointed] LHip (11) => prob: 0.00203 / x: 556 / y: 360
+[not pointed] LKnee (12) => prob: 0.00257 / x: 584 / y: 438
+[not pointed] LAnkle (13) => prob: 0.00231 / x: 695 / y: 360
+[pointed] REye (14) => prob: 0.62608 / x: 556 / y: 360
+[pointed] LEye (15) => prob: 0.59814 / x: 695 / y: 360
+[not pointed] REar (16) => prob: 0.18764 / x: 445 / y: 406
+[not pointed] LEar (17) => prob: 0.15770 / x: 751 / y: 406
+[pointed] Background (18) => prob: 1.00029 / x: 500 / y: 0
+
+============================ turtle (62) done ============================
+
+
+============================== turtle (63) ==============================[pointed] Nose (0) => prob: 0.57279 / x: 584 / y: 422
+[pointed] Neck (1) => prob: 0.50191 / x: 612 / y: 657
+[pointed] RShoulder (2) => prob: 0.41590 / x: 417 / y: 641
+[not pointed] RElbow (3) => prob: 0.00762 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00328 / x: 890 / y: 704
+[pointed] LShoulder (5) => prob: 0.29838 / x: 862 / y: 657
+[not pointed] LElbow (6) => prob: 0.00272 / x: 862 / y: 688
+[not pointed] LWrist (7) => prob: 0.00423 / x: 862 / y: 688
+[not pointed] RHip (8) => prob: 0.00436 / x: 584 / y: 422
+[not pointed] RKnee (9) => prob: 0.00371 / x: 528 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00598 / x: 528 / y: 344
+[not pointed] LHip (11) => prob: 0.00350 / x: 528 / y: 360
+[not pointed] LKnee (12) => prob: 0.00267 / x: 695 / y: 360
+[not pointed] LAnkle (13) => prob: 0.00597 / x: 528 / y: 344
+[pointed] REye (14) => prob: 0.69330 / x: 528 / y: 360
+[pointed] LEye (15) => prob: 0.58680 / x: 667 / y: 360
+[not pointed] REar (16) => prob: 0.06917 / x: 445 / y: 391
+[pointed] LEar (17) => prob: 0.25796 / x: 751 / y: 406
+[pointed] Background (18) => prob: 1.00029 / x: 417 / y: 0
+
+============================ turtle (63) done ============================
+
+
+============================== turtle (64) ==============================[pointed] Nose (0) => prob: 0.56239 / x: 667 / y: 422
+[pointed] Neck (1) => prob: 0.47122 / x: 667 / y: 657
+[pointed] RShoulder (2) => prob: 0.45125 / x: 445 / y: 641
+[not pointed] RElbow (3) => prob: 0.00438 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00426 / x: 890 / y: 704
+[pointed] LShoulder (5) => prob: 0.31335 / x: 890 / y: 657
+[not pointed] LElbow (6) => prob: 0.00375 / x: 194 / y: 657
+[not pointed] LWrist (7) => prob: 0.00656 / x: 890 / y: 688
+[not pointed] RHip (8) => prob: 0.00465 / x: 139 / y: 657
+[not pointed] RKnee (9) => prob: 0.00287 / x: 139 / y: 673
+[not pointed] RAnkle (10) => prob: 0.00184 / x: 751 / y: 344
+[not pointed] LHip (11) => prob: 0.00686 / x: 166 / y: 641
+[not pointed] LKnee (12) => prob: 0.00573 / x: 194 / y: 641
+[not pointed] LAnkle (13) => prob: 0.00340 / x: 751 / y: 360
+[pointed] REye (14) => prob: 0.61014 / x: 612 / y: 360
+[pointed] LEye (15) => prob: 0.57425 / x: 751 / y: 360
+[not pointed] REar (16) => prob: 0.14705 / x: 528 / y: 375
+[not pointed] LEar (17) => prob: 0.15847 / x: 834 / y: 406
+[pointed] Background (18) => prob: 1.00029 / x: 473 / y: 0
+
+============================ turtle (64) done ============================
+
+
+============================== turtle (65) ==============================[pointed] Nose (0) => prob: 0.55705 / x: 584 / y: 313
+[pointed] Neck (1) => prob: 0.52742 / x: 612 / y: 579
+[pointed] RShoulder (2) => prob: 0.37054 / x: 389 / y: 579
+[not pointed] RElbow (3) => prob: 0.03115 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00313 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.40053 / x: 834 / y: 579
+[not pointed] LElbow (6) => prob: 0.02140 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00295 / x: 806 / y: 547
+[not pointed] RHip (8) => prob: 0.00463 / x: 584 / y: 328
+[not pointed] RKnee (9) => prob: 0.00749 / x: 528 / y: 234
+[not pointed] RAnkle (10) => prob: 0.00202 / x: 500 / y: 234
+[not pointed] LHip (11) => prob: 0.00559 / x: 166 / y: 641
+[not pointed] LKnee (12) => prob: 0.00414 / x: 695 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00346 / x: 695 / y: 250
+[pointed] REye (14) => prob: 0.61150 / x: 528 / y: 250
+[pointed] LEye (15) => prob: 0.62716 / x: 667 / y: 250
+[not pointed] REar (16) => prob: 0.10317 / x: 417 / y: 281
+[pointed] LEar (17) => prob: 0.20429 / x: 751 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 806 / y: 0
+
+============================ turtle (65) done ============================
+
+
+============================== turtle (66) ==============================[pointed] Nose (0) => prob: 0.62369 / x: 584 / y: 344
+[pointed] Neck (1) => prob: 0.54897 / x: 612 / y: 610
+[pointed] RShoulder (2) => prob: 0.43050 / x: 389 / y: 626
+[not pointed] RElbow (3) => prob: 0.00822 / x: 139 / y: 626
+[not pointed] RWrist (4) => prob: 0.00388 / x: 139 / y: 626
+[pointed] LShoulder (5) => prob: 0.48780 / x: 834 / y: 594
+[not pointed] LElbow (6) => prob: 0.01950 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00362 / x: 473 / y: 313
+[not pointed] RHip (8) => prob: 0.01000 / x: 139 / y: 626
+[not pointed] RKnee (9) => prob: 0.00391 / x: 556 / y: 360
+[not pointed] RAnkle (10) => prob: 0.00724 / x: 667 / y: 250
+[not pointed] LHip (11) => prob: 0.01330 / x: 139 / y: 641
+[not pointed] LKnee (12) => prob: 0.00297 / x: 556 / y: 360
+[not pointed] LAnkle (13) => prob: 0.00739 / x: 667 / y: 250
+[pointed] REye (14) => prob: 0.65713 / x: 500 / y: 281
+[pointed] LEye (15) => prob: 0.67513 / x: 640 / y: 281
+[not pointed] REar (16) => prob: 0.16165 / x: 417 / y: 313
+[not pointed] LEar (17) => prob: 0.13315 / x: 723 / y: 328
+[pointed] Background (18) => prob: 1.00029 / x: 389 / y: 0
+
+============================ turtle (66) done ============================
+
+
+============================== turtle (67) ==============================[pointed] Nose (0) => prob: 0.60466 / x: 584 / y: 344
+[pointed] Neck (1) => prob: 0.52885 / x: 612 / y: 626
+[pointed] RShoulder (2) => prob: 0.43248 / x: 389 / y: 610
+[not pointed] RElbow (3) => prob: 0.01598 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00346 / x: 473 / y: 313
+[pointed] LShoulder (5) => prob: 0.36389 / x: 834 / y: 610
+[not pointed] LElbow (6) => prob: 0.00480 / x: 556 / y: 610
+[not pointed] LWrist (7) => prob: 0.00365 / x: 473 / y: 313
+[not pointed] RHip (8) => prob: 0.00437 / x: 584 / y: 344
+[not pointed] RKnee (9) => prob: 0.00213 / x: 500 / y: 266
+[not pointed] RAnkle (10) => prob: 0.00800 / x: 667 / y: 250
+[not pointed] LHip (11) => prob: 0.00238 / x: 166 / y: 626
+[not pointed] LKnee (12) => prob: 0.00274 / x: 695 / y: 281
+[not pointed] LAnkle (13) => prob: 0.00829 / x: 667 / y: 250
+[pointed] REye (14) => prob: 0.52187 / x: 500 / y: 281
+[pointed] LEye (15) => prob: 0.64592 / x: 667 / y: 281
+[pointed] REar (16) => prob: 0.22024 / x: 417 / y: 344
+[not pointed] LEar (17) => prob: 0.16020 / x: 751 / y: 344
+[pointed] Background (18) => prob: 1.00029 / x: 779 / y: 0
+
+============================ turtle (67) done ============================
+
+
+============================== turtle (68) ==============================[pointed] Nose (0) => prob: 0.60268 / x: 612 / y: 375
+[pointed] Neck (1) => prob: 0.61516 / x: 612 / y: 610
+[pointed] RShoulder (2) => prob: 0.48046 / x: 389 / y: 610
+[not pointed] RElbow (3) => prob: 0.00889 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00321 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.50287 / x: 834 / y: 610
+[not pointed] LElbow (6) => prob: 0.01223 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00350 / x: 473 / y: 344
+[not pointed] RHip (8) => prob: 0.00540 / x: 612 / y: 375
+[not pointed] RKnee (9) => prob: 0.00357 / x: 528 / y: 297
+[not pointed] RAnkle (10) => prob: 0.00989 / x: 695 / y: 281
+[not pointed] LHip (11) => prob: 0.00533 / x: 166 / y: 641
+[not pointed] LKnee (12) => prob: 0.00604 / x: 695 / y: 297
+[not pointed] LAnkle (13) => prob: 0.01123 / x: 695 / y: 281
+[pointed] REye (14) => prob: 0.60881 / x: 528 / y: 297
+[pointed] LEye (15) => prob: 0.53387 / x: 695 / y: 313
+[pointed] REar (16) => prob: 0.22021 / x: 445 / y: 360
+[not pointed] LEar (17) => prob: 0.07770 / x: 779 / y: 328
+[pointed] Background (18) => prob: 1.00029 / x: 389 / y: 0
+
+============================ turtle (68) done ============================
+
+
+============================== turtle (69) ==============================[pointed] Nose (0) => prob: 0.53740 / x: 584 / y: 375
+[pointed] Neck (1) => prob: 0.53929 / x: 612 / y: 626
+[pointed] RShoulder (2) => prob: 0.45913 / x: 389 / y: 610
+[not pointed] RElbow (3) => prob: 0.01802 / x: 166 / y: 626
+[not pointed] RWrist (4) => prob: 0.01311 / x: 166 / y: 626
+[pointed] LShoulder (5) => prob: 0.46907 / x: 834 / y: 610
+[not pointed] LElbow (6) => prob: 0.01805 / x: 166 / y: 626
+[not pointed] LWrist (7) => prob: 0.00849 / x: 166 / y: 626
+[not pointed] RHip (8) => prob: 0.02363 / x: 139 / y: 641
+[not pointed] RKnee (9) => prob: 0.01532 / x: 166 / y: 626
+[not pointed] RAnkle (10) => prob: 0.00733 / x: 166 / y: 657
+[not pointed] LHip (11) => prob: 0.02238 / x: 166 / y: 641
+[not pointed] LKnee (12) => prob: 0.01236 / x: 166 / y: 626
+[not pointed] LAnkle (13) => prob: 0.00782 / x: 695 / y: 281
+[pointed] REye (14) => prob: 0.66325 / x: 528 / y: 297
+[pointed] LEye (15) => prob: 0.61518 / x: 667 / y: 313
+[pointed] REar (16) => prob: 0.25330 / x: 445 / y: 360
+[not pointed] LEar (17) => prob: 0.15817 / x: 751 / y: 344
+[pointed] Background (18) => prob: 1.00029 / x: 389 / y: 0
+
+============================ turtle (69) done ============================
+
+
+============================== turtle (70) ==============================[pointed] Nose (0) => prob: 0.58758 / x: 584 / y: 328
+[pointed] Neck (1) => prob: 0.61190 / x: 612 / y: 579
+[pointed] RShoulder (2) => prob: 0.42054 / x: 389 / y: 579
+[not pointed] RElbow (3) => prob: 0.02563 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00313 / x: 278 / y: 704
+[pointed] LShoulder (5) => prob: 0.47750 / x: 834 / y: 579
+[not pointed] LElbow (6) => prob: 0.03946 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00317 / x: 500 / y: 297
+[not pointed] RHip (8) => prob: 0.00402 / x: 139 / y: 641
+[not pointed] RKnee (9) => prob: 0.00420 / x: 528 / y: 266
+[not pointed] RAnkle (10) => prob: 0.00685 / x: 667 / y: 250
+[not pointed] LHip (11) => prob: 0.00556 / x: 166 / y: 641
+[not pointed] LKnee (12) => prob: 0.00250 / x: 695 / y: 266
+[not pointed] LAnkle (13) => prob: 0.00694 / x: 667 / y: 250
+[pointed] REye (14) => prob: 0.63738 / x: 528 / y: 266
+[pointed] LEye (15) => prob: 0.57027 / x: 667 / y: 281
+[not pointed] REar (16) => prob: 0.18616 / x: 445 / y: 313
+[not pointed] LEar (17) => prob: 0.17019 / x: 751 / y: 313
+[pointed] Background (18) => prob: 1.00029 / x: 806 / y: 0
+
+============================ turtle (70) done ============================
+
+
+============================== turtle (71) ==============================[pointed] Nose (0) => prob: 0.59281 / x: 584 / y: 344
+[pointed] Neck (1) => prob: 0.57787 / x: 612 / y: 579
+[pointed] RShoulder (2) => prob: 0.39018 / x: 389 / y: 579
+[not pointed] RElbow (3) => prob: 0.02602 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00606 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.46031 / x: 834 / y: 579
+[not pointed] LElbow (6) => prob: 0.03152 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00265 / x: 473 / y: 313
+[not pointed] RHip (8) => prob: 0.00652 / x: 528 / y: 281
+[not pointed] RKnee (9) => prob: 0.00392 / x: 528 / y: 281
+[not pointed] RAnkle (10) => prob: 0.00702 / x: 695 / y: 266
+[not pointed] LHip (11) => prob: 0.00252 / x: 166 / y: 626
+[not pointed] LKnee (12) => prob: 0.00573 / x: 695 / y: 281
+[not pointed] LAnkle (13) => prob: 0.01115 / x: 695 / y: 266
+[pointed] REye (14) => prob: 0.49069 / x: 500 / y: 281
+[pointed] LEye (15) => prob: 0.60046 / x: 667 / y: 281
+[not pointed] REar (16) => prob: 0.10519 / x: 445 / y: 313
+[not pointed] LEar (17) => prob: 0.11142 / x: 751 / y: 313
+[pointed] Background (18) => prob: 1.00029 / x: 834 / y: 0
+
+============================ turtle (71) done ============================
+
+
+============================== turtle (72) ==============================[pointed] Nose (0) => prob: 0.54161 / x: 612 / y: 328
+[pointed] Neck (1) => prob: 0.58093 / x: 612 / y: 579
+[pointed] RShoulder (2) => prob: 0.40260 / x: 389 / y: 579
+[not pointed] RElbow (3) => prob: 0.02344 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00510 / x: 278 / y: 704
+[pointed] LShoulder (5) => prob: 0.43843 / x: 834 / y: 579
+[not pointed] LElbow (6) => prob: 0.02800 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00335 / x: 556 / y: 250
+[not pointed] RHip (8) => prob: 0.00272 / x: 528 / y: 281
+[not pointed] RKnee (9) => prob: 0.00233 / x: 528 / y: 266
+[not pointed] RAnkle (10) => prob: 0.01288 / x: 695 / y: 250
+[not pointed] LHip (11) => prob: 0.00242 / x: 166 / y: 626
+[not pointed] LKnee (12) => prob: 0.00307 / x: 695 / y: 266
+[not pointed] LAnkle (13) => prob: 0.01499 / x: 695 / y: 250
+[pointed] REye (14) => prob: 0.43748 / x: 528 / y: 281
+[pointed] LEye (15) => prob: 0.63806 / x: 667 / y: 266
+[pointed] REar (16) => prob: 0.29612 / x: 445 / y: 344
+[not pointed] LEar (17) => prob: 0.09606 / x: 751 / y: 313
+[pointed] Background (18) => prob: 1.00029 / x: 834 / y: 0
+
+============================ turtle (72) done ============================
+
+
+============================== turtle (73) ==============================[pointed] Nose (0) => prob: 0.47998 / x: 695 / y: 313
+[pointed] Neck (1) => prob: 0.33929 / x: 695 / y: 594
+[not pointed] RShoulder (2) => prob: 0.18224 / x: 445 / y: 579
+[not pointed] RElbow (3) => prob: 0.00647 / x: 139 / y: 626
+[not pointed] RWrist (4) => prob: 0.00335 / x: 139 / y: 626
+[pointed] LShoulder (5) => prob: 0.41801 / x: 918 / y: 594
+[not pointed] LElbow (6) => prob: 0.01476 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00340 / x: 166 / y: 626
+[not pointed] RHip (8) => prob: 0.00848 / x: 166 / y: 626
+[not pointed] RKnee (9) => prob: 0.00683 / x: 139 / y: 626
+[not pointed] RAnkle (10) => prob: 0.00664 / x: 806 / y: 234
+[not pointed] LHip (11) => prob: 0.00948 / x: 166 / y: 626
+[not pointed] LKnee (12) => prob: 0.00633 / x: 166 / y: 626
+[not pointed] LAnkle (13) => prob: 0.00807 / x: 806 / y: 234
+[pointed] REye (14) => prob: 0.51695 / x: 640 / y: 234
+[pointed] LEye (15) => prob: 0.60798 / x: 779 / y: 250
+[pointed] REar (16) => prob: 0.21441 / x: 528 / y: 313
+[not pointed] LEar (17) => prob: 0.05728 / x: 862 / y: 281
+[pointed] Background (18) => prob: 1.00029 / x: 890 / y: 0
+
+============================ turtle (73) done ============================
+
+
+============================== turtle (74) ==============================[pointed] Nose (0) => prob: 0.52645 / x: 584 / y: 313
+[pointed] Neck (1) => prob: 0.57186 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.40927 / x: 389 / y: 579
+[not pointed] RElbow (3) => prob: 0.03003 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00349 / x: 278 / y: 704
+[pointed] LShoulder (5) => prob: 0.44729 / x: 834 / y: 563
+[not pointed] LElbow (6) => prob: 0.06529 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00349 / x: 473 / y: 281
+[not pointed] RHip (8) => prob: 0.00447 / x: 584 / y: 313
+[not pointed] RKnee (9) => prob: 0.00207 / x: 528 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00676 / x: 667 / y: 219
+[not pointed] LHip (11) => prob: 0.00427 / x: 166 / y: 641
+[not pointed] LKnee (12) => prob: 0.00394 / x: 667 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00687 / x: 667 / y: 219
+[pointed] REye (14) => prob: 0.51397 / x: 500 / y: 250
+[pointed] LEye (15) => prob: 0.57866 / x: 667 / y: 250
+[pointed] REar (16) => prob: 0.21689 / x: 417 / y: 297
+[not pointed] LEar (17) => prob: 0.12575 / x: 723 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 806 / y: 0
+
+============================ turtle (74) done ============================
+
+
+============================== turtle (75) ==============================[pointed] Nose (0) => prob: 0.54986 / x: 667 / y: 313
+[pointed] Neck (1) => prob: 0.47976 / x: 667 / y: 579
+[pointed] RShoulder (2) => prob: 0.35466 / x: 445 / y: 563
+[not pointed] RElbow (3) => prob: 0.01927 / x: 389 / y: 704
+[not pointed] RWrist (4) => prob: 0.00301 / x: 528 / y: 266
+[pointed] LShoulder (5) => prob: 0.47393 / x: 890 / y: 579
+[not pointed] LElbow (6) => prob: 0.04456 / x: 973 / y: 704
+[not pointed] LWrist (7) => prob: 0.00392 / x: 862 / y: 532
+[not pointed] RHip (8) => prob: 0.00481 / x: 667 / y: 313
+[not pointed] RKnee (9) => prob: 0.00232 / x: 584 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00991 / x: 751 / y: 219
+[not pointed] LHip (11) => prob: 0.00400 / x: 166 / y: 641
+[not pointed] LKnee (12) => prob: 0.00409 / x: 751 / y: 234
+[not pointed] LAnkle (13) => prob: 0.01082 / x: 751 / y: 219
+[pointed] REye (14) => prob: 0.54037 / x: 584 / y: 234
+[pointed] LEye (15) => prob: 0.47906 / x: 751 / y: 250
+[not pointed] REar (16) => prob: 0.18722 / x: 500 / y: 313
+[not pointed] LEar (17) => prob: 0.04275 / x: 806 / y: 281
+[pointed] Background (18) => prob: 1.00029 / x: 890 / y: 0
+
+============================ turtle (75) done ============================
+
+
+============================== turtle (76) ==============================[pointed] Nose (0) => prob: 0.56315 / x: 612 / y: 313
+[pointed] Neck (1) => prob: 0.50181 / x: 612 / y: 563
+[pointed] RShoulder (2) => prob: 0.41699 / x: 389 / y: 579
+[not pointed] RElbow (3) => prob: 0.04228 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00375 / x: 278 / y: 704
+[pointed] LShoulder (5) => prob: 0.43141 / x: 862 / y: 563
+[not pointed] LElbow (6) => prob: 0.05044 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00304 / x: 473 / y: 281
+[not pointed] RHip (8) => prob: 0.00331 / x: 528 / y: 250
+[not pointed] RKnee (9) => prob: 0.00239 / x: 500 / y: 250
+[not pointed] RAnkle (10) => prob: 0.01025 / x: 695 / y: 234
+[not pointed] LHip (11) => prob: 0.00199 / x: 166 / y: 626
+[not pointed] LKnee (12) => prob: 0.00615 / x: 695 / y: 250
+[not pointed] LAnkle (13) => prob: 0.01346 / x: 695 / y: 234
+[pointed] REye (14) => prob: 0.54717 / x: 500 / y: 250
+[pointed] LEye (15) => prob: 0.55050 / x: 667 / y: 250
+[pointed] REar (16) => prob: 0.22718 / x: 445 / y: 313
+[not pointed] LEar (17) => prob: 0.06269 / x: 751 / y: 281
+[pointed] Background (18) => prob: 1.00029 / x: 806 / y: 0
+
+============================ turtle (76) done ============================
+
+
+============================== turtle (77) ==============================[pointed] Nose (0) => prob: 0.53028 / x: 528 / y: 313
+[pointed] Neck (1) => prob: 0.46449 / x: 556 / y: 563
+[pointed] RShoulder (2) => prob: 0.37192 / x: 361 / y: 579
+[not pointed] RElbow (3) => prob: 0.02772 / x: 306 / y: 704
+[not pointed] RWrist (4) => prob: 0.00517 / x: 139 / y: 610
+[pointed] LShoulder (5) => prob: 0.44445 / x: 806 / y: 563
+[not pointed] LElbow (6) => prob: 0.05693 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00344 / x: 139 / y: 610
+[not pointed] RHip (8) => prob: 0.00811 / x: 473 / y: 266
+[not pointed] RKnee (9) => prob: 0.00635 / x: 139 / y: 626
+[not pointed] RAnkle (10) => prob: 0.00260 / x: 445 / y: 250
+[not pointed] LHip (11) => prob: 0.00576 / x: 166 / y: 641
+[not pointed] LKnee (12) => prob: 0.00468 / x: 139 / y: 626
+[not pointed] LAnkle (13) => prob: 0.00443 / x: 640 / y: 234
+[pointed] REye (14) => prob: 0.55512 / x: 445 / y: 250
+[pointed] LEye (15) => prob: 0.56564 / x: 612 / y: 250
+[not pointed] REar (16) => prob: 0.10333 / x: 361 / y: 297
+[pointed] LEar (17) => prob: 0.31460 / x: 667 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 751 / y: 0
+
+============================ turtle (77) done ============================
+
+
+============================== turtle (78) ==============================[pointed] Nose (0) => prob: 0.54664 / x: 528 / y: 313
+[pointed] Neck (1) => prob: 0.52886 / x: 584 / y: 579
+[pointed] RShoulder (2) => prob: 0.46587 / x: 361 / y: 579
+[not pointed] RElbow (3) => prob: 0.02940 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00469 / x: 584 / y: 453
+[pointed] LShoulder (5) => prob: 0.44289 / x: 806 / y: 563
+[not pointed] LElbow (6) => prob: 0.06757 / x: 890 / y: 704
+[not pointed] LWrist (7) => prob: 0.00239 / x: 556 / y: 266
+[not pointed] RHip (8) => prob: 0.00314 / x: 473 / y: 266
+[not pointed] RKnee (9) => prob: 0.00333 / x: 445 / y: 250
+[not pointed] RAnkle (10) => prob: 0.00226 / x: 445 / y: 250
+[not pointed] LHip (11) => prob: 0.00274 / x: 166 / y: 626
+[not pointed] LKnee (12) => prob: 0.00766 / x: 667 / y: 250
+[not pointed] LAnkle (13) => prob: 0.00439 / x: 640 / y: 250
+[pointed] REye (14) => prob: 0.52702 / x: 473 / y: 250
+[pointed] LEye (15) => prob: 0.57227 / x: 612 / y: 250
+[not pointed] REar (16) => prob: 0.14458 / x: 389 / y: 297
+[pointed] LEar (17) => prob: 0.23302 / x: 695 / y: 297
+[pointed] Background (18) => prob: 1.00029 / x: 806 / y: 0
+
+============================ turtle (78) done ============================
+
+
+============================== turtle (79) ==============================[pointed] Nose (0) => prob: 0.54115 / x: 612 / y: 281
+[pointed] Neck (1) => prob: 0.52800 / x: 612 / y: 532
+[pointed] RShoulder (2) => prob: 0.44711 / x: 389 / y: 532
+[not pointed] RElbow (3) => prob: 0.04706 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00506 / x: 278 / y: 704
+[pointed] LShoulder (5) => prob: 0.44091 / x: 862 / y: 547
+[not pointed] LElbow (6) => prob: 0.10160 / x: 946 / y: 704
+[not pointed] LWrist (7) => prob: 0.00336 / x: 500 / y: 234
+[not pointed] RHip (8) => prob: 0.00333 / x: 612 / y: 281
+[not pointed] RKnee (9) => prob: 0.00209 / x: 528 / y: 203
+[not pointed] RAnkle (10) => prob: 0.00554 / x: 695 / y: 187
+[not pointed] LHip (11) => prob: 0.00158 / x: 612 / y: 281
+[not pointed] LKnee (12) => prob: 0.00322 / x: 723 / y: 219
+[not pointed] LAnkle (13) => prob: 0.00721 / x: 723 / y: 203
+[pointed] REye (14) => prob: 0.49134 / x: 528 / y: 187
+[pointed] LEye (15) => prob: 0.51693 / x: 695 / y: 219
+[pointed] REar (16) => prob: 0.22937 / x: 445 / y: 266
+[not pointed] LEar (17) => prob: 0.08927 / x: 751 / y: 250
+[pointed] Background (18) => prob: 1.00029 / x: 751 / y: 0
+
+============================ turtle (79) done ============================
+
+
+============================== turtle (80) ==============================[pointed] Nose (0) => prob: 0.51446 / x: 612 / y: 266
+[pointed] Neck (1) => prob: 0.53424 / x: 612 / y: 532
+[pointed] RShoulder (2) => prob: 0.42727 / x: 389 / y: 532
+[not pointed] RElbow (3) => prob: 0.04255 / x: 361 / y: 704
+[not pointed] RWrist (4) => prob: 0.00401 / x: 306 / y: 704
+[pointed] LShoulder (5) => prob: 0.46781 / x: 862 / y: 547
+[not pointed] LElbow (6) => prob: 0.10072 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00319 / x: 500 / y: 234
+[not pointed] RHip (8) => prob: 0.00395 / x: 612 / y: 266
+[not pointed] RKnee (9) => prob: 0.00672 / x: 528 / y: 203
+[not pointed] RAnkle (10) => prob: 0.00514 / x: 723 / y: 187
+[not pointed] LHip (11) => prob: 0.00413 / x: 166 / y: 641
+[not pointed] LKnee (12) => prob: 0.00492 / x: 695 / y: 203
+[not pointed] LAnkle (13) => prob: 0.00730 / x: 723 / y: 187
+[pointed] REye (14) => prob: 0.57608 / x: 528 / y: 203
+[pointed] LEye (15) => prob: 0.51095 / x: 695 / y: 203
+[pointed] REar (16) => prob: 0.30350 / x: 445 / y: 266
+[not pointed] LEar (17) => prob: 0.03139 / x: 751 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 723 / y: 0
+
+============================ turtle (80) done ============================
+
+
+============================== turtle (81) ==============================[pointed] Nose (0) => prob: 0.48404 / x: 612 / y: 281
+[pointed] Neck (1) => prob: 0.50081 / x: 640 / y: 547
+[pointed] RShoulder (2) => prob: 0.45672 / x: 389 / y: 532
+[not pointed] RElbow (3) => prob: 0.05151 / x: 333 / y: 704
+[not pointed] RWrist (4) => prob: 0.00564 / x: 250 / y: 704
+[pointed] LShoulder (5) => prob: 0.48395 / x: 862 / y: 547
+[not pointed] LElbow (6) => prob: 0.10289 / x: 918 / y: 704
+[not pointed] LWrist (7) => prob: 0.00368 / x: 500 / y: 250
+[not pointed] RHip (8) => prob: 0.00332 / x: 612 / y: 281
+[not pointed] RKnee (9) => prob: 0.00204 / x: 640 / y: 532
+[not pointed] RAnkle (10) => prob: 0.00246 / x: 612 / y: 406
+[not pointed] LHip (11) => prob: 0.00197 / x: 640 / y: 422
+[not pointed] LKnee (12) => prob: 0.00317 / x: 640 / y: 532
+[not pointed] LAnkle (13) => prob: 0.00374 / x: 723 / y: 219
+[pointed] REye (14) => prob: 0.53475 / x: 528 / y: 219
+[pointed] LEye (15) => prob: 0.48595 / x: 695 / y: 219
+[pointed] REar (16) => prob: 0.21400 / x: 445 / y: 281
+[not pointed] LEar (17) => prob: 0.09133 / x: 751 / y: 266
+[pointed] Background (18) => prob: 1.00029 / x: 751 / y: 0
+
+============================ turtle (81) done ============================
+

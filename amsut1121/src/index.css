@@ -1,0 +1,57 @@
+.header {
+  text-align: center;
+  line-height: 10vh;
+  height: 10vh;
+
+  font-size: 5vh;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.h:hover {
+  color: gold;
+}
+
+.main {
+  margin-top: 35vh;
+  text-align: center;
+  align-items: center;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.pose {
+  margin-top: 35vh;
+  text-align: center;
+  font-size: 10vh;
+  font-weight: bold;
+}
+
+.start {
+  text-align: center;
+}
+
+.startButton {
+  margin-top: 25vh;
+
+  text-align: center;
+  font-size: 25vh;
+  font-weight: bold;
+
+  background: none;
+  border: none;
+}
+
+.startButton:hover {
+  color: gold;
+}
+
+.startButton:active {
+  color: white;
+}

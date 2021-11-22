@@ -11,10 +11,10 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 #ShoulderDistance,EyeDistance,ShoulderEyeDistance,ShoulderSlope,EyeSlope를 이용한 자세 예측
-def getPosture(SD,ED,SED,SS,ES):
-	model = load_model("./postureClassModel7929.h5")
+def getPosture(SED,SER, SS,ES):
+	model = load_model("./postureClass68.h5")
 	
-	input =[float(SD),float(ED),float(SED),float(SS),float(ES)]
+	input =[float(SED),float(SER),float(SS),float(ES)]
 	array=model.predict([input])
 
 	#자세 0 1 2 중 가장 높은 예측값으로 자세 판별
@@ -133,8 +133,13 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
     elif isWristSpotted == 2:
         WristEyeDistance = distanceBetweenPoints((REyePoints[0]+LEyePoints[0])/2, (REyePoints[1]+LEyePoints[1])/2,
                             LWristPoints[0], LWristPoints[1])
-    
-    getPosture(ShoulderDistance, EyeDistance, ShoulderEyeDistance, ShoulderSlope, EyeSlope)
+    ShoulderEyeRatio=ShoulderDistance/EyeDistance
+
+    print(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
+    print(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
+    print(ShoulderEyeDistance, ShoulderEyeRatio, ShoulderSlope, EyeSlope)
+
+    getPosture(ShoulderEyeDistance, ShoulderEyeRatio, ShoulderSlope, EyeSlope)
 
     cv2.waitKey(0)
     return frame
@@ -155,26 +160,28 @@ weightsFile_coco = "./pose_iter_440000.caffemodel"
 #################### webcam을 통해 frame 이미지를 받아온 후 OpenPose를 통해 분석 ####################
 
 def classify():
-    video_capture = cv2.VideoCapture(0)
+    while 1:
+        video_capture = cv2.VideoCapture(0)
 
-# Grab a single frame of video
-    ret, frame = video_capture.read()
-    frame = imutils.resize(frame, width=400)
+    # Grab a single frame of video
+        ret, frame = video_capture.read()
+        frame = imutils.resize(frame, width=400)
 
-    if ret:
-        # 키포인트를 저장할 빈 리스트
-        points = []
+        if ret:
+            # 키포인트를 저장할 빈 리스트
+            points = []
 
-        # 이미지 읽어오기
-        frame_coco = frame
+            # 이미지 읽어오기
+            frame_coco = frame
 
-        # COCO Model
-        frame_COCO = output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
-                                threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)
+            # COCO Model
+            frame_COCO = output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
+                                    threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)
 
 
-    # Release handle to the webcam
-    video_capture.release()
+        # Release handle to the webcam
+        video_capture.release()
+    
 
 if __name__ == '__main__': 
 	classify()

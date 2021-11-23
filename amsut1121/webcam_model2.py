@@ -1,14 +1,17 @@
+import abc
 from os import lseek
 import cv2
 import math
 import imutils
 import numpy as np
-
 import sys
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+global start
+start=0
+global inShoulderEyeDistance,inShoulderEyeRatio,inShoulderSlope,inEyeSlope,inRShoulderPointsY,inLShoulderPointsY
 
 #ShoulderDistance,EyeDistance,ShoulderEyeDistance,ShoulderSlope,EyeSlope를 이용한 자세 예측
 def getPosture(SED,SER, SS,ES):
@@ -16,10 +19,11 @@ def getPosture(SED,SER, SS,ES):
 	
 	input =[float(SED),float(SER),float(SS),float(ES)]
 	array=model.predict([input])
-
+    
 	#자세 0 1 2 중 가장 높은 예측값으로 자세 판별
 	predictPosture=np.argmax(array)
-	print(predictPosture)
+	return predictPosture
+
 
 # 포인트 간 거리 측정
 def distanceBetweenPoints(aX, aY, bX, bY):
@@ -135,11 +139,39 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
                             LWristPoints[0], LWristPoints[1])
     ShoulderEyeRatio=ShoulderDistance/EyeDistance
 
-    print(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
-    print(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
-    print(ShoulderEyeDistance, ShoulderEyeRatio, ShoulderSlope, EyeSlope)
+    #print(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
+    #print(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
+    #print(ShoulderEyeDistance, ShoulderEyeRatio, ShoulderSlope, EyeSlope)
 
-    getPosture(ShoulderEyeDistance, ShoulderEyeRatio, ShoulderSlope, EyeSlope)
+    global start,inRShoulderPointsY,inLShoulderPointsY,inShoulderEyeDistance,inShoulderEyeRatio,inShoulderSlope,inEyeSlope
+
+    if(start==0):
+        inRShoulderPointsY=RShoulderPoints[1]
+        inLShoulderPointsY=LShoulderPoints[1]
+        inShoulderEyeDistance=ShoulderEyeDistance
+        inShoulderEyeRatio=ShoulderEyeRatio
+        inShoulderSlope=ShoulderSlope
+        inEyeSlope=EyeSlope
+        start=1
+
+    posture=getPosture(ShoulderEyeDistance, ShoulderEyeRatio, ShoulderSlope, EyeSlope)
+
+    #후속처리
+    if(posture==0):#바른 자세로 판단해도 초기 자세보다 양 어깨가 올라가면 거북목 자세로 판단
+        if(RShoulderPoints[1]-inRShoulderPointsY>2)and(LShoulderPoints[1]-inLShoulderPointsY>2):
+            posture=1
+        elif(ShoulderSlope>0.3)or(EyeSlope>0.3):
+            posture=2
+    elif(posture==1):
+        if(ShoulderEyeDistance-inShoulderEyeDistance<1)or(ShoulderEyeRatio-inShoulderEyeRatio<1):
+            posture=0
+    elif(posture==2):#비대칭 자세일 때
+        if(ShoulderSlope<0.2)and(EyeSlope<0.2):
+            posture=0
+        elif(ShoulderSlope>0.5)or(EyeSlope>0.5):
+            posture=2
+    
+    print(posture)
 
     cv2.waitKey(0)
     return frame
@@ -186,5 +218,3 @@ def classify():
 if __name__ == '__main__': 
 	classify()
 	
-
-

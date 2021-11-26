@@ -12,11 +12,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 global start
 start=0
 global inREX, inREY, inLEX, inLEY, inRSX, inRSY, inLSX, inLSY, inSED,inSER,inSS,inES
-initialArray=[0,0,0,0,0,0,0,0,0,0,0,0,0]
+initialArray=[0,0,0,0,0]
 #ShoulderDistance,EyeDistance,ShoulderEyeDistance,ShoulderSlope,EyeSlope를 이용한 자세 예측
 
 def getPosture(array):
-	model = load_model("postureClass1124.h5")
+	model = load_model("postureClass9038.h5")
 	array2=model.predict(np.expand_dims(array, axis = 0))
 	#자세 0 1 2 중 가장 높은 예측값으로 자세 판별
 	print(np.argmax(array2))
@@ -141,27 +141,20 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
     global start,inREX, inREY, inLEX, inLEY, inRSX, inRSY, inLSX, inLSY, inSED,inSER,inSS,inES
     global initialArray
     if start<5:
-        initialArray[0]+=REyePoints[0]+0.000000000000000000001
-        initialArray[1]+=REyePoints[1]+0.000000000000000000001
-        initialArray[2]+=LEyePoints[0]+0.000000000000000000001
-        initialArray[3]+=LEyePoints[1]+0.000000000000000000001
-        initialArray[4]+=RShoulderPoints[0]+0.000000000000000000001
-        initialArray[5]+=RShoulderPoints[1]+0.000000000000000000001
-        initialArray[6]+=LShoulderPoints[0]+0.000000000000000000001
-        initialArray[7]+=LShoulderPoints[1]+0.000000000000000000001
-        initialArray[8]+=ShoulderEyeDistance+0.000000000000000000001
-        initialArray[9]+=ShoulderEyeRatio+0.000000000000000000001
-        initialArray[10]+=ShoulderSlope+0.000000000000000000001
-        initialArray[11]+=EyeSlope+0.000000000000000000001
-        initialArray[12]+=EyeDistance+0.000000000000000000001
+        initialArray[0]+=RShoulderPoints[1]+0.000000000000000000001
+        initialArray[1]+=LShoulderPoints[1]+0.000000000000000000001
+        initialArray[2]+=EyeDistance+0.000000000000000000001
+        initialArray[3]+=ShoulderEyeDistance+0.000000000000000000001
+        initialArray[4]+=ShoulderEyeRatio+0.000000000000000000001
+        
         start+=1
     elif(start==5):
         print("자세판정시작")
         initialArray=np.divide(initialArray,5)
         start+=1
     else:
-        array=[RShoulderPoints[1]/initialArray[5],LShoulderPoints[1]/initialArray[7],EyeDistance/initialArray[12],ShoulderEyeDistance/initialArray[8], ShoulderEyeRatio/initialArray[9], ShoulderSlope/initialArray[10], EyeSlope/initialArray[11]]
-        print(RShoulderPoints[1]/initialArray[5],LShoulderPoints[1]/initialArray[7],EyeDistance/initialArray[12],ShoulderEyeDistance/initialArray[8], ShoulderEyeRatio/initialArray[9], ShoulderSlope/initialArray[10], EyeSlope/initialArray[11])
+        array=[RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope]
+        print(RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope)
         getPosture(array)
     
 

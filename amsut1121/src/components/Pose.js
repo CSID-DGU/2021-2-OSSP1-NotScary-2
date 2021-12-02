@@ -51,6 +51,7 @@ function Pose(pros) {
         let a;
         if(posture==1) a = new Notification("거북목 자세입니다!");
         else if(posture == 2) a = new Notification("턱을 괸 자세입니다!");
+        else if(posture == 3) a = new Notification("양쪽 어깨와 눈이 모두 나오도록 위치해주세요!")
     }, [posture])
     
     
@@ -61,10 +62,12 @@ function Pose(pros) {
             <button onClick={() => setPosture("0")}>바</button>
             <button onClick={() => setPosture("1")}>거</button>
             <button onClick={() => setPosture("2")}>턱</button>
+            <button onClick={() => setPosture("3")}>오</button>
             
         <div style={{ color: "red" }}>
             {posture == 1 && "거북목 자세입니다."}
             {posture == 2 && "턱을 괸 자세입니다."}
+            {posture == 3 && "양쪽 어깨와 눈이 모두 나오도록 위치해주세요."}
         </div>
       </div>
     );

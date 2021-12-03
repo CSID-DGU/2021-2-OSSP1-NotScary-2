@@ -1,3 +1,4 @@
+
 import abc
 from os import lseek
 import cv2
@@ -143,17 +144,18 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
     if start<5:
         initialArray[0]+=RShoulderPoints[1]+0.000000000000000000001
         initialArray[1]+=LShoulderPoints[1]+0.000000000000000000001
-        initialArray[2]+=ShoulderEyeDistance+0.000000000000000000001
-        initialArray[3]+=ShoulderEyeRatio+0.000000000000000000001
-        initialArray[4]+=EyeDistance+0.000000000000000000001
+        initialArray[2]+=EyeDistance+0.000000000000000000001
+        initialArray[3]+=ShoulderEyeDistance+0.000000000000000000001
+        initialArray[4]+=ShoulderEyeRatio+0.000000000000000000001
+        
         start+=1
     elif(start==5):
         print("자세판정시작")
         initialArray=np.divide(initialArray,5)
         start+=1
     else:
-        array=[RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[4],ShoulderEyeDistance/initialArray[2], ShoulderEyeRatio/initialArray[3], ShoulderSlope, EyeSlope]
-        print(RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[4],ShoulderEyeDistance/initialArray[2], ShoulderEyeRatio/initialArray[3], ShoulderSlope, EyeSlope)
+        array=[RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope]
+        print(RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope)
         getPosture(array)
     
 
@@ -203,4 +205,4 @@ def classify():
 
 if __name__ == '__main__': 
 	classify()
-	
+

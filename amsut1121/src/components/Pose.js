@@ -1,55 +1,122 @@
-import React from "react";
-import { Component } from "react/cjs/react.production.min";
-import * as tf from "@tensorflow/tfjs";
+import React, { useState, useEffect, useRef } from "react";
+import Webcam from "react-webcam";
 
-class Pose extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      posture: "", //현재 자세 state
-    };
+const useNotification = (title, options) => {
+  if (!("Notification" in window)) {
+    return;
   }
-  //서버로 5가지 좌표값을 통해 분석된 자세 받아오는 함수
 
-  classPosture = setInterval(() => {
-    console.log("버튼클릭");
-    const post = {
-      // //ShoulderDistance,EyeDistance,ShoulderEyeDistance,ShoulderSlope,EyeSlope
-      // //SD:-1, ED:-1, SED:-1, SS:-1, ES:-1 로 초기 값 설정해서 진행
-      // SD: 418,
-      // ED: 117,
-      // SED: 188.2727,
-      // SS: 0,
-      // ES: 0, //임의로 설정한 자세 값(1번 자세)
-    };
-
-    fetch("http://localhost:4000/posture", {
-      // /posture를 post를 통해 서버와 연동
-      method: "post",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(post),
-    })
-      .then((res) => res.json())
-      .then((json) => {
-        this.setState({
-          posture: json.text, //서버로부터 받아온 자세로 현재 state 자세 업데이트
-        });
+  const fireNotif = () => {
+    /* 권한 요청 부분 */
+    if (Notification.permission !== "granted") {
+      Notification.requestPermission().then((permission) => {
+        if (permission === "granted") {
+          /* 권한을 요청받고 nofi를 생성해주는 부분 */
+          new Notification(title, options);
+        } else {
+          return;
+        }
       });
-  }, 5000);
+    } else {
+      /* 권한이 있을때 바로 noti 생성해주는 부분 */
+      new Notification(title, options);
+    }
+  };
+  return fireNotif;
+};
 
-  render() {
+function Pose(pros) {
+  const [posture, setPosture] = useState("0");
+
+  useEffect(() => {
+    let a;
+    if (posture == 1) a = new Notification("거북목 자세입니다!");
+    else if (posture == 2) a = new Notification("턱을 괸 자세입니다!");
+  }, [posture]);
+
+  const videoConstraints = {
+    width: 1280,
+    height: 720,
+    facingMode: "user",
+  };
+
+  const WebcamCapture = () => {
+    const webcamRef = useRef();
+
+    const capture = () => {
+      setTimeout(function () {
+        var imageSrc;
+
+        console.log(webcamRef.current);
+
+        if (webcamRef.current == null)
+          imageSrc = "C:\\Users\\82109\\Downloads\\pose_capture.jpg";
+        else imageSrc = webcamRef.current.getScreenshot();
+
+        console.log(imageSrc);
+
+        fetch("http://localhost:4000/test", {
+          method: "post",
+          headers: {
+            "content-type": "application/json",
+          },
+        })
+          .then((res) => res.json())
+          .then((json) => {
+            setPosture(json.text);
+            console.log("qwerqwer");
+            console.log(json.text);
+          });
+
+        var a = document.createElement("a");
+        a.style = "display: none";
+        a.href = imageSrc;
+        a.download = "pose_capture.jpg";
+
+        document.body.appendChild(a);
+
+        setTimeout(() => {
+          a.click();
+        }, 1000);
+
+        setTimeout(function () {
+          // 다운로드가 안되는 경우 방지
+          document.body.removeChild(a);
+        }, 100);
+      }, 10);
+    };
+
+    useEffect(() => {
+      setInterval(() => {
+        capture();
+      }, 5000);
+    }, []);
+
     return (
-      <div className="pose">
-        {this.state.posture == 0 && "좋은 자세입니다."}
-        <div style={{ color: "red" }}>
-          {this.state.posture == 1 && "거북목 자세입니다."}
-          {this.state.posture == 2 && "턱을 괸 자세입니다."}
-        </div>
-      </div>
+      <>
+        <Webcam
+          audio={false}
+          ref={webcamRef}
+          screenshotFormat="image/jpeg"
+          videoConstraints={videoConstraints}
+          mirrored={true}
+          height={0.6 * `${window.innerHeight}`}
+          width={0.9 * `${window.innerWidth}`}
+        />
+      </>
     );
-  }
+  };
+
+  return (
+    <div className="pose">
+      <WebcamCapture />
+      {posture == 0 && "바른 자세입니다."}
+      <div style={{ color: "red" }}>
+        {posture == 1 && "거북목 자세입니다."}
+        {posture == 2 && "턱을 괸 자세입니다."}
+      </div>
+    </div>
+  );
 }
 
 export default Pose;

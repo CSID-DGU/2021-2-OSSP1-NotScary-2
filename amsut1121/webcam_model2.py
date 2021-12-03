@@ -1,25 +1,29 @@
+import abc
 from os import lseek
 import cv2
 import math
 import imutils
 import numpy as np
-
 import sys
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+global start
+start=0
+global inShoulderEyeDistance,inShoulderEyeRatio,inShoulderSlope,inEyeSlope,inRShoulderPointsY,inLShoulderPointsY
 
 #ShoulderDistance,EyeDistance,ShoulderEyeDistance,ShoulderSlope,EyeSlope를 이용한 자세 예측
-def getPosture(SD,ED,SED,SS,ES):
-	model = load_model("./postureClassModel7929.h5")
+def getPosture(SED,SER, SS,ES):
+	model = load_model("./postureClass68.h5")
 	
-	input =[float(SD),float(ED),float(SED),float(SS),float(ES)]
+	input =[float(SED),float(SER),float(SS),float(ES)]
 	array=model.predict([input])
-
+    
 	#자세 0 1 2 중 가장 높은 예측값으로 자세 판별
 	predictPosture=np.argmax(array)
-	print(predictPosture)
+	return predictPosture
+
 
 # 포인트 간 거리 측정
 def distanceBetweenPoints(aX, aY, bX, bY):
@@ -133,8 +137,41 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
     elif isWristSpotted == 2:
         WristEyeDistance = distanceBetweenPoints((REyePoints[0]+LEyePoints[0])/2, (REyePoints[1]+LEyePoints[1])/2,
                             LWristPoints[0], LWristPoints[1])
+    ShoulderEyeRatio=ShoulderDistance/EyeDistance
+
+    #print(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
+    #print(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
+    #print(ShoulderEyeDistance, ShoulderEyeRatio, ShoulderSlope, EyeSlope)
+
+    global start,inRShoulderPointsY,inLShoulderPointsY,inShoulderEyeDistance,inShoulderEyeRatio,inShoulderSlope,inEyeSlope
+
+    if(start==0):
+        inRShoulderPointsY=RShoulderPoints[1]
+        inLShoulderPointsY=LShoulderPoints[1]
+        inShoulderEyeDistance=ShoulderEyeDistance
+        inShoulderEyeRatio=ShoulderEyeRatio
+        inShoulderSlope=ShoulderSlope
+        inEyeSlope=EyeSlope
+        start=1
+
+    posture=getPosture(ShoulderEyeDistance, ShoulderEyeRatio, ShoulderSlope, EyeSlope)
+
+    #후속처리
+    if(posture==0):#바른 자세로 판단해도 초기 자세보다 양 어깨가 올라가면 거북목 자세로 판단
+        if(RShoulderPoints[1]-inRShoulderPointsY>2)and(LShoulderPoints[1]-inLShoulderPointsY>2):
+            posture=1
+        elif(ShoulderSlope>0.3)or(EyeSlope>0.3):
+            posture=2
+    elif(posture==1):
+        if(ShoulderEyeDistance-inShoulderEyeDistance<1)or(ShoulderEyeRatio-inShoulderEyeRatio<1):
+            posture=0
+    elif(posture==2):#비대칭 자세일 때
+        if(ShoulderSlope<0.2)and(EyeSlope<0.2):
+            posture=0
+        elif(ShoulderSlope>0.5)or(EyeSlope>0.5):
+            posture=2
     
-    getPosture(ShoulderDistance, EyeDistance, ShoulderEyeDistance, ShoulderSlope, EyeSlope)
+    print(posture)
 
     cv2.waitKey(0)
     return frame
@@ -155,29 +192,29 @@ weightsFile_coco = "./pose_iter_440000.caffemodel"
 #################### webcam을 통해 frame 이미지를 받아온 후 OpenPose를 통해 분석 ####################
 
 def classify():
-    video_capture = cv2.VideoCapture(0)
+    while 1:
+        video_capture = cv2.VideoCapture(0)
 
-# Grab a single frame of video
-    ret, frame = video_capture.read()
-    frame = imutils.resize(frame, width=400)
+    # Grab a single frame of video
+        ret, frame = video_capture.read()
+        frame = imutils.resize(frame, width=400)
 
-    if ret:
-        # 키포인트를 저장할 빈 리스트
-        points = []
+        if ret:
+            # 키포인트를 저장할 빈 리스트
+            points = []
 
-        # 이미지 읽어오기
-        frame_coco = frame
+            # 이미지 읽어오기
+            frame_coco = frame
 
-        # COCO Model
-        frame_COCO = output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
-                                threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)
+            # COCO Model
+            frame_COCO = output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
+                                    threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)
 
 
-    # Release handle to the webcam
-    video_capture.release()
+        # Release handle to the webcam
+        video_capture.release()
+    
 
 if __name__ == '__main__': 
 	classify()
 	
-
-

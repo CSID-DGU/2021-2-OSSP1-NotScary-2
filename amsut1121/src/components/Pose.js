@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Component } from "react/cjs/react.production.min";
-import * as tf from "@tensorflow/tfjs";
+import React, { useState, useEffect, useRef } from "react";
+import Webcam from "react-webcam";
 
 const useNotification = (title, options) => {
   if (!("Notification" in window)) {
@@ -26,52 +25,98 @@ const useNotification = (title, options) => {
   return fireNotif;
 };
 
-
 function Pose(pros) {
-    const [posture, setPosture] = useState("0");
-  //서버로 5가지 좌표값을 통해 분석된 자세 받아오는 함수
+  const [posture, setPosture] = useState("0");
 
-/*
-    fetch("http://localhost:4000/posture", {
-      // /posture를 post를 통해 서버와 연동
-      method: "get",
-      headers: {
-        "content-type": "application/json",
-      },
-    })
-      .then((res) => res.json())
-      .then((json) => {
-          setPosture(posture+1);
-      });
-    */
-    
-    
-        
+  useEffect(() => {
+    let a;
+    if (posture == 1) a = new Notification("거북목 자세입니다!");
+    else if (posture == 2) a = new Notification("턱을 괸 자세입니다!");
+  }, [posture]);
+
+  const videoConstraints = {
+    width: 1280,
+    height: 720,
+    facingMode: "user",
+  };
+
+  const WebcamCapture = () => {
+    const webcamRef = useRef();
+
+    const capture = () => {
+      setTimeout(function () {
+        var imageSrc;
+
+        console.log(webcamRef.current);
+
+        if (webcamRef.current == null)
+          imageSrc = "C:\\Users\\82109\\Downloads\\pose_capture.jpg";
+        else imageSrc = webcamRef.current.getScreenshot();
+
+        console.log(imageSrc);
+
+        fetch("http://localhost:4000/test", {
+          method: "post",
+          headers: {
+            "content-type": "application/json",
+          },
+        })
+          .then((res) => res.json())
+          .then((json) => {
+            setPosture(json.text);
+            console.log("qwerqwer");
+            console.log(json.text);
+          });
+
+        var a = document.createElement("a");
+        a.style = "display: none";
+        a.href = imageSrc;
+        a.download = "pose_capture.jpg";
+
+        document.body.appendChild(a);
+
+        setTimeout(() => {
+          a.click();
+        }, 1000);
+
+        setTimeout(function () {
+          // 다운로드가 안되는 경우 방지
+          document.body.removeChild(a);
+        }, 100);
+      }, 10);
+    };
+
     useEffect(() => {
-        let a;
-        if(posture==1) a = new Notification("거북목 자세입니다!");
-        else if(posture == 2) a = new Notification("턱을 괸 자세입니다!");
-        else if(posture == 3) a = new Notification("양쪽 어깨와 눈이 모두 나오도록 위치해주세요!")
-    }, [posture])
-    
-    
-    
+      setInterval(() => {
+        capture();
+      }, 5000);
+    }, []);
+
     return (
-      <div className="pose">
-            {posture == 0 && "바른 자세입니다."}
-            <button onClick={() => setPosture("0")}>바</button>
-            <button onClick={() => setPosture("1")}>거</button>
-            <button onClick={() => setPosture("2")}>턱</button>
-            <button onClick={() => setPosture("3")}>오</button>
-            
-        <div style={{ color: "red" }}>
-            {posture == 1 && "거북목 자세입니다."}
-            {posture == 2 && "턱을 괸 자세입니다."}
-            {posture == 3 && "양쪽 어깨와 눈이 모두 나오도록 위치해주세요."}
-        </div>
-      </div>
+      <>
+        <Webcam
+          audio={false}
+          ref={webcamRef}
+          screenshotFormat="image/jpeg"
+          videoConstraints={videoConstraints}
+          mirrored={true}
+          height={0.6 * `${window.innerHeight}`}
+          width={0.9 * `${window.innerWidth}`}
+        />
+      </>
     );
-  
+  };
+
+  return (
+    <div className="pose">
+      <WebcamCapture />
+      {posture == 0 && "바른 자세입니다."}
+      <div style={{ color: "red" }}>
+        {posture == 1 && "거북목 자세입니다."}
+        {posture == 2 && "턱을 괸 자세입니다."}
+      </div>
+    </div>
+  );
 }
 
 export default Pose;

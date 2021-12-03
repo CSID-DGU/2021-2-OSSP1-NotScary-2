@@ -8,18 +8,25 @@ import numpy as np
 
 import sys
 import tensorflow as tf
+from tensorflow.keras import models
 from tensorflow.keras.models import load_model
 import os
 
-def getPosture(SD,ED,SED,SS,ES):
-	model = load_model("./postureClass68.h5")
-	
-	input =[float(SD),float(ED),float(SED),float(SS),float(ES)]
-	array=model.predict([input])
 
-	#자세 0 1 2 중 가장 높은 예측값으로 자세 판별
-	predictPosture=np.argmax(array)
-	print(predictPosture)
+
+def getPosture(SD,ED,SED,SS,ES):
+    if(SD==0 and ED==0 and SED==0 and SS==0 and ES==0):
+        predictPosture=3
+        print(predictPosture)
+    else:
+    	model = load_model("./postureClass68.h5")
+	
+    	input =[float(SD),float(ED),float(SED),float(SS),float(ES)]
+    	array=model.predict([input])
+
+    	#자세 0 1 2 중 가장 높은 예측값으로 자세 판별
+    	predictPosture=np.argmax(array)
+    	print(predictPosture)
 
 # 포인트 간 거리 측정
 def distanceBetweenPoints(aX, aY, bX, bY):
@@ -133,7 +140,12 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
     elif isWristSpotted == 2:
         WristEyeDistance = distanceBetweenPoints((REyePoints[0]+LEyePoints[0])/2, (REyePoints[1]+LEyePoints[1])/2,
                             LWristPoints[0], LWristPoints[1])
-    
+    if RShoulderPoints == [0,0] or LShoulderPoints == [0,0] or REyePoints == [0,0] or LEyePoints == [0,0]:
+        ShoulderDistance=0 
+        EyeDistance=0 
+        ShoulderEyeDistance=0 
+        ShoulderSlope=0 
+        EyeSlope = 0
     getPosture(ShoulderDistance, EyeDistance, ShoulderEyeDistance, ShoulderSlope, EyeSlope)
 
     cv2.waitKey(0)
@@ -152,14 +164,15 @@ protoFile_coco = "./pose_deploy_linevec.prototxt"
 weightsFile_coco = "./pose_iter_440000.caffemodel"
 
 def test():
-    man = "C:\\Users\\82109\\Downloads\\pose_capture.jpg" #다운로드된 파일 경로 (개인 pc 경로에 맞게 수정해줘야됨)
+    man = "C:\\Users\\user\\Downloads\\pose_capture.jpg" #다운로드된 파일 경로 (개인 pc 경로에 맞게 수정해줘야됨)
     
     points = []
 
     frame_coco = cv2.imread(man)
             
     frame_COCO = output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
-                                    threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)    
+                                    threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)
+        
 
     
 

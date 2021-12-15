@@ -31,7 +31,8 @@ function Pose(pros) {
   useEffect(() => {
     let a;
     if (posture == 1) a = new Notification("거북목 자세입니다!");
-    else if (posture == 2) a = new Notification("턱을 괸 자세입니다!");
+    else if (posture == 2) a = new Notification("어깨비대칭 자세입니다!");
+    else if (posture == 3) a = new Notification("양쪽 어깨와 눈이 모두 보이도록 위치해주세요!")
   }, [posture]);
 
   const videoConstraints = {
@@ -50,7 +51,7 @@ function Pose(pros) {
         console.log(webcamRef.current);
 
         if (webcamRef.current == null)
-          imageSrc = "C:\\Users\\82109\\Downloads\\pose_capture.jpg";
+          imageSrc = "C:\\Users\\user\\Downloads\\pose_capture.jpg";
         else imageSrc = webcamRef.current.getScreenshot();
 
         console.log(imageSrc);
@@ -89,7 +90,7 @@ function Pose(pros) {
     useEffect(() => {
       setInterval(() => {
         capture();
-      }, 5000);
+      }, 8000);
     }, []);
 
     return (
@@ -113,7 +114,8 @@ function Pose(pros) {
       {posture == 0 && "바른 자세입니다."}
       <div style={{ color: "red" }}>
         {posture == 1 && "거북목 자세입니다."}
-        {posture == 2 && "턱을 괸 자세입니다."}
+        {posture == 2 && "어깨비대칭 자세입니다."}
+        {posture == 3 && "양쪽 어깨와 눈이 모두 보이도록 위치해주세요."}
       </div>
     </div>
   );

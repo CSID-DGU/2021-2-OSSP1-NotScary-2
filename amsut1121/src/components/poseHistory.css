@@ -1,0 +1,23 @@
+.defaultTr {
+    height: 100px;
+}
+
+.defaultTd {
+    width: 500px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.todayTd {
+    width: 500px;
+    vertical-align: top;
+    padding: 5px;
+    background-color: #B7D6BE;
+}
+
+.notThisMonthTd {
+    width: 500px;
+    vertical-align: top;
+    padding: 5px;
+    background-color: grey
+}

@@ -1,3 +1,7 @@
+button:hover {
+  cursor: pointer;
+}
+
 .header {
   text-align: center;
   line-height: 10vh;
@@ -26,8 +30,15 @@ a {
   font-weight: bold;
 }
 
+.main2 {
+  text-align: center;
+  align-items: center;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
 .pose {
-  margin-top: 35vh;
+  margin-top: 10vh;
   text-align: center;
   font-size: 10vh;
   font-weight: bold;
@@ -52,6 +63,174 @@ a {
   color: gold;
 }
 
-.startButton:active {
-  color: white;
+.historyButton {
+  margin-top: 20vh;
+
+  text-align: center;
+  font-size: 5vh;
+  font-weight: bold;
+  color: gold;
+
+  background: none;
+  border: none;
+}
+
+.historyButton:hover {
+  color: black;
+}
+@-webkit-keyframes ptAiguille {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes ptAiguille {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader10:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -10vh;
+  height: 1vw;
+  width: 1vw;
+  border-radius: 1vw;
+  -webkit-animation: loader10g 3s ease-in-out infinite;
+  animation: loader10g 3s ease-in-out infinite;
+}
+
+.loader10 {
+  position: relative;
+  width: 1vw;
+  height: 1vw;
+  left: 48.6vw;
+  border-radius: 1vw;
+  -webkit-animation: loader10m 3s ease-in-out infinite;
+  animation: loader10m 3s ease-in-out infinite;
+}
+
+.loader10:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 10vh;
+  height: 1vw;
+  width: 1vw;
+  border-radius: 1vw;
+  -webkit-animation: loader10d 3s ease-in-out infinite;
+  animation: loader10d 3s ease-in-out infinite;
+}
+
+@-webkit-keyframes loader10g {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: gold;
+  }
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+@keyframes loader10g {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: gold;
+  }
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes loader10m {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: gold;
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+@keyframes loader10m {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: gold;
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes loader10d {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: gold;
+  }
+  100% {
+    background-color: white;
+  }
+}
+@keyframes loader10d {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: gold;
+  }
+  100% {
+    background-color: white;
+  }
 }

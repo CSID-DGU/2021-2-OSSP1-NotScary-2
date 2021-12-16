@@ -2,6 +2,13 @@
     height: 100px;
 }
 
+.badTd {
+    width: 500px;
+    vertical-align: top;
+    padding: 5px;
+    background-color: #FF5959
+}
+
 .defaultTd {
     width: 500px;
     vertical-align: top;
@@ -12,7 +19,7 @@
     width: 500px;
     vertical-align: top;
     padding: 5px;
-    background-color: #B7D6BE;
+    background-color: gold;
 }
 
 .notThisMonthTd {
@@ -21,3 +28,20 @@
     padding: 5px;
     background-color: grey
 }
+
+.monthSelect-Wrapper {
+    padding: 10px;
+    height: 100px;
+    vertical-align: center;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftRightButton {
+    height: 70px;
+    width: 70px;
+    border: 1px solid grey;
+    font-size: 30px
+}
+

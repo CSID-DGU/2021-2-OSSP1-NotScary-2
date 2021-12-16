@@ -4,6 +4,27 @@ import math
 import imutils
 import numpy as np
 import time
+import sys
+import tensorflow as tf
+from tensorflow.keras.models import load_model
+import os
+def getPosture(array):
+   model = load_model("postureClass8977.h5")
+   
+   array2=model.predict(np.expand_dims(array, axis = 0))
+   #자세 0 1 2 중 가장 높은 예측값으로 자세 판별
+   predictPosture=np.argmax(array2)
+   return predictPosture
+
+# 포인트 간 거리 측정
+def distanceBetweenPoints(aX, aY, bX, bY):
+    return math.sqrt(math.pow(aX-bX,2)+math.pow(aY-bY,2))
+
+# 포인트 간 기울기 측정
+def slopeBetweenPoints(aX, aY, bX, bY):
+    if(aX-bX == 0):
+        return 0
+    return abs(aY-bY)/abs(aX-bX)
 
 def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BODY_PARTS):
     global points
@@ -32,15 +53,10 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
     # 포인트 리스트 초기화
     points = []
 
-    # 0: not spotted, 1: RWrist Spotted, 2 is LWrist Spotted
-    isWristSpotted = 0  
-
     RShoulderPoints = [0, 0]
     LShoulderPoints = [0, 0]
     REyePoints = [0, 0]
     LEyePoints = [0, 0]
-    RWristPoints = [0, 0]
-    LWristPoints = [0, 0]
 
     check = 0
     not_check = 0
@@ -60,16 +76,52 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
         y = int(y)
 
         if prob > threshold:  # [pointed]
+            points.append((x, y))
+
+            if i == 2:
+                RShoulderPoints[0] = x
+                RShoulderPoints[1] = y
+
+            elif i == 5:
+                LShoulderPoints[0] = x
+                LShoulderPoints[1] = y
+
+            elif i == 14:
+                REyePoints[0] = x
+                REyePoints[1] = y
+
+            elif i == 15:
+                LEyePoints[0] = x
+                LEyePoints[1] = y
+###################################################################
             if (i == 2) or (i == 5) or (i == 14) or (i == 15):
                 check = check + 1 
         else:
+            points.append(None)
+###################################################################
             if (i == 2) or (i == 5) or (i == 14) or (i == 15):
                 not_check = not_check + i    
 
-    cv2.waitKey(0)
 
+    ShoulderDistance = distanceBetweenPoints(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
+    EyeDistance = distanceBetweenPoints(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
+    ShoulderEyeDistance = distanceBetweenPoints((RShoulderPoints[0]+LShoulderPoints[0])/2, (RShoulderPoints[1]+LShoulderPoints[1])/2,
+                            (REyePoints[0]+LEyePoints[0])/2, (REyePoints[1]+LEyePoints[1])/2)
+    ShoulderSlope = slopeBetweenPoints(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
+    EyeSlope = slopeBetweenPoints(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
+    ShoulderEyeRatio=ShoulderDistance/(EyeDistance+0.000000000000000000001)
+
+    array=[RShoulderPoints[1],LShoulderPoints[1],EyeDistance,ShoulderEyeDistance, ShoulderEyeRatio, ShoulderSlope, EyeSlope]
+
+    good = getPosture(array)
+
+    string = "#".join(str(_)for _ in array)
+    
     if(check > 1): 
-        print(1)
+        if(good):
+            print(str(1)+"#" + string)
+        else:
+            print(str(-1) +"#" + string)
     else:
         print(not_check)
             
@@ -99,32 +151,6 @@ def startCheck():
     output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
                                 threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)
             
-
+    
 if __name__ == '__main__': 
-	startCheck()
-
-
-
-
-
-# def startCheck():
-#     video_capture = cv2.VideoCapture(0)
-
-#     ret, frame = video_capture.read()
-#     frame = imutils.resize(frame, width=400)
-       
-#     if ret:
-#         points = []
-
-#             # 이미지 읽어오기
-#         frame_coco = frame
-
-#         print(output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
-#                                 threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO))
-            
-            
-#     video_capture.release()
-
-# if __name__ == '__main__': 
-# 	startCheck()
-
+   startCheck()

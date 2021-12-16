@@ -1,4 +1,3 @@
-
 import abc
 from os import lseek
 import cv2
@@ -12,15 +11,15 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 global start
 start=0
-global inREX, inREY, inLEX, inLEY, inRSX, inRSY, inLSX, inLSY, inSED,inSER,inSS,inES
 initialArray=[0,0,0,0,0]
-
 #ShoulderDistance,EyeDistance,ShoulderEyeDistance,ShoulderSlope,EyeSlope를 이용한 자세 예측
+
 def getPosture(array):
-	model = load_model("postureClass8977.h5")
-	array2=model.predict(np.expand_dims(array, axis = 0))
-	#자세 0 1 2 중 가장 높은 예측값으로 자세 판별
-	print(np.argmax(array2))
+   model = load_model("postureClass8977.h5")
+   array2=model.predict(np.expand_dims(array, axis = 0))
+   #자세 0 1 2 중 가장 높은 예측값으로 자세 판별
+   print(np.argmax(array2))
+
 
 # 포인트 간 거리 측정
 def distanceBetweenPoints(aX, aY, bX, bY):
@@ -64,6 +63,7 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
     REyePoints = [0, 0]
     LEyePoints = [0, 0]
 
+
     for i in range(len(BODY_PARTS)):
 
         # 신체 부위의 confidence map
@@ -97,32 +97,19 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
                 LEyePoints[0] = x
                 LEyePoints[1] = y
 
+
     ShoulderDistance = distanceBetweenPoints(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
     EyeDistance = distanceBetweenPoints(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
     ShoulderEyeDistance = distanceBetweenPoints((RShoulderPoints[0]+LShoulderPoints[0])/2, (RShoulderPoints[1]+LShoulderPoints[1])/2,
                             (REyePoints[0]+LEyePoints[0])/2, (REyePoints[1]+LEyePoints[1])/2)
     ShoulderSlope = slopeBetweenPoints(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
     EyeSlope = slopeBetweenPoints(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
-
     ShoulderEyeRatio=ShoulderDistance/(EyeDistance+0.000000000000000000001)
-   
-    print(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1], RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
-    
-    global start,inREX, inREY, inLEX, inLEY, inRSX, inRSY, inLSX, inLSY, inSED,inSER,inSS,inES
-    global initialArray
-    if start<1:
-        initialArray[0]+=RShoulderPoints[1]+0.000000000000000000001
-        initialArray[1]+=LShoulderPoints[1]+0.000000000000000000001
-        initialArray[2]+=EyeDistance+0.000000000000000000001
-        initialArray[3]+=ShoulderEyeDistance+0.000000000000000000001
-        initialArray[4]+=ShoulderEyeRatio+0.000000000000000000001
-        
-        start+=1
-    else:
-        array=[RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope]
-        print(RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope)
-        getPosture(array)
-    
+       
+    array=[RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope]
+        #print(RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope)
+    getPosture(array)
+
     cv2.waitKey(0)
     return frame
 
@@ -141,32 +128,24 @@ weightsFile_coco = "./pose_iter_440000.caffemodel"
 
 #################### webcam을 통해 frame 이미지를 받아온 후 OpenPose를 통해 분석 ####################
 
-def classify():
-    while 1:
-        video_capture = cv2.VideoCapture(0)
+def classify(p1, p2, p3, p4, p5):
+    initialArray[0] = float(p1)
+    initialArray[1] = float(p2)
+    initialArray[2] = float(p3)
+    initialArray[3] = float(p4)
+    initialArray[4] = float(p5)
 
-    # Grab a single frame of video
-        ret, frame = video_capture.read()
-        frame = imutils.resize(frame, width=400)
-
-        if ret:
-            # 키포인트를 저장할 빈 리스트
-            points = []
-
-            # 이미지 읽어오기
-            frame_coco = frame
-
-            # COCO Model
-            frame_COCO = output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
-                                    threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)
-
-
-        # Release handle to the webcam
-        video_capture.release()
-    global start
-    start=0
+    man = "C:\\Users\\82109\\Downloads\\pose_capture.jpg" #다운로드된 파일 경로 (개인 pc 경로에 맞게 수정해줘야됨)
     
+    points = []
+
+    frame_coco = cv2.imread(man)
+            
+    frame_COCO = output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
+                                    threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)    
+
 
 if __name__ == '__main__': 
-	classify()
+   	classify(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
 
+   

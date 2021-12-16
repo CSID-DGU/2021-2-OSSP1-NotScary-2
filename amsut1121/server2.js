@@ -20,10 +20,14 @@ app.post("/pose", (req, res) => {
   // res.header("Access-Control-Allow-Origin", "*");
   // res.set({ "access-control-allow-origin": "*" });
 
-  const { spawn } = require("child_process");
-  // const result_01 = spawn("python", ["./webcam_model5.py"]);
+  const p1 = req.body.p1;
+  const p2 = req.body.p2;
+  const p3 = req.body.p3;
+  const p4 = req.body.p4;
+  const p5 = req.body.p5;
 
-  const result_01 = spawn("python", ["./test.py"]);
+  const { spawn } = require("child_process");
+  const result_01 = spawn("python", ["./webcam_model4.py", p1, p2, p3, p4, p5]);
   const sendText = { text: "" };
   console.log("imagetest 시작");
 

@@ -5,9 +5,6 @@ import imutils
 import numpy as np
 import time
 
-def distanceBetweenPoints(aX, aY, bX, bY):
-    return math.sqrt(math.pow(aX-bX,2)+math.pow(aY-bY,2))
-
 def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BODY_PARTS):
     global points
 
@@ -61,30 +58,16 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
         y = (frame_height * point[1]) / out_height
         y = int(y)
 
-        if i == 2:
-            RShoulderPoints[0] = x
-            RShoulderPoints[1] = y
-        if i == 5:
-            LShoulderPoints[0] = x
-            LShoulderPoints[1] = y
-        if i == 14:
-            REyePoints[0] = x
-            REyePoints[1] = y
-        if i == 15:
-            LEyePoints[0] = x
-            LEyePoints[1] = y
-        
         if prob > threshold:  # [pointed]
             if (i == 2) or (i == 5) or (i == 14) or (i == 15):
                 check = check + 1
-    SE = distanceBetweenPoints((RShoulderPoints[0]+LShoulderPoints[0])/2, (RShoulderPoints[1]+LShoulderPoints[1])/2,
-                            (REyePoints[0]+LEyePoints[0])/2, (REyePoints[1]+LEyePoints[1])/2)
+        
     cv2.waitKey(0)
 
     # if(check == 4): 
     ## 일단 실행 잘되게하려고 2개이상 체크되면 시작하게 설정함 
     if(check > 1):
-        return SE
+        return 1
     else:
         return 0
 
@@ -114,8 +97,10 @@ def startCheck():
         # Grab a single frame of video
         ret, frame = video_capture.read()
         frame = imutils.resize(frame, width=400)
+        # frame = cv2.flip(frame, 1)
+        # cv2.imshow("camera", frame)
 
-        if ret:
+        if ret: 
             # 키포인트를 저장할 빈 리스트
             points = []
 
@@ -123,30 +108,32 @@ def startCheck():
             frame_coco = frame
 
             # COCO Model
-            SS = output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
-                                threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)
-            if(SS>0):
+            if(output_keypoints(frame=frame_coco, proto_file=protoFile_coco, weights_file=weightsFile_coco,
+                                threshold=0.2, model_name="COCO", BODY_PARTS=BODY_PARTS_COCO)):
                 if(not isStart):
                     start = time.time()
                     isStart = 1
+                    # print("시작")
             else:
+                # print("끝")
                 if(isStart):
                     end = time.time()
-                    start = time.time() + 987654321
-                    isStart = 0
+                    # print("end", end - start)
+                    if(end - start > 5):
+                        print(1)
+                        break
 
-        now = time.time() 
-        if(now - start > 5 or end - start > 5):
-            print(SS)
+                start = time.time() + 987654321
+                isStart = 0
+
+        now = time.time()
+        # print("now", now - start)
+
+        if(isStart and (now - start > 5)):
+            print(1)
             break
-            
-        # # Hit 'q' on the keyboard to quit!
-        # if cv2.waitKey(1) & 0xFF == ord('q'):
-        #     break
 
-    # Release handle to the webcam
-    video_capture.release()\
-
+    video_capture.release()
 
 if __name__ == '__main__': 
 	startCheck()

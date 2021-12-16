@@ -1,65 +1,4 @@
-import React, {useState, useRef} from "react";
-import { Component } from "react/cjs/react.production.min";
-import { Redirect } from "react-router-dom";
-import Webcam from "react-webcam";
-
-const getWebcam = (callback) => {
-    try {
-      const constraints = {
-        'video': true,
-        'audio': false
-      }
-      navigator.mediaDevices.getUserMedia(constraints)
-        .then(callback);
-    } catch (err) {
-      console.log(err);
-      return undefined;
-    }
-  }
-  
-  const Styles = {
-    Video: { width: "100vw", height: "80vh" },
-    None: { display: 'none' },
-  }
-
-  function StartCheck() {
-    const [playing, setPlaying] = React.useState(undefined);
-  
-    const videoRef = React.useRef(null);
-  
-    React.useEffect(() => {
-      getWebcam((stream => {
-        setPlaying(true);
-        videoRef.current.srcObject = stream;
-      }));
-    }, []);
-  
-    const startOrStop = () => {
-      if (playing) {
-        const s = videoRef.current.srcObject;
-        s.getTracks().forEach((track) => {
-          track.stop();
-        });
-      } else {
-        getWebcam((stream => {
-          setPlaying(true);
-          videoRef.current.srcObject = stream;
-        }));
-      }
-      setPlaying(!playing);
-    }
-  
-    return (<>
-      <div style={{ width: '100vw', height: '100vh', padding: '3em' }}>
-        <video ref={videoRef} autoPlay style={Styles.Video} />
-        <button color="warning" onClick={() => startOrStop()}>{playing ? 'Stop' : 'Start'} </button>
-      </div >
-    </>);
-  }
-
-export default StartCheck;
-
-/*import React from "react";
+import React from "react";
 import { Component } from "react/cjs/react.production.min";
 import { Redirect } from "react-router-dom";
 import Webcam from "react-webcam";
@@ -73,7 +12,6 @@ class StartCheck extends Component {
     };
   }
 
-  
   classPosture = () => {
     this.setState({
       start: true,
@@ -95,18 +33,8 @@ class StartCheck extends Component {
   };
 
   render() {
-    console.log(this.state);
-    
-
-    const videoConstraints = {
-      width: 1280,
-      height: 720,
-      facingMode: "user",
-    };
-
     return (
       <div className="start">
-        
         {!this.state.start && (
           <button className="startButton" onClick={this.classPosture}>
             Start
@@ -115,6 +43,9 @@ class StartCheck extends Component {
 
         {this.state.start && (
           <div className="main">
+            <div className="loader10" />
+            <br />
+            <br />
             양쪽 어깨와 눈이 보이도록 설정 후 5초 동안 자세를 유지해주세요.
             <br />
             <br />
@@ -132,4 +63,3 @@ class StartCheck extends Component {
 }
 
 export default StartCheck;
-*/

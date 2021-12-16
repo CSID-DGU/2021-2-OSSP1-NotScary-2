@@ -31,8 +31,7 @@ function Pose(pros) {
   useEffect(() => {
     let a;
     if (posture == 1) a = new Notification("거북목 자세입니다!");
-    else if (posture == 2) a = new Notification("어깨비대칭 자세입니다!");
-    else if (posture == 3) a = new Notification("양쪽 어깨와 눈이 모두 보이도록 위치해주세요!")
+    else if (posture == 2) a = new Notification("턱을 괸 자세입니다!");
   }, [posture]);
 
   const videoConstraints = {
@@ -51,12 +50,12 @@ function Pose(pros) {
         console.log(webcamRef.current);
 
         if (webcamRef.current == null)
-          imageSrc = "C:\\Users\\user\\Downloads\\pose_capture.jpg";
+          imageSrc = "C:\\Users\\82109\\Downloads\\pose_capture.jpg";
         else imageSrc = webcamRef.current.getScreenshot();
 
         console.log(imageSrc);
 
-        fetch("http://localhost:4000/test", {
+        fetch("http://localhost:4001/pose", {
           method: "post",
           headers: {
             "content-type": "application/json",
@@ -76,9 +75,7 @@ function Pose(pros) {
 
         document.body.appendChild(a);
 
-        setTimeout(() => {
-          a.click();
-        }, 1000);
+        a.click();
 
         setTimeout(function () {
           // 다운로드가 안되는 경우 방지
@@ -90,7 +87,7 @@ function Pose(pros) {
     useEffect(() => {
       setInterval(() => {
         capture();
-      }, 8000);
+      }, 5000);
     }, []);
 
     return (
@@ -111,11 +108,12 @@ function Pose(pros) {
   return (
     <div className="pose">
       <WebcamCapture />
-      {posture == 0 && "바른 자세입니다."}
-      <div style={{ color: "red" }}>
-        {posture == 1 && "거북목 자세입니다."}
-        {posture == 2 && "어깨비대칭 자세입니다."}
-        {posture == 3 && "양쪽 어깨와 눈이 모두 보이도록 위치해주세요."}
+      <div>
+        {posture == 0 && "바른 자세입니다."}
+        <div style={{ color: "red" }}>
+          {posture == 1 && "거북목 자세입니다."}
+          {posture == 2 && "턱을 괸 자세입니다."}
+        </div>
       </div>
     </div>
   );

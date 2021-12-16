@@ -1,8 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Redirect } from "react-router-dom";
 import Webcam from "react-webcam";
+import goldman from "./goldman.png";
 
 function StartCheck2() {
+  var poseArr = [];
+
   const [posture, setPosture] = useState(0);
 
   const SC = () => {
@@ -29,6 +32,7 @@ function StartCheck2() {
           .then((res) => res.json())
           .then((json) => {
             setPosture(json.text);
+            poseArr = json.text.split("#");
           });
 
         var a = document.createElement("a");
@@ -45,6 +49,20 @@ function StartCheck2() {
           document.body.removeChild(a);
         }, 100);
       }, 10);
+
+      console.log(poseArr);
+
+      localStorage.setItem("p1", poseArr[1]);
+      localStorage.setItem("p2", poseArr[2]);
+      localStorage.setItem("p3", poseArr[3]);
+      localStorage.setItem("p4", poseArr[4]);
+      localStorage.setItem("p5", poseArr[5]);
+      localStorage.setItem("p6", poseArr[6]);
+      localStorage.setItem("p7", poseArr[7]);
+
+      localStorage.getItem("p1");
+      localStorage.getItem("p2");
+      localStorage.getItem("p3");
     };
 
     useEffect(() => {
@@ -60,18 +78,38 @@ function StartCheck2() {
     };
 
     return (
-      <>
-        <Webcam
-          audio={false}
-          ref={webcamRef}
-          screenshotFormat="image/jpeg"
-          videoConstraints={videoConstraints}
-          mirrored={true}
-          height={0.6 * `${window.innerHeight}`}
-          width={0.9 * `${window.innerWidth}`}
-          style={{ marginTop: "10vh" }}
-        />
-      </>
+      <div style={{ position: "relative", textAlign: "center" }}>
+        <div style={{ textAlign: "center" }}>
+          <img
+            src={goldman}
+            alt=""
+            style={{
+              position: "absolute",
+              width: "20vw",
+              zIndex: "3",
+              left: "39vw",
+              top: "3vw",
+              opacity: "0.7",
+            }}
+          />
+        </div>
+
+        <div
+          style={{
+            marginTop: "10vh",
+          }}
+        >
+          <Webcam
+            audio={false}
+            ref={webcamRef}
+            screenshotFormat="image/jpeg"
+            videoConstraints={videoConstraints}
+            mirrored={true}
+            height={0.6 * `${window.innerHeight}`}
+            width={0.9 * `${window.innerWidth}`}
+          />
+        </div>
+      </div>
     );
   };
 
@@ -82,10 +120,13 @@ function StartCheck2() {
         <br />
         <div className="loader10" />
         <br />
+        {posture}
         {posture == 0 &&
-          "양쪽 어깨와 눈이 보이도록 설정 후 5초 동안 자세를 유지해주세요."}
+          "양쪽 어깨와 눈이 보이도록 설정 후 10초 동안 바른 자세를 유지해주세요."}
 
         <div style={{ color: "red" }}>
+          {poseArr[0] == -1 && "바른 자세를 유지해주세요."}
+
           {posture == 2 && "오른쪽 어깨가 확인되지 않았습니다."}
           {posture == 5 && "왼쪽 어깨가 확인되지 않았습니다."}
           {posture == 14 && "오른쪽 눈이 확인되지 않았습니다."}
@@ -108,7 +149,13 @@ function StartCheck2() {
             "오른쪽 어깨, 왼쪽 어깨, 오른쪽 눈, 왼쪽 눈이 확인되지 않았습니다."}
         </div>
       </div>
-      {posture == 1 && <Redirect to={{ pathname: "/pose" }} />}
+      {console.log(localStorage.getItem("p1"))}
+      {localStorage.getItem("p1") == "1" && (
+        <Redirect to={{ pathname: "/pose" }} />
+      )}
+      {localStorage.getItem("p1") == "-1" && (
+        <Redirect to={{ pathname: "/pose" }} />
+      )}
     </div>
   );
 }

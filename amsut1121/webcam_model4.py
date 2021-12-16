@@ -14,14 +14,13 @@ global start
 start=0
 global inREX, inREY, inLEX, inLEY, inRSX, inRSY, inLSX, inLSY, inSED,inSER,inSS,inES
 initialArray=[0,0,0,0,0]
-#ShoulderDistance,EyeDistance,ShoulderEyeDistance,ShoulderSlope,EyeSlope를 이용한 자세 예측
 
+#ShoulderDistance,EyeDistance,ShoulderEyeDistance,ShoulderSlope,EyeSlope를 이용한 자세 예측
 def getPosture(array):
-	model = load_model("postureClass8816.h5")
+	model = load_model("postureClass8977.h5")
 	array2=model.predict(np.expand_dims(array, axis = 0))
 	#자세 0 1 2 중 가장 높은 예측값으로 자세 판별
 	print(np.argmax(array2))
-
 
 # 포인트 간 거리 측정
 def distanceBetweenPoints(aX, aY, bX, bY):
@@ -60,15 +59,10 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
     # 포인트 리스트 초기화
     points = []
 
-    # 0: not spotted, 1: RWrist Spotted, 2 is LWrist Spotted
-    isWristSpotted = 0  
-
     RShoulderPoints = [0, 0]
     LShoulderPoints = [0, 0]
     REyePoints = [0, 0]
     LEyePoints = [0, 0]
-    RWristPoints = [0, 0]
-    LWristPoints = [0, 0]
 
     for i in range(len(BODY_PARTS)):
 
@@ -103,39 +97,14 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
                 LEyePoints[0] = x
                 LEyePoints[1] = y
 
-            elif i == 4:
-                RWristPoints[0] = x
-                RWristPoints[1] = y
-                isWristSpotted = 1
-            
-            elif i == 7:
-                LWristPoints[0] = x
-                LWristPoints[1] = y
-                isWristSpotted = 2
-
-        else:  # [not pointed]
-            points.append(None)
-            if i == 4:
-                WristEyeDistance = -1.0
-            
-            elif i == 7:
-                WristEyeDistance = -1.0
-
     ShoulderDistance = distanceBetweenPoints(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
     EyeDistance = distanceBetweenPoints(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
     ShoulderEyeDistance = distanceBetweenPoints((RShoulderPoints[0]+LShoulderPoints[0])/2, (RShoulderPoints[1]+LShoulderPoints[1])/2,
                             (REyePoints[0]+LEyePoints[0])/2, (REyePoints[1]+LEyePoints[1])/2)
     ShoulderSlope = slopeBetweenPoints(RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
     EyeSlope = slopeBetweenPoints(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1])
-    if isWristSpotted == 0:
-        WristEyeDistance = -1.0  # -1 is not spotted, -2 is RWrist spotted, -3 is LWrist Spotted
-    elif isWristSpotted == 1:
-        WristEyeDistance = distanceBetweenPoints((REyePoints[0]+LEyePoints[0])/2, (REyePoints[1]+LEyePoints[1])/2,
-                            RWristPoints[0], RWristPoints[1])
-    elif isWristSpotted == 2:
-        WristEyeDistance = distanceBetweenPoints((REyePoints[0]+LEyePoints[0])/2, (REyePoints[1]+LEyePoints[1])/2,
-                            LWristPoints[0], LWristPoints[1])
-    ShoulderEyeRatio=ShoulderDistance/EyeDistance
+
+    ShoulderEyeRatio=ShoulderDistance/(EyeDistance+0.000000000000000000001)
    
     print(REyePoints[0], REyePoints[1], LEyePoints[0], LEyePoints[1], RShoulderPoints[0], RShoulderPoints[1], LShoulderPoints[0], LShoulderPoints[1])
     
@@ -154,7 +123,6 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
         print(RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope)
         getPosture(array)
     
-
     cv2.waitKey(0)
     return frame
 

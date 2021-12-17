@@ -31,7 +31,7 @@ function Pose(pros) {
   useEffect(() => {
     let a;
     if (posture == 1) a = new Notification("거북목 자세입니다!");
-    else if (posture == 2) a = new Notification("턱을 괸 자세입니다!");
+    else if (posture == 2) a = new Notification("고개/어깨 비대칭 자세입니다!");
   }, [posture]);
 
   const videoConstraints = {
@@ -53,19 +53,24 @@ function Pose(pros) {
           imageSrc = "C:\\Users\\82109\\Downloads\\pose_capture.jpg";
         else imageSrc = webcamRef.current.getScreenshot();
 
-        console.log(imageSrc);
+        const post = {
+          p1: window.localStorage.getItem("p1"),
+          p2: window.localStorage.getItem("p2"),
+          p3: window.localStorage.getItem("p3"),
+          p4: window.localStorage.getItem("p4"),
+          p5: window.localStorage.getItem("p5"),
+        };
 
         fetch("http://localhost:4001/pose", {
           method: "post",
           headers: {
             "content-type": "application/json",
           },
+          body: JSON.stringify(post),
         })
           .then((res) => res.json())
           .then((json) => {
             setPosture(json.text);
-            console.log("qwerqwer");
-            console.log(json.text);
           });
 
         var a = document.createElement("a");
@@ -112,7 +117,7 @@ function Pose(pros) {
         {posture == 0 && "바른 자세입니다."}
         <div style={{ color: "red" }}>
           {posture == 1 && "거북목 자세입니다."}
-          {posture == 2 && "턱을 괸 자세입니다."}
+          {posture == 2 && "고개/어깨 비대칭 자세입니다."}
         </div>
       </div>
     </div>

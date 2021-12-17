@@ -3,6 +3,8 @@ import { Redirect } from "react-router-dom";
 import Webcam from "react-webcam";
 import goldman from "./goldman.png";
 
+var count = 1;
+
 function StartCheck2() {
   var poseArr = [];
 
@@ -52,17 +54,18 @@ function StartCheck2() {
 
       console.log(poseArr);
 
-      localStorage.setItem("p1", poseArr[1]);
-      localStorage.setItem("p2", poseArr[2]);
-      localStorage.setItem("p3", poseArr[3]);
-      localStorage.setItem("p4", poseArr[4]);
-      localStorage.setItem("p5", poseArr[5]);
-      localStorage.setItem("p6", poseArr[6]);
-      localStorage.setItem("p7", poseArr[7]);
+      if (poseArr[0] == "1" || poseArr[0] == "-1") setPosture(-1);
 
-      localStorage.getItem("p1");
-      localStorage.getItem("p2");
-      localStorage.getItem("p3");
+      if (poseArr[0] == "1" && count) {
+        window.localStorage.setItem("start", poseArr[0]);
+        window.localStorage.setItem("p1", poseArr[1]);
+        window.localStorage.setItem("p2", poseArr[2]);
+        window.localStorage.setItem("p3", poseArr[3]);
+        window.localStorage.setItem("p4", poseArr[4]);
+        window.localStorage.setItem("p5", poseArr[5]);
+
+        count = 0;
+      }
     };
 
     useEffect(() => {
@@ -88,7 +91,7 @@ function StartCheck2() {
               width: "20vw",
               zIndex: "3",
               left: "39vw",
-              top: "3vw",
+              top: "6vh",
               opacity: "0.7",
             }}
           />
@@ -120,12 +123,13 @@ function StartCheck2() {
         <br />
         <div className="loader10" />
         <br />
-        {posture}
         {posture == 0 &&
           "양쪽 어깨와 눈이 보이도록 설정 후 10초 동안 바른 자세를 유지해주세요."}
 
         <div style={{ color: "red" }}>
-          {poseArr[0] == -1 && "바른 자세를 유지해주세요."}
+          {posture == -1 &&
+            window.localStorage.getItem("start") == "-1" &&
+            "바른 자세를 유지해주세요."}
 
           {posture == 2 && "오른쪽 어깨가 확인되지 않았습니다."}
           {posture == 5 && "왼쪽 어깨가 확인되지 않았습니다."}
@@ -149,11 +153,7 @@ function StartCheck2() {
             "오른쪽 어깨, 왼쪽 어깨, 오른쪽 눈, 왼쪽 눈이 확인되지 않았습니다."}
         </div>
       </div>
-      {console.log(localStorage.getItem("p1"))}
-      {localStorage.getItem("p1") == "1" && (
-        <Redirect to={{ pathname: "/pose" }} />
-      )}
-      {localStorage.getItem("p1") == "-1" && (
+      {window.localStorage.getItem("start") == "1" && (
         <Redirect to={{ pathname: "/pose" }} />
       )}
     </div>

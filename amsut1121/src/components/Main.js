@@ -11,6 +11,15 @@ function Main() {
       >
         Start
       </button>
+      <br />
+      <button
+        className="historyButton"
+        onClick={() => {
+          window.location.href = "/history";
+        }}
+      >
+        History
+      </button>
     </div>
   );
 }

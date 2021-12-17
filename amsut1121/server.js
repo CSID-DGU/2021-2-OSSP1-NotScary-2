@@ -29,7 +29,7 @@ app.post("/startcheck", (req, res) => {
     res.send(sendText);
   });
 
-  console.log("끝11");
+  setTimeout(function () {}, 2000);
 
   var fs = require("fs"); // 다운로드된 파일 경로 (개인 pc 경로에 맞게 수정해줘야됨)
   fs.unlink(`C:\\Users\\82109\\Downloads\\start_capture.jpg`, (err) => {
@@ -38,6 +38,8 @@ app.post("/startcheck", (req, res) => {
       console.log("삭제끝");
     }
   });
+
+  console.log("끝11");
 });
 
 app.listen(port, () => {

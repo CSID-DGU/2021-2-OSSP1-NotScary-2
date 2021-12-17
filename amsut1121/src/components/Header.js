@@ -11,7 +11,6 @@ function Header() {
           window.localStorage.clear();
         }}
       >
-        {/* <NavLink className="h" to="/"> */}
         AMSUT
       </NavLink>
     </div>

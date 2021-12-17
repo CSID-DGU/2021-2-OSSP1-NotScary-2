@@ -234,3 +234,56 @@ a {
     background-color: white;
   }
 }
+
+.defaultTr {
+  height: 100px;
+}
+
+.badTd {
+  width: 500px;
+  vertical-align: top;
+  padding: 5px;
+  background-color: #ff5959;
+}
+
+.defaultTd {
+  width: 500px;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.todayTd {
+  width: 500px;
+  vertical-align: top;
+  padding: 5px;
+  background-color: gold;
+}
+
+.notThisMonthTd {
+  width: 500px;
+  vertical-align: top;
+  padding: 5px;
+  background-color: grey;
+}
+
+.monthSelect-Wrapper {
+  padding: 10px;
+  height: 100px;
+  vertical-align: center;
+  font-size: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftRightButton {
+  height: 70px;
+  width: 70px;
+  font-size: 4vh;
+  background-color: transparent;
+  border: none;
+  margin-top: 2vh;
+}
+
+.leftRightButton:hover {
+  color: gold;
+}

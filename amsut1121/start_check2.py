@@ -117,10 +117,10 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
 
     string = "#".join(str(_)for _ in array)
     
-    if(check > 1): 
-        if(good):
+    if(check == 4): #양쪽 눈, 어깨의 4개 포인트들을 확인한 경우
+        if(good): #좋은 자세
             print(str(1)+"#" + string)
-        else:
+        else: #나쁜 자세
             print(str(-1) +"#" + string)
     else:
         print(not_check)

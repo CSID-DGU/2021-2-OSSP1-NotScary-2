@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import Webcam from "react-webcam";
 
+var imageSrc;
+
 const useNotification = (title, options) => {
   if (!("Notification" in window)) {
     return;
@@ -45,14 +47,6 @@ function Pose(pros) {
 
     const capture = () => {
       setTimeout(function () {
-        var imageSrc;
-
-        console.log(webcamRef.current);
-
-        if (webcamRef.current == null)
-          imageSrc = "C:\\Users\\82109\\Downloads\\pose_capture.jpg";
-        else imageSrc = webcamRef.current.getScreenshot();
-
         const post = {
           p1: window.localStorage.getItem("p1"),
           p2: window.localStorage.getItem("p2"),
@@ -72,6 +66,14 @@ function Pose(pros) {
           .then((json) => {
             setPosture(json.text);
           });
+      }, 10);
+    };
+
+    useEffect(() => {
+      setInterval(() => {
+        if (webcamRef.current == null)
+          imageSrc = "C:\\Users\\82109\\Downloads\\pose_capture.jpg";
+        else imageSrc = webcamRef.current.getScreenshot();
 
         var a = document.createElement("a");
         a.style = "display: none";
@@ -86,11 +88,6 @@ function Pose(pros) {
           // 다운로드가 안되는 경우 방지
           document.body.removeChild(a);
         }, 100);
-      }, 10);
-    };
-
-    useEffect(() => {
-      setInterval(() => {
         capture();
       }, 5000);
     }, []);

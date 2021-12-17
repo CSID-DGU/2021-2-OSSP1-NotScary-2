@@ -107,7 +107,6 @@ def output_keypoints(frame, proto_file, weights_file, threshold, model_name, BOD
     ShoulderEyeRatio=ShoulderDistance/(EyeDistance+0.000000000000000000001)
        
     array=[RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope]
-        #print(RShoulderPoints[1]/initialArray[0],LShoulderPoints[1]/initialArray[1],EyeDistance/initialArray[2],ShoulderEyeDistance/initialArray[3], ShoulderEyeRatio/initialArray[4], ShoulderSlope, EyeSlope)
     getPosture(array)
 
     cv2.waitKey(0)

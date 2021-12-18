@@ -20,25 +20,25 @@
 * Anaconda v4.10.1
 
 ## 프로젝트 구성 흐름도
-<img width="50%" src="https://user-images.githubusercontent.com/45120083/146642871-b1906793-01f3-419e-b2f2-f3706ca525e9.png">
+<img width="60%" src="https://user-images.githubusercontent.com/45120083/146642871-b1906793-01f3-419e-b2f2-f3706ca525e9.png">
 웹캠을 통해 찍은 사진의 스켈레톤 좌표값을 통해 구한 입력값을 넣은 모델의 출력값으로 자세 판정<p>
 이때, 프로그램 시작 시 사용자로부터 초기 바른 자세 데이터 값을 이용한 입력값을 구함<p>
-<img width="50%" src="https://user-images.githubusercontent.com/45120083/146642905-49d9a6b0-5562-47de-9d88-f7359c001caf.png"><p>
+<img width="60%" src="https://user-images.githubusercontent.com/45120083/146642905-49d9a6b0-5562-47de-9d88-f7359c001caf.png"><p>
 모델의 출력값으로 나온 판정 자세에 따라 사용자에게 자세 교정 알림을 보내고, 히스토리에 저장
 
 ## 프로젝트 기능
 ### 자세 판정 모델
-<img width="50%" src="https://user-images.githubusercontent.com/45120083/146644419-7b1c2f06-433a-4c6f-8e13-34699990eecc.png">
+<img width="60%" src="https://user-images.githubusercontent.com/45120083/146644419-7b1c2f06-433a-4c6f-8e13-34699990eecc.png">
 입력값: 1)오른쪽 어깨 y 좌표값 2)왼쪽 어깨 y좌표값 3)눈 사이 거리 4)눈에서 어깨까지 거리 5)어깨 사이 거리/눈 사이 거리 6)어깨 기울기 7)눈 기울기<p>
 출력값: 0)바른 자세 1)거북목 자세 2)고개-어깨 비대칭 자세 확률
 
 ### 웹앱 기능
-<img width="50%" src="https://user-images.githubusercontent.com/45120083/146642973-101246b5-da35-4fa6-86de-ce801013d8ef.png">
+<img width="60%" src="https://user-images.githubusercontent.com/45120083/146642973-101246b5-da35-4fa6-86de-ce801013d8ef.png">
 양 쪽 눈과 양 쪽 어깨 좌표가 인식되는 바른 자세를 화면의 가이드를 참고하여 인식시킴
-<img width="50%" src="https://user-images.githubusercontent.com/45120083/146642974-5ba0c6b6-31bc-41a2-a96e-f5547f62739d.png">
+<img width="60%" src="https://user-images.githubusercontent.com/45120083/146642974-5ba0c6b6-31bc-41a2-a96e-f5547f62739d.png">
 앞 선 바른 자세 데이터를 기준으로 자세 판정을 시작<p>
 이때, 자세가 바르지 못할 경우 푸시 알림과 웹 앱의 화면 문구를 통해 사용자에게 알림
-<img width="50%" src="https://user-images.githubusercontent.com/45120083/146642920-2b69cbf5-9922-470a-a17b-4d92e1ef266b.png">
+<img width="60%" src="https://user-images.githubusercontent.com/45120083/146642920-2b69cbf5-9922-470a-a17b-4d92e1ef266b.png">
 사용자의 바르지 못한 자세 판별 횟수를 달력으로 확인
 
 ## 프로젝트 실행
@@ -59,7 +59,7 @@ $ npm start
 ```
 
 ## 프로젝트 데모 영상
-<img width="50%" src="https://user-images.githubusercontent.com/45120083/146645386-49c9cbbb-9cdb-43b0-a6aa-eb89741304af.gif">
+<img width="60%" src="https://user-images.githubusercontent.com/45120083/146645386-49c9cbbb-9cdb-43b0-a6aa-eb89741304af.gif">
 
 ## 문의
 * 박용욱 pyu142857@gmail.com

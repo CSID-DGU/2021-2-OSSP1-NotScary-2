@@ -46,6 +46,11 @@
 ```
 $ git clone https://github.com/CSID-DGU/2021-2-OSSP1-NotScary-2.git
 ```
+###OpenPose를 위한 caffemodel 설치
+```
+https://drive.google.com/file/d/1L9fBnf7DU_Pk6dImTGwHl5xQs88Ny_vJ/view?usp=sharing
+다운로드 후 2021-2-OSSP1-NotScary-2/server로 이동
+```
 ### 서버 실행
 ```
 $ cd 2021-2-OSSP1-NotScary-2/server
